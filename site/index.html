@@ -3,92 +3,77 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wer lebt in der Hitze? — Berlin</title>
-  <meta name="description" content="Eine Datenanalyse zu Hitze, Stadtgrün und sozialer Ungleichheit in Berlins 542 Planungsräumen." />
+  <title>Wer lebt in der Hitze? — Eine Berliner Datengeschichte</title>
+  <meta name="description" content="Hitze, Baumkronen und Sozialstatus in Berlins 542 Planungsräumen — eine Datenanalyse auf Basis offener Daten." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <p class="kicker">Eine Berliner Datengeschichte · Kapitel 1 von „Cooling Island Finder“</p>
-    <h1>Wer lebt in der Hitze?</h1>
-    <p class="lede">
-      Berlin hat sich verpflichtet, 1.000 kühle Inseln zu schaffen. Aber wo werden sie
-      am dringendsten gebraucht? Wir beginnen mit der sozialen Landkarte der Stadt.
-    </p>
-    <p class="headline-stat" id="headline">Lade Daten …</p>
-    <p class="headline-sub" id="headline-sub"></p>
+
+  <header class="hero">
+    <p class="kicker">Eine Berliner Datengeschichte · Kapitel 1 des Cooling Island Finder</p>
+    <h1>Wer lebt in der <span class="word-heat">Hitze?</span></h1>
+    <p class="hero-lead" id="headline">Lade Daten …</p>
+    <p class="hero-sub" id="headline-sub"></p>
+    <p class="scroll-hint" aria-hidden="true">Scrollen ↓</p>
   </header>
 
-  <main>
-    <div class="layer-toggle" role="group" aria-label="Kartenebene wählen">
-      <button data-layer="status" class="active">Sozialstatus</button>
-      <button data-layer="pet">Hitze am Tag (PET 14 Uhr)</button>
-      <button data-layer="night">Wärmeinsel nachts (4 Uhr)</button>
-      <button data-layer="canopy">Baumkronen</button>
+  <section id="scrolly" aria-label="Karten-Erzählung">
+    <div class="map-stage">
+      <div id="map" aria-label="Interaktive Karte der Berliner Planungsräume"></div>
+      <div class="map-ui">
+        <div class="layer-toggle" role="group" aria-label="Kartenebene wählen">
+          <button data-layer="status">Sozialstatus</button>
+          <button data-layer="pet">Hitze am Tag</button>
+          <button data-layer="night">Nacht</button>
+          <button data-layer="canopy">Baumkronen</button>
+          <button data-layer="rule30">30-%-Marke</button>
+        </div>
+        <div class="legend" id="legend"></div>
+      </div>
     </div>
-    <div id="map" aria-label="Karte der Berliner Planungsräume"></div>
-    <div class="legend" id="legend-status">
-      <strong>Sozialstatus (MSS&nbsp;2025)</strong>
-      <span><i style="background:#f2f0f7"></i> hoch</span>
-      <span><i style="background:#cbc9e2"></i> mittel</span>
-      <span><i style="background:#9e9ac8"></i> niedrig</span>
-      <span><i style="background:#6a51a3"></i> sehr niedrig</span>
-      <span><i style="background:#d9d9d9"></i> ohne Zuordnung</span>
-    </div>
-    <div class="legend hidden" id="legend-pet">
-      <strong>PET 14 Uhr</strong>
-      <span><i style="background:#ffffb2"></i> 27 °C</span>
-      <span><i style="background:#fd8d3c"></i> 34 °C</span>
-      <span><i style="background:#b10026"></i> 40 °C</span>
-    </div>
-    <div class="legend hidden" id="legend-night">
-      <strong>Lufttemperatur 4 Uhr</strong>
-      <span><i style="background:#ffffcc"></i> 15,5 °C</span>
-      <span><i style="background:#fe9929"></i> 17,5 °C</span>
-      <span><i style="background:#993404"></i> 19,5 °C</span>
-    </div>
-    <div class="legend hidden" id="legend-canopy">
-      <strong>Baumkronenanteil (ab 4 m)</strong>
-      <span><i style="background:#f7fcf5"></i> 0 %</span>
-      <span><i style="background:#74c476"></i> 30 %</span>
-      <span><i style="background:#00441b"></i> 75 %</span>
-    </div>
+    <div class="steps" id="steps"><noscript><p>Diese Erzählung benötigt JavaScript. Die Daten: siehe Methodik unten.</p></noscript></div>
+  </section>
 
-    <section class="chapter" id="heat-chapter">
-      <h2>Wie heiß wird es — und für wen?</h2>
-      <p id="heat-text">Lade Daten …</p>
-      <div id="heat-chart" class="bars" aria-label="Nächtliche Lufttemperatur nach Sozialstatus"></div>
-      <p class="method-note" id="heat-note"></p>
-    </section>
+  <section class="chapter" id="findings-chapter">
+    <h2><span class="ch-mark">Die Befunde</span></h2>
+    <ol id="findings" class="findings"></ol>
+  </section>
 
-    <section class="chapter" id="canopy-chapter">
-      <h2>Wer hat Baumkronen über sich?</h2>
-      <p id="canopy-text">Lade Daten …</p>
-      <div id="canopy-chart" class="bars bars-green" aria-label="Baumkronenanteil nach Sozialstatus"></div>
-      <p class="method-note" id="canopy-note"></p>
-    </section>
+  <section class="chapter" id="insights-chapter">
+    <h2><span class="ch-mark ch-mark-green">Die Einordnung</span></h2>
+    <div id="insights" class="insight-grid"></div>
+  </section>
 
-    <section class="chapter" id="insights-chapter">
-      <h2>Was die Daten bisher zeigen</h2>
-      <h3>Die Befunde</h3>
-      <ol id="findings" class="findings"></ol>
-      <h3>Die Einordnung</h3>
-      <div id="insights" class="insight-grid"></div>
-    </section>
+  <section class="chapter outlook" id="outlook">
+    <h2>Wohin mit 1.000 kühlen Inseln?</h2>
+    <p>
+      Berlin hat sich mit dem BaumEntscheid verpflichtet, hunderttausende Bäume zu pflanzen
+      und 1.000 kühle Inseln zu schaffen. Die Daten dieser Geschichte zeigen, <em>dass</em>
+      Baumkronen kühlen und <em>wem</em> sie heute fehlen — aber nicht, <em>wohin</em> die
+      nächsten Bäume gehören. Das entscheidet sich unterhalb der Planungsraum-Mittelwerte,
+      Block für Block.
+    </p>
+    <p class="outlook-teaser">
+      Kapitel 2 dieser Serie — der <strong>Cooling Island Finder</strong> — wird genau diese
+      Frage beantworten: priorisierte Pflanzorte nach Hitze, Kronenlücke und sozialer Lage.
+      <span class="wip">In Arbeit.</span>
+    </p>
+  </section>
 
-    <section class="chapter" id="methodology-chapter" hidden>
-      <h2>Methodik</h2>
-      <div id="methodology"></div>
-    </section>
-  </main>
+  <section class="chapter" id="methodology-chapter" hidden>
+    <h2><span class="ch-mark ch-mark-muted">Methodik</span></h2>
+    <div id="methodology"></div>
+  </section>
 
   <footer>
     <p>
-      Datengrundlagen: Geoportal Berlin (LOR 2021), Monitoring Soziale Stadtentwicklung 2025
-      (Datenstand 12/2024), Klimamodell Berlin 2022 (FITNAH-3D-Simulation eines
-      durchschnittlichen wolkenlosen, windschwachen Sommertags — kein realer Messtag) —
-      Datenlizenz Deutschland 2.0. Nächstes Kapitel: Baumkronen.
+      Eine unabhängige Analyse auf Basis offener Daten des Landes Berlin
+      (Datenlizenz Deutschland 2.0 / DL-DE-Zero). Alle Zahlen auf dieser Seite
+      stammen aus dem veröffentlichten, getesteten Datensatz — keine ist von Hand eingetragen.
     </p>
   </footer>
 

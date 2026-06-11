@@ -129,6 +129,13 @@ def test_golden_numbers_mss_2025():
     assert "75,6 %" in by_id["canopy-range"]
     assert "Alter Schlachthof" in by_id["heat-range"]
     assert "40,01 °C" in by_id["heat-range"]
+    # structured extremes for the scrolly map (issue 05)
+    ex = stats["extremes"]
+    assert ex["pet_max"]["plr_name"] == "Alter Schlachthof"
+    assert ex["pet_max"]["value"] == 40.01
+    assert ex["canopy_max"]["plr_name"] == "Allende II"
+    assert ex["canopy_min"]["plr_name"] == "Helle Mitte"
+    assert all(v["plr_id"] for v in ex.values())
     # correlations pinned (issue 04): canopy cools days, barely nights
     assert stats["correlations"]["canopy_pet14h"] == -0.9
     assert stats["correlations"]["canopy_t2m04h"] == -0.24

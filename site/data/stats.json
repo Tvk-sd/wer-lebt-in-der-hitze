@@ -63,6 +63,44 @@
     "canopy_pet14h": -0.9,
     "canopy_t2m04h": -0.24
   },
+  "extremes": {
+    "pet_max": {
+      "plr_id": "03601453",
+      "plr_name": "Alter Schlachthof",
+      "bez_name": "Pankow",
+      "value": 40.01
+    },
+    "pet_min": {
+      "plr_id": "09401433",
+      "plr_name": "Allende II",
+      "bez_name": "Treptow-Köpenick",
+      "value": 26.59
+    },
+    "night_max": {
+      "plr_id": "04501042",
+      "plr_name": "Breitscheidplatz",
+      "bez_name": "Charlottenburg-Wilmersdorf",
+      "value": 19.34
+    },
+    "night_min": {
+      "plr_id": "03300515",
+      "plr_name": "Blankenburger Süden",
+      "bez_name": "Pankow",
+      "value": 15.31
+    },
+    "canopy_max": {
+      "plr_id": "09401433",
+      "plr_name": "Allende II",
+      "bez_name": "Treptow-Köpenick",
+      "value": 75.6
+    },
+    "canopy_min": {
+      "plr_id": "10200421",
+      "plr_name": "Helle Mitte",
+      "bez_name": "Marzahn-Hellersdorf",
+      "value": 3.3
+    }
+  },
   "lead": {
     "text_de": "Nur 1 von 5 Berliner:innen lebt unter genug Baumkronen.",
     "sub_de": "80,6 % der Stadt wohnen in Planungsräumen unterhalb der 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün.",

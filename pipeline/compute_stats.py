@@ -260,6 +260,27 @@ def compute_stats(rows):
             "sources": [SRC["klima"], SRC["mss"]],
         })
 
+    def extreme(key, pick):
+        have = [r for r in rows if r.get(key) is not None]
+        r = pick(have, key=lambda r: r[key])
+        return {
+            "plr_id": r["plr_id"],
+            "plr_name": r.get("plr_name"),
+            "bez_name": r.get("bez_name"),
+            "value": r[key],
+        }
+
+    extremes = None
+    if has_heat and has_canopy:
+        extremes = {
+            "pet_max": extreme("pet14h", max),
+            "pet_min": extreme("pet14h", min),
+            "night_max": extreme("t2m04h", max),
+            "night_min": extreme("t2m04h", min),
+            "canopy_max": extreme("canopy_pct", max),
+            "canopy_min": extreme("canopy_pct", min),
+        }
+
     correlations = None
     lead = None
     if heat and canopy:
@@ -353,6 +374,7 @@ def compute_stats(rows):
         "heat": heat,
         "canopy": canopy,
         "correlations": correlations,
+        "extremes": extremes,
         "lead": lead,
         "findings": findings,
         "insights": insights,
