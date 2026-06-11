@@ -81,12 +81,24 @@ function renderCanopyChapter(stats) {
   }
 }
 
+function sourcesLine(item) {
+  if (!item.sources?.length) return null;
+  const small = document.createElement("small");
+  small.className = "source-line";
+  small.textContent = "Quellen: " + item.sources.join(" · ");
+  return small;
+}
+
 function renderFindings(stats) {
   const list = document.getElementById("findings");
   list.innerHTML = "";
   for (const f of stats.findings ?? []) {
     const li = document.createElement("li");
-    li.textContent = f.text_de;
+    const p = document.createElement("p");
+    p.textContent = f.text_de;
+    li.appendChild(p);
+    const src = sourcesLine(f);
+    if (src) li.appendChild(src);
     list.appendChild(li);
   }
 }
@@ -102,6 +114,8 @@ function renderInsights(stats) {
     const p = document.createElement("p");
     p.textContent = ins.text_de;
     card.append(h3, p);
+    const src = sourcesLine(ins);
+    if (src) card.appendChild(src);
     grid.appendChild(card);
   }
 }

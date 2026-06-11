@@ -13,6 +13,16 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "site" / "data"
 STATUS_CLASSES = {1: "hoch", 2: "mittel", 3: "niedrig", 4: "sehr niedrig"}
 DISADVANTAGED = (3, 4)  # niedrig + sehr niedrig
 
+# Source labels attached to every generated finding/insight (PRD: attribution
+# travels with the statement, not just in a footer).
+SRC = {
+    "veg": "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+    "mss": "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)",
+    "klima": "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+    "lor": "LOR Planungsräume 01.01.2021 (Geoportal Berlin)",
+    "rule": "3-30-300-Regel nach Konijnendijk (2022)",
+}
+
 
 def de(value):
     """German number formatting: 6.34 -> '6,34', 755469 -> '755.469'."""
@@ -119,6 +129,7 @@ def compute_stats(rows):
                 f"({de(canopy['pop_in_lor_canopy_30plus'])} Menschen) leben in einem Planungsraum, "
                 f"der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
             ),
+            "sources": [SRC["veg"], SRC["mss"], SRC["rule"]],
         })
         findings.append({
             "id": "canopy-status-gap",
@@ -130,6 +141,7 @@ def compute_stats(rows):
                 f"Ein sauberes Gefälle ist es nicht: am niedrigsten liegt Status "
                 f"„{least['class']}“ mit {de(least['canopy_pct_mean'])} %."
             ),
+            "sources": [SRC["veg"], SRC["mss"]],
         })
         findings.append({
             "id": "canopy-range",
@@ -139,6 +151,7 @@ def compute_stats(rows):
                 f"({cmin.get('plr_name', '?')}, {cmin.get('bez_name', '?')}) bis {de(cmax['canopy_pct'])} % "
                 f"({cmax.get('plr_name', '?')}, {cmax.get('bez_name', '?')})."
             ),
+            "sources": [SRC["veg"], SRC["lor"]],
         })
     if heat:
         hrows = [r for r in rows if r.get("pet14h") is not None]
@@ -154,6 +167,7 @@ def compute_stats(rows):
                 f"{de(heat['pet14h_gap_lowest_vs_highest_status'])} °C am Tag und "
                 f"{de(heat['t2m04h_gap_lowest_vs_highest_status'])} °C in der Nacht."
             ),
+            "sources": [SRC["klima"], SRC["mss"]],
         })
 
     insights = []
@@ -173,6 +187,7 @@ def compute_stats(rows):
                     f"am Tag {de(heat['pet14h_gap_lowest_vs_highest_status'])} °C gefühlte Temperatur. "
                     f"Auf LOR-Ebene ist die Hitze weitgehend geteilt."
                 ),
+                "sources": [SRC["klima"], SRC["mss"]],
             },
             {
                 "id": "canopy-divided",
@@ -184,6 +199,7 @@ def compute_stats(rows):
                     f"{de(canopy['canopy_gap_highest_vs_lowest_status'])} Prozentpunkten. "
                     f"Die Hitze ist geteilt, der Schutz davor nicht."
                 ),
+                "sources": [SRC["veg"], SRC["mss"]],
             },
             {
                 "id": "rule-30",
@@ -193,6 +209,7 @@ def compute_stats(rows):
                     f"({de(canopy['pop_in_lor_canopy_30plus'])} Menschen) leben in einem Planungsraum, "
                     f"der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
                 ),
+                "sources": [SRC["veg"], SRC["mss"], SRC["rule"]],
             },
             {
                 "id": "below-average",
@@ -203,6 +220,7 @@ def compute_stats(rows):
                     f"Hitze-Ungleichheit entscheidet sich unterhalb der Planungsraum-Mittelwerte — "
                     f"auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder."
                 ),
+                "sources": [SRC["veg"], SRC["klima"], SRC["mss"]],
             },
         ]
     return {

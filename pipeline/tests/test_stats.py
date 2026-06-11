@@ -125,3 +125,8 @@ def test_golden_numbers_mss_2025():
     assert "75,6 %" in by_id["canopy-range"]
     assert "Alter Schlachthof" in by_id["heat-range"]
     assert "40,01 °C" in by_id["heat-range"]
+    # every published finding and insight must carry source attributions
+    for item in stats["findings"] + stats["insights"]:
+        assert item["sources"], f"{item['id']} has no sources"
+        assert all("SenStadt" in s or "Geoportal" in s or "Konijnendijk" in s
+                   for s in item["sources"]), f"unrecognized source in {item['id']}"

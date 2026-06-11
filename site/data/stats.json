@@ -62,41 +62,76 @@
   "findings": [
     {
       "id": "rule-30",
-      "text_de": "Nur 19,4 % der Berliner:innen (755.469 Menschen) leben in einem Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
+      "text_de": "Nur 19,4 % der Berliner:innen (755.469 Menschen) leben in einem Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)",
+        "3-30-300-Regel nach Konijnendijk (2022)"
+      ]
     },
     {
       "id": "canopy-status-gap",
-      "text_de": "Planungsräume mit hohem Sozialstatus haben im Schnitt 31,28 % Baumkronen, solche mit sehr niedrigem Status 24,94 % — eine Lücke von 6,34 Prozentpunkten. Ein sauberes Gefälle ist es nicht: am niedrigsten liegt Status „mittel“ mit 23,21 %."
+      "text_de": "Planungsräume mit hohem Sozialstatus haben im Schnitt 31,28 % Baumkronen, solche mit sehr niedrigem Status 24,94 % — eine Lücke von 6,34 Prozentpunkten. Ein sauberes Gefälle ist es nicht: am niedrigsten liegt Status „mittel“ mit 23,21 %.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
     },
     {
       "id": "canopy-range",
-      "text_de": "Berlinweit leben die Menschen unter 24,67 % Baumkronen. Die Spanne reicht von 3,3 % (Helle Mitte, Marzahn-Hellersdorf) bis 75,6 % (Allende II, Treptow-Köpenick)."
+      "text_de": "Berlinweit leben die Menschen unter 24,67 % Baumkronen. Die Spanne reicht von 3,3 % (Helle Mitte, Marzahn-Hellersdorf) bis 75,6 % (Allende II, Treptow-Köpenick).",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "LOR Planungsräume 01.01.2021 (Geoportal Berlin)"
+      ]
     },
     {
       "id": "heat-range",
-      "text_de": "Am modellierten Sommertag reicht die gefühlte Temperatur um 14 Uhr von 26,59 °C (Allende II, Treptow-Köpenick) bis 40,01 °C (Alter Schlachthof, Pankow). Zwischen den Statusgruppen liegen dagegen nur 0,67 °C am Tag und 0,31 °C in der Nacht."
+      "text_de": "Am modellierten Sommertag reicht die gefühlte Temperatur um 14 Uhr von 26,59 °C (Allende II, Treptow-Köpenick) bis 40,01 °C (Alter Schlachthof, Pankow). Zwischen den Statusgruppen liegen dagegen nur 0,67 °C am Tag und 0,31 °C in der Nacht.",
+      "sources": [
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
     }
   ],
   "insights": [
     {
       "id": "heat-shared",
       "title": "Die Hitze trifft fast alle gleich",
-      "text_de": "Zwischen den Planungsräumen mit sehr niedrigem und hohem Sozialstatus liegen nachts im Schnitt nur 0,31 °C, am Tag 0,67 °C gefühlte Temperatur. Auf LOR-Ebene ist die Hitze weitgehend geteilt."
+      "text_de": "Zwischen den Planungsräumen mit sehr niedrigem und hohem Sozialstatus liegen nachts im Schnitt nur 0,31 °C, am Tag 0,67 °C gefühlte Temperatur. Auf LOR-Ebene ist die Hitze weitgehend geteilt.",
+      "sources": [
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
     },
     {
       "id": "canopy-divided",
       "title": "Der Schatten ist es nicht",
-      "text_de": "Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt 31,28 % Baumkronen über sich. Bei sehr niedrigem Status sind es 24,94 % — eine Lücke von 6,34 Prozentpunkten. Die Hitze ist geteilt, der Schutz davor nicht."
+      "text_de": "Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt 31,28 % Baumkronen über sich. Bei sehr niedrigem Status sind es 24,94 % — eine Lücke von 6,34 Prozentpunkten. Die Hitze ist geteilt, der Schutz davor nicht.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
     },
     {
       "id": "rule-30",
       "title": "4 von 5 verfehlen die 30-Prozent-Marke",
-      "text_de": "Nur 19,4 % der Berliner:innen (755.469 Menschen) leben in einem Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
+      "text_de": "Nur 19,4 % der Berliner:innen (755.469 Menschen) leben in einem Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)",
+        "3-30-300-Regel nach Konijnendijk (2022)"
+      ]
     },
     {
       "id": "below-average",
       "title": "Die Ungleichheit liegt unter dem Durchschnitt",
-      "text_de": "Ein sauberes Gefälle ist es nicht: Am wenigsten Baumkronen haben Planungsräume mit Status „mittel“ (23,21 %). Hitze-Ungleichheit entscheidet sich unterhalb der Planungsraum-Mittelwerte — auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder."
+      "text_de": "Ein sauberes Gefälle ist es nicht: Am wenigsten Baumkronen haben Planungsräume mit Status „mittel“ (23,21 %). Hitze-Ungleichheit entscheidet sich unterhalb der Planungsraum-Mittelwerte — auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
     }
   ],
   "headline": {
