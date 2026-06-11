@@ -59,6 +59,28 @@
     "pop_share_canopy_30plus_pct": 19.4,
     "note": "Baumkronenanteil = Vegetation ab 4 m Höhe (Vegetationshöhen 2020, 1×1m-Laserscan-Raster) als Anteil an der gesamten LOR-Fläche. Die 30-%-Marke entspricht der 3-30-300-Regel für gesundes Stadtgrün. Mittelwerte bevölkerungsgewichtet."
   },
+  "insights": [
+    {
+      "id": "heat-shared",
+      "title": "Die Hitze trifft fast alle gleich",
+      "text_de": "Zwischen den Planungsräumen mit sehr niedrigem und hohem Sozialstatus liegen nachts im Schnitt nur 0,31 °C, am Tag 0,67 °C gefühlte Temperatur. Auf LOR-Ebene ist die Hitze weitgehend geteilt."
+    },
+    {
+      "id": "canopy-divided",
+      "title": "Der Schatten ist es nicht",
+      "text_de": "Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt 31,28 % Baumkronen über sich. Bei sehr niedrigem Status sind es 24,94 % — eine Lücke von 6,34 Prozentpunkten. Die Hitze ist geteilt, der Schutz davor nicht."
+    },
+    {
+      "id": "rule-30",
+      "title": "4 von 5 verfehlen die 30-Prozent-Marke",
+      "text_de": "Nur 19,4 % der Berliner:innen (755.469 Menschen) leben in einem Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
+    },
+    {
+      "id": "below-average",
+      "title": "Die Ungleichheit liegt unter dem Durchschnitt",
+      "text_de": "Ein sauberes Gefälle ist es nicht: Am wenigsten Baumkronen haben Planungsräume mit Status „mittel“ (23,21 %). Hitze-Ungleichheit entscheidet sich unterhalb der Planungsraum-Mittelwerte — auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder."
+    }
+  ],
   "headline": {
     "disadvantaged_population": 723172,
     "disadvantaged_pop_share_pct": 18.6,

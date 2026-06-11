@@ -110,3 +110,9 @@ def test_golden_numbers_mss_2025():
     assert stats["canopy"]["canopy_gap_highest_vs_lowest_status"] == 6.34
     assert stats["canopy"]["pop_in_lor_canopy_30plus"] == 755_469
     assert stats["canopy"]["pop_share_canopy_30plus_pct"] == 19.4
+    # generated insights: present, and numbers inside the text match the data
+    ids = [i["id"] for i in stats["insights"]]
+    assert ids == ["heat-shared", "canopy-divided", "rule-30", "below-average"]
+    assert "19,4 %" in stats["insights"][2]["text_de"]
+    assert "755.469" in stats["insights"][2]["text_de"]
+    assert "6,34 Prozentpunkten" in stats["insights"][1]["text_de"]

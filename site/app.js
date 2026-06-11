@@ -81,6 +81,21 @@ function renderCanopyChapter(stats) {
   }
 }
 
+function renderInsights(stats) {
+  const grid = document.getElementById("insights");
+  grid.innerHTML = "";
+  for (const ins of stats.insights ?? []) {
+    const card = document.createElement("article");
+    card.className = "insight-card";
+    const h3 = document.createElement("h3");
+    h3.textContent = ins.title;
+    const p = document.createElement("p");
+    p.textContent = ins.text_de;
+    card.append(h3, p);
+    grid.appendChild(card);
+  }
+}
+
 function wireLayerToggle(map) {
   const buttons = document.querySelectorAll(".layer-toggle button");
   buttons.forEach((btn) => {
@@ -100,6 +115,7 @@ async function init() {
   document.getElementById("headline").textContent = stats.headline.text_de;
   renderHeatChapter(stats);
   renderCanopyChapter(stats);
+  renderInsights(stats);
 
   const map = new maplibregl.Map({
     container: "map",

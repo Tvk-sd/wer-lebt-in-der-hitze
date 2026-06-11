@@ -14,6 +14,13 @@ STATUS_CLASSES = {1: "hoch", 2: "mittel", 3: "niedrig", 4: "sehr niedrig"}
 DISADVANTAGED = (3, 4)  # niedrig + sehr niedrig
 
 
+def de(value):
+    """German number formatting: 6.34 -> '6,34', 755469 -> '755.469'."""
+    if isinstance(value, int):
+        return f"{value:,}".replace(",", ".")
+    return f"{value:,}".translate(str.maketrans(",.", ".,"))
+
+
 def pop_weighted_mean(rows, key):
     """Population-weighted mean of `key` over rows that have a value.
     Weighted by people, not area — the study asks who LIVES in the heat."""
@@ -97,6 +104,52 @@ def compute_stats(rows):
                 "Mittelwerte bevölkerungsgewichtet."
             ),
         }
+    insights = []
+    if heat and canopy:
+        s = {g["index"]: g for g in by_status}
+        least_canopy = min(by_status, key=lambda g: g["canopy_pct_mean"])
+        insights = [
+            {
+                "id": "heat-shared",
+                "title": "Die Hitze trifft fast alle gleich",
+                "text_de": (
+                    f"Zwischen den Planungsräumen mit sehr niedrigem und hohem Sozialstatus "
+                    f"liegen nachts im Schnitt nur {de(heat['t2m04h_gap_lowest_vs_highest_status'])} °C, "
+                    f"am Tag {de(heat['pet14h_gap_lowest_vs_highest_status'])} °C gefühlte Temperatur. "
+                    f"Auf LOR-Ebene ist die Hitze weitgehend geteilt."
+                ),
+            },
+            {
+                "id": "canopy-divided",
+                "title": "Der Schatten ist es nicht",
+                "text_de": (
+                    f"Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt "
+                    f"{de(s[1]['canopy_pct_mean'])} % Baumkronen über sich. Bei sehr niedrigem Status "
+                    f"sind es {de(s[4]['canopy_pct_mean'])} % — eine Lücke von "
+                    f"{de(canopy['canopy_gap_highest_vs_lowest_status'])} Prozentpunkten. "
+                    f"Die Hitze ist geteilt, der Schutz davor nicht."
+                ),
+            },
+            {
+                "id": "rule-30",
+                "title": "4 von 5 verfehlen die 30-Prozent-Marke",
+                "text_de": (
+                    f"Nur {de(canopy['pop_share_canopy_30plus_pct'])} % der Berliner:innen "
+                    f"({de(canopy['pop_in_lor_canopy_30plus'])} Menschen) leben in einem Planungsraum, "
+                    f"der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
+                ),
+            },
+            {
+                "id": "below-average",
+                "title": "Die Ungleichheit liegt unter dem Durchschnitt",
+                "text_de": (
+                    f"Ein sauberes Gefälle ist es nicht: Am wenigsten Baumkronen haben Planungsräume "
+                    f"mit Status „{least_canopy['class']}“ ({de(least_canopy['canopy_pct_mean'])} %). "
+                    f"Hitze-Ungleichheit entscheidet sich unterhalb der Planungsraum-Mittelwerte — "
+                    f"auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder."
+                ),
+            },
+        ]
     return {
         "total_lors": len(rows),
         "valid_lors": sum(1 for r in rows if r["mss_valid"]),
@@ -105,6 +158,7 @@ def compute_stats(rows):
         "by_status": by_status,
         "heat": heat,
         "canopy": canopy,
+        "insights": insights,
         "headline": {
             "disadvantaged_population": disadvantaged_pop,
             "disadvantaged_pop_share_pct": round(
