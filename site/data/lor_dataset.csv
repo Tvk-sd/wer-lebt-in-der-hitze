@@ -1,543 +1,543 @@
-plr_id,plr_name,bzr_name,pgr_name,bez_id,bez_name,ew,mss_status_index,mss_status_class,mss_valid,pet14h,t2m04h
-01100101,Stülerstraße,Tiergarten Süd,Zentrum,01,Mitte,3580,2,mittel,True,35.29,18.73
-01100102,Großer Tiergarten,Tiergarten Süd,Zentrum,01,Mitte,2034,1,hoch,True,30.46,17.7
-01100103,Lützowstraße,Tiergarten Süd,Zentrum,01,Mitte,5790,2,mittel,True,35.89,18.51
-01100104,Körnerstraße,Tiergarten Süd,Zentrum,01,Mitte,4889,2,mittel,True,36.7,18.9
-01100205,Wilhelmstraße,Regierungsviertel,Zentrum,01,Mitte,2917,2,mittel,True,37.58,18.76
-01100206,Unter den Linden,Regierungsviertel,Zentrum,01,Mitte,1876,2,mittel,True,37.26,19.26
-01100207,Leipziger Straße,Regierungsviertel,Zentrum,01,Mitte,8844,2,mittel,True,37.45,19.18
-01100308,Charitéviertel,Alexanderplatz,Zentrum,01,Mitte,7297,1,hoch,True,36.98,18.52
-01100309,Oranienburger Straße,Alexanderplatz,Zentrum,01,Mitte,12651,2,mittel,True,36.91,18.91
-01100310,Alexanderplatzviertel,Alexanderplatz,Zentrum,01,Mitte,10181,2,mittel,True,37.19,19.1
-01100311,Karl-Marx-Allee,Alexanderplatz,Zentrum,01,Mitte,9787,2,mittel,True,35.57,18.32
-01100312,Heine-Viertel West,Alexanderplatz,Zentrum,01,Mitte,10727,2,mittel,True,35.71,18.36
-01100313,Heine-Viertel Ost,Alexanderplatz,Zentrum,01,Mitte,11590,2,mittel,True,35.54,18.4
-01100414,Nordbahnhof,Brunnenstraße Süd,Zentrum,01,Mitte,5513,1,hoch,True,35.99,17.58
-01100415,Invalidenstraße,Brunnenstraße Süd,Zentrum,01,Mitte,13348,1,hoch,True,35.94,18.33
-01100416,Arkonaplatz,Brunnenstraße Süd,Zentrum,01,Mitte,13523,1,hoch,True,35.68,18.66
-01200517,Huttenkiez,Moabit West,Moabit,01,Mitte,3924,2,mittel,True,37.22,19.24
-01200518,Beusselkiez,Moabit West,Moabit,01,Mitte,7096,2,mittel,True,36.3,18.92
-01200519,Emdener Straße,Moabit West,Moabit,01,Mitte,9592,2,mittel,True,36.16,18.7
-01200520,Bremer Straße,Moabit West,Moabit,01,Mitte,9513,2,mittel,True,34.89,18.74
-01200521,Zwinglistraße,Moabit West,Moabit,01,Mitte,5259,3,niedrig,True,35.26,18.48
-01200522,Elberfelder Straße,Moabit West,Moabit,01,Mitte,11521,2,mittel,True,34.26,18.64
-01200623,Stephankiez,Moabit Ost,Moabit,01,Mitte,10990,2,mittel,True,34.19,18.26
-01200624,Heidestraße,Moabit Ost,Moabit,01,Mitte,6942,2,mittel,True,37.58,18.19
-01200625,Lübecker Straße,Moabit Ost,Moabit,01,Mitte,6905,2,mittel,True,35.45,18.45
-01200626,Thomasiusstraße,Moabit Ost,Moabit,01,Mitte,6079,2,mittel,True,34.79,18.31
-01200627,Zillesiedlung,Moabit Ost,Moabit,01,Mitte,3388,4,sehr niedrig,True,34.05,18.0
-01200628,Lüneburger Straße,Moabit Ost,Moabit,01,Mitte,3281,2,mittel,True,34.73,18.47
-01200629,Hansaviertel,Moabit Ost,Moabit,01,Mitte,6039,2,mittel,True,33.52,18.09
-01300730,Drontheimer Straße,Osloer Straße,Gesundbrunnen,01,Mitte,8060,4,sehr niedrig,True,35.51,18.19
-01300731,Koloniestraße,Osloer Straße,Gesundbrunnen,01,Mitte,8922,4,sehr niedrig,True,35.73,17.76
-01300732,Soldiner Straße,Osloer Straße,Gesundbrunnen,01,Mitte,10078,4,sehr niedrig,True,32.95,17.73
-01300733,Gesundbrunnen,Osloer Straße,Gesundbrunnen,01,Mitte,11684,3,niedrig,True,36.75,18.28
-01300834,Brunnenstraße,Brunnenstraße Nord,Gesundbrunnen,01,Mitte,14258,3,niedrig,True,35.78,18.32
-01300835,Humboldthain Süd,Brunnenstraße Nord,Gesundbrunnen,01,Mitte,10821,2,mittel,True,33.87,18.12
-01300836,Humboldthain Nordwest,Brunnenstraße Nord,Gesundbrunnen,01,Mitte,14947,4,sehr niedrig,True,35.87,18.33
-01400937,Afrikanische Straße,Parkviertel,Wedding,01,Mitte,10966,2,mittel,True,32.0,17.11
-01400938,Kameruner Straße,Parkviertel,Wedding,01,Mitte,9681,2,mittel,True,32.98,17.8
-01400939,Glasgower Straße,Parkviertel,Wedding,01,Mitte,6149,2,mittel,True,34.12,18.24
-01400940,Schillerpark,Parkviertel,Wedding,01,Mitte,7094,2,mittel,True,33.06,17.32
-01400941,Londoner Straße,Parkviertel,Wedding,01,Mitte,3863,2,mittel,True,35.99,17.26
-01400942,Westliche Müllerstraße,Parkviertel,Wedding,01,Mitte,8789,2,mittel,True,36.69,18.47
-01401043,Antonstraße,Wedding Zentrum,Wedding,01,Mitte,7627,3,niedrig,True,35.43,18.34
-01401044,Uferstraße,Wedding Zentrum,Wedding,01,Mitte,10226,4,sehr niedrig,True,35.86,18.38
-01401045,Schwedenstraße,Wedding Zentrum,Wedding,01,Mitte,5531,3,niedrig,True,35.41,18.36
-01401046,Nordufer,Wedding Zentrum,Wedding,01,Mitte,8869,2,mittel,True,34.36,18.69
-01401047,Sparrplatz,Wedding Zentrum,Wedding,01,Mitte,8206,2,mittel,True,35.94,18.64
-01401048,Leopoldplatz,Wedding Zentrum,Wedding,01,Mitte,9520,2,mittel,True,35.73,18.58
-01401049,Schulstraße,Wedding Zentrum,Wedding,01,Mitte,6637,4,sehr niedrig,True,34.68,17.86
-02100101,Askanischer Platz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,7225,3,niedrig,True,34.99,18.21
-02100102,Mehringplatz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,8660,4,sehr niedrig,True,36.34,18.47
-02100103,Am Berlin Museum,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,5470,3,niedrig,True,36.21,18.29
-02100104,Moritzplatz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,5550,3,niedrig,True,35.5,18.42
-02100105,Prinzenstraße,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,9263,4,sehr niedrig,True,34.36,18.11
-02100106,Wassertorplatz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,4813,4,sehr niedrig,True,32.96,18.19
-02200207,Gleisdreieck,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,2666,1,hoch,True,34.93,17.57
-02200208,Rathaus Yorckstraße,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,5745,2,mittel,True,35.47,18.74
-02200209,Viktoriapark,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,10957,2,mittel,True,34.28,18.36
-02200210,Urbanstraße,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,12350,2,mittel,True,34.22,18.43
-02200211,Chamissokiez,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,14595,2,mittel,True,33.99,18.14
-02200212,Graefekiez Süd,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,8340,2,mittel,True,35.46,18.54
-02200213,Graefekiez Nord,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,10004,2,mittel,True,34.32,18.68
-02300314,Oranienplatz,Nördliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,7085,3,niedrig,True,35.03,18.39
-02300315,Lausitzer Platz,Nördliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,8209,2,mittel,True,35.55,18.77
-02300316,Köpenicker Straße,Nördliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,4160,2,mittel,True,34.93,18.75
-02300417,Reichenberger Straße West,Südliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,8301,2,mittel,True,35.86,18.72
-02300418,Reichenberger Straße Ost,Südliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,7629,2,mittel,True,33.32,17.92
-02300419,Wrangelkiez,Südliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,10396,2,mittel,True,34.67,18.86
-02400520,Barnimkiez,Karl-Marx-Allee Nord,Friedrichshain West,02,Friedrichshain-Kreuzberg,5904,2,mittel,True,31.02,17.31
-02400521,Friedenstraße,Karl-Marx-Allee Nord,Friedrichshain West,02,Friedrichshain-Kreuzberg,8712,2,mittel,True,34.22,17.9
-02400522,Richard-Sorge-Viertel,Karl-Marx-Allee Nord,Friedrichshain West,02,Friedrichshain-Kreuzberg,11394,2,mittel,True,35.67,18.36
-02400623,Andreasviertel,Karl-Marx-Allee Süd,Friedrichshain West,02,Friedrichshain-Kreuzberg,14037,2,mittel,True,34.78,18.31
-02400624,Weberwiese,Karl-Marx-Allee Süd,Friedrichshain West,02,Friedrichshain-Kreuzberg,11887,2,mittel,True,35.09,18.4
-02400625,Wriezener Bahnhof,Karl-Marx-Allee Süd,Friedrichshain West,02,Friedrichshain-Kreuzberg,1328,2,mittel,True,38.4,19.1
-02500726,Hausburgviertel,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,9175,2,mittel,True,36.22,18.89
-02500727,Forckenbeckplatz,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,6519,2,mittel,True,35.91,18.49
-02500728,Samariterviertel,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,10073,2,mittel,True,37.25,19.18
-02500729,Pettenkofer Straße,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,5407,2,mittel,True,35.65,18.14
-02500830,Niederbarnimstraße,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,4071,2,mittel,True,35.76,18.52
-02500831,Wismarplatz,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,7857,2,mittel,True,35.32,18.89
-02500832,Traveplatz,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,9541,2,mittel,True,37.43,18.87
-02500833,Boxhagener Platz,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,10045,2,mittel,True,35.48,19.0
-02500834,Revaler Straße,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,11299,2,mittel,True,36.09,18.82
-02500835,Stralauer Kiez,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,8820,2,mittel,True,37.6,18.67
-02500836,Stralauer Halbinsel,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,5137,1,hoch,True,34.2,18.24
-03100101,Bucher Forst,Buch,Buch,03,Pankow,4720,2,mittel,True,33.37,15.87
-03100102,Klinikum Buch,Buch,Buch,03,Pankow,3505,2,mittel,True,32.57,16.6
-03100103,Karower Chaussee,Buch,Buch,03,Pankow,9449,3,niedrig,True,33.97,16.87
-03200204,Blankenfelde,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,2423,1,hoch,True,34.5,15.66
-03200205,Uhlandstraße,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,9167,2,mittel,True,37.13,16.66
-03200206,Pastor-Niemöller-Platz,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,6842,2,mittel,True,35.82,17.45
-03200207,Herthaplatz,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,11799,2,mittel,True,37.14,17.28
-03200308,Nisbléstraße,Buchholz,Nördliches Pankow,03,Pankow,5261,1,hoch,True,39.13,17.21
-03200309,Eddastraße,Buchholz,Nördliches Pankow,03,Pankow,5484,1,hoch,True,37.81,16.54
-03200310,Krugpfuhl,Buchholz,Nördliches Pankow,03,Pankow,8088,2,mittel,True,39.1,16.45
-03300411,Karow Nord,Karow,Nördliches Weißensee,03,Pankow,11764,2,mittel,True,38.36,17.12
-03300412,Karow Bahnhof,Karow,Nördliches Weißensee,03,Pankow,5226,1,hoch,True,37.51,16.11
-03300413,Karow Ost,Karow,Nördliches Weißensee,03,Pankow,3195,1,hoch,True,38.32,16.02
-03300514,Blankenburg,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,6869,1,hoch,True,37.79,16.38
-03300515,Blankenburger Süden,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,49,,Planungsraum ohne Zuordnung,False,38.31,15.31
-03300516,Heinersdorf,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,9560,1,hoch,True,38.13,16.73
-03300517,Märchenland,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,1088,1,hoch,True,37.73,15.44
-03400618,Rosenthal,Schönholz/Wilhelmsruh/Rosenthal,Südliches Pankow,03,Pankow,4783,1,hoch,True,37.36,16.66
-03400619,Wilhelmsruh,Schönholz/Wilhelmsruh/Rosenthal,Südliches Pankow,03,Pankow,10596,2,mittel,True,37.38,17.41
-03400620,Schönholz,Schönholz/Wilhelmsruh/Rosenthal,Südliches Pankow,03,Pankow,3506,1,hoch,True,32.17,17.05
-03400721,Florakiez,Pankow Zentrum,Südliches Pankow,03,Pankow,11895,2,mittel,True,35.44,17.98
-03400722,Parkstraße,Pankow Zentrum,Südliches Pankow,03,Pankow,3807,1,hoch,True,33.02,17.62
-03400723,Garbátyplatz,Pankow Zentrum,Südliches Pankow,03,Pankow,7507,2,mittel,True,35.89,18.22
-03400724,Wolfshagener Straße,Pankow Zentrum,Südliches Pankow,03,Pankow,8494,2,mittel,True,34.61,17.53
-03400725,Schlosspark,Pankow Zentrum,Südliches Pankow,03,Pankow,7645,2,mittel,True,34.02,17.38
-03400826,Tiroler Viertel,Pankow Süd,Südliches Pankow,03,Pankow,7222,2,mittel,True,35.58,18.06
-03400827,Trelleborger Viertel,Pankow Süd,Südliches Pankow,03,Pankow,9703,2,mittel,True,35.64,18.31
-03400828,Spiekermann Straße,Pankow Süd,Südliches Pankow,03,Pankow,4934,2,mittel,True,36.51,18.07
-03400829,Arnold-Zweig-Straße,Pankow Süd,Südliches Pankow,03,Pankow,5968,2,mittel,True,36.93,18.12
-03400830,Kissingenviertel,Pankow Süd,Südliches Pankow,03,Pankow,9293,2,mittel,True,35.37,18.01
-03400831,Pankower Tor,Pankow Süd,Südliches Pankow,03,Pankow,0,,Planungsraum ohne Zuordnung,False,37.38,16.49
-03500932,Bühringstraße,Weißensee,Südliches Weißensee,03,Pankow,6659,2,mittel,True,35.07,17.49
-03500933,Weißer See,Weißensee,Südliches Weißensee,03,Pankow,7686,2,mittel,True,33.05,17.6
-03500934,Weißenseer Spitze,Weißensee,Südliches Weißensee,03,Pankow,10363,2,mittel,True,37.52,18.57
-03500935,Behaimstraße,Weißensee,Südliches Weißensee,03,Pankow,6799,2,mittel,True,37.74,18.74
-03500936,Komponistenviertel Weißensee,Weißensee,Südliches Weißensee,03,Pankow,10052,2,mittel,True,32.44,17.94
-03501037,Rathaus Weißensee,Weißensee Ost,Südliches Weißensee,03,Pankow,8487,2,mittel,True,37.6,17.83
-03501038,Hansastraße,Weißensee Ost,Südliches Weißensee,03,Pankow,7506,2,mittel,True,32.95,17.29
-03601139,Norweger Viertel,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,4040,2,mittel,True,36.0,17.13
-03601140,Malmöer Straße,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,6016,2,mittel,True,36.45,18.94
-03601141,Arnimplatz,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,7057,2,mittel,True,35.25,18.75
-03601142,Falkplatz,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,10860,2,mittel,True,36.46,17.95
-03601243,Rodenbergstraße,Prenzlauer Berg Nord,Nördlicher Prenzlauer Berg,03,Pankow,6990,2,mittel,True,36.01,18.87
-03601244,Humannplatz,Prenzlauer Berg Nord,Nördlicher Prenzlauer Berg,03,Pankow,7614,2,mittel,True,35.75,18.53
-03601245,Ostseestraße,Prenzlauer Berg Nord,Nördlicher Prenzlauer Berg,03,Pankow,13511,2,mittel,True,36.77,18.28
-03601346,Gethsemanekirche,Helmholtzplatz,Nördlicher Prenzlauer Berg,03,Pankow,5888,2,mittel,True,36.3,18.98
-03601347,Helmholtzplatz,Helmholtzplatz,Nördlicher Prenzlauer Berg,03,Pankow,9495,2,mittel,True,35.83,18.75
-03601348,Senefelderstraße,Helmholtzplatz,Nördlicher Prenzlauer Berg,03,Pankow,7470,2,mittel,True,36.25,19.26
-03601449,Michelangelostraße,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,9928,3,niedrig,True,34.38,17.63
-03601450,Volkspark Prenzlauer Berg,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,5449,4,sehr niedrig,True,34.53,17.41
-03601451,Anton-Saefkow-Park,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,6527,2,mittel,True,34.98,18.21
-03601452,Velodrom,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,4746,2,mittel,True,37.34,17.7
-03601453,Alter Schlachthof,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,3391,1,hoch,True,40.01,18.39
-03701554,Teutoburger Platz,Prenzlauer Berg Südwest,Südlicher Prenzlauer Berg,03,Pankow,11453,2,mittel,True,36.65,18.76
-03701555,Sredzkistraße,Prenzlauer Berg Südwest,Südlicher Prenzlauer Berg,03,Pankow,7258,2,mittel,True,36.03,18.89
-03701556,Kollwitzplatz,Prenzlauer Berg Südwest,Südlicher Prenzlauer Berg,03,Pankow,8598,1,hoch,True,35.73,18.67
-03701657,Thälmannpark,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,3215,2,mittel,True,34.18,17.67
-03701658,Christburger Straße,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,8285,2,mittel,True,35.96,19.04
-03701659,Immanuelkirchstraße,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,9477,2,mittel,True,33.42,18.29
-03701660,Bötzowstraße,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,12614,2,mittel,True,35.98,18.67
-04100101,Jungfernheide/Plötzensee,Charlottenburg Nord,Charlottenburg Nord,04,Charlottenburg-Wilmersdorf,11768,3,niedrig,True,32.86,17.44
-04100102,Paul-Hertz-Siedlung,Charlottenburg Nord,Charlottenburg Nord,04,Charlottenburg-Wilmersdorf,7878,4,sehr niedrig,True,33.86,17.9
-04200203,Olympiagelände,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,1456,1,hoch,True,31.29,17.19
-04200204,Angerburger Allee,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,3325,2,mittel,True,29.78,17.78
-04200205,Flatowallee,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,2522,2,mittel,True,31.57,17.36
-04200206,Kranzallee,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,2848,2,mittel,True,30.37,17.41
-04200207,Eichkamp,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,2996,1,hoch,True,26.97,17.52
-04200308,Branitzer Platz,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,6113,2,mittel,True,34.41,16.88
-04200309,Neu Westend,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,6895,2,mittel,True,34.51,17.71
-04200310,Fürstenplatz,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,7533,2,mittel,True,35.28,18.11
-04200311,Königin-Elisabeth-Straße,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,7424,2,mittel,True,36.74,18.56
-04300412,Schlossgarten,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,4539,2,mittel,True,33.0,17.25
-04300413,Klausenerplatz,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9973,2,mittel,True,35.73,18.5
-04300414,Schloßstraße,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,10581,2,mittel,True,36.15,18.94
-04300415,Lietzensee,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,6258,2,mittel,True,33.53,17.95
-04300416,Amtsgerichtsplatz,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,11646,2,mittel,True,36.13,18.95
-04300517,Tegeler Weg,Mierendorffplatz,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9468,2,mittel,True,35.27,18.75
-04300518,Kaiserin-Augusta-Allee,Mierendorffplatz,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,6682,2,mittel,True,35.8,18.12
-04300619,Alt-Lietzow,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9007,2,mittel,True,35.09,18.48
-04300620,Spreestadt,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,4118,2,mittel,True,36.17,18.91
-04300621,Richard-Wagner-Straße,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,10941,2,mittel,True,36.92,18.8
-04300622,Ernst-Reuter-Platz,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,5269,2,mittel,True,36.09,18.61
-04300623,Karl-August-Platz,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,12187,2,mittel,True,36.83,18.8
-04300624,Savignyplatz,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9314,2,mittel,True,36.33,18.83
-04400725,Güterbahnhof Grunewald,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,61,,Planungsraum ohne Zuordnung,False,37.67,17.11
-04400726,Bismarckallee,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,5417,2,mittel,True,33.29,17.73
-04400727,Flinsberger Platz,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,8322,2,mittel,True,35.1,18.02
-04400728,Hagenplatz,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,3189,2,mittel,True,33.02,17.64
-04400729,Hundekehle,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,2840,1,hoch,True,27.6,17.71
-04400830,Forckenbeckstraße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,8457,2,mittel,True,35.51,17.68
-04400831,Messelpark,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,1543,1,hoch,True,32.32,17.56
-04400832,Breite Straße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,6998,1,hoch,True,36.07,17.87
-04400833,Schlangenbader Straße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,3901,3,niedrig,True,35.21,17.97
-04400834,Binger Straße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,3384,1,hoch,True,35.0,17.65
-04400835,Rüdesheimer Platz,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,10164,2,mittel,True,35.2,18.31
-04500936,Droysenstraße,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5621,2,mittel,True,35.65,18.95
-04500937,Halensee,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,7653,2,mittel,True,35.04,18.25
-04500938,Hochmeisterplatz,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,8281,2,mittel,True,36.55,18.71
-04500939,Eisenzahnstraße,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,6761,2,mittel,True,37.07,18.67
-04501040,Hindemithplatz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5895,2,mittel,True,35.35,19.03
-04501041,George-Grosz-Platz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5420,2,mittel,True,36.3,19.19
-04501042,Breitscheidplatz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,3664,2,mittel,True,37.32,19.34
-04501043,Preußenpark,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,10999,2,mittel,True,35.12,18.54
-04501044,Ludwigkirchplatz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5328,2,mittel,True,35.38,18.56
-04501045,Schaperstraße,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,9363,2,mittel,True,34.98,18.77
-04501146,Barstraße,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,4744,2,mittel,True,34.4,17.83
-04501147,Leon-Jessel-Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5452,2,mittel,True,35.81,18.87
-04501148,Brabanter Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,4564,2,mittel,True,35.18,18.44
-04501149,Nikolsburger Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,9878,2,mittel,True,35.57,18.69
-04501150,Wilhelmsaue,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,3016,2,mittel,True,34.28,18.14
-04501151,Hildegardstraße,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,7420,2,mittel,True,35.25,18.68
-04501152,Prager Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,6861,2,mittel,True,35.55,18.79
-04501153,Babelsberger Straße,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,7563,2,mittel,True,34.77,18.38
-05100101,Hakenfelde Nord,Hakenfelde,Spandau Mitte / Nord,05,Spandau,4504,2,mittel,True,28.1,17.27
-05100102,Am Forstacker,Hakenfelde,Spandau Mitte / Nord,05,Spandau,4377,2,mittel,True,34.35,17.66
-05100103,Mertensstraße,Hakenfelde,Spandau Mitte / Nord,05,Spandau,6107,2,mittel,True,36.36,18.08
-05100104,Maselake,Hakenfelde,Spandau Mitte / Nord,05,Spandau,6960,2,mittel,True,35.08,17.99
-05100105,Amorbacher Weg,Hakenfelde,Spandau Mitte / Nord,05,Spandau,7689,2,mittel,True,33.53,17.3
-05100206,Griesingerstraße,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,3623,3,niedrig,True,29.96,17.19
-05100207,An der Tränke,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,2331,2,mittel,True,37.0,16.79
-05100208,Im Spektefeld,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,11137,4,sehr niedrig,True,34.09,17.03
-05100209,Westerwaldstraße,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,11935,4,sehr niedrig,True,35.61,17.61
-05100210,Germersheimer Platz,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,7911,4,sehr niedrig,True,36.31,17.78
-05100211,An der Kappe,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,6210,2,mittel,True,37.92,17.2
-05100312,Eckschanze,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,4007,3,niedrig,True,35.88,17.95
-05100313,Eiswerder,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,7231,2,mittel,True,35.23,18.27
-05100314,Kurstraße,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,7493,4,sehr niedrig,True,34.87,18.27
-05100315,Ackerstraße,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,7334,2,mittel,True,35.82,18.44
-05100316,Carl-Schurz-Straße,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,10505,3,niedrig,True,35.47,17.9
-05100317,Freiheit,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,4458,3,niedrig,True,36.71,18.32
-05200418,Isenburger Weg,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,3847,1,hoch,True,38.64,16.51
-05200419,Am Heideberg,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,1632,2,mittel,True,38.81,17.4
-05200420,Staakener Straße,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,5910,2,mittel,True,39.06,17.48
-05200421,Spandauer Straße,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,4360,2,mittel,True,37.93,17.21
-05200422,Werkstraße,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,1201,2,mittel,True,36.85,17.06
-05200423,Magistratsweg,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,6809,4,sehr niedrig,True,35.33,17.31
-05200524,Döberitzer Weg,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,3380,1,hoch,True,32.82,16.89
-05200525,Pillnitzer Weg,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,2464,1,hoch,True,33.8,16.35
-05200526,Rudolf-Wissell-Großsiedlung,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,5806,4,sehr niedrig,True,32.99,17.25
-05200527,Maulbeerallee,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,12030,4,sehr niedrig,True,36.18,17.2
-05200528,Weinmeisterhornweg,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,7291,2,mittel,True,36.91,16.45
-05200629,Borkumer Straße,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,8357,2,mittel,True,37.24,18.14
-05200630,Wilhelmstadt West,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,10042,2,mittel,True,36.97,18.13
-05200631,Wilhelmstadt Ost,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,8679,2,mittel,True,34.46,18.17
-05200632,Tiefwerder,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,3655,3,niedrig,True,31.98,17.36
-05200633,Graetschelsteig,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,2159,3,niedrig,True,34.0,17.76
-05200634,Börnicker Straße,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,4319,2,mittel,True,31.32,17.39
-05300735,Haveleck,Haselhorst,Haselhorst / Siemensstadt,05,Spandau,4520,2,mittel,True,33.83,17.35
-05300736,Zitadellenweg,Haselhorst,Haselhorst / Siemensstadt,05,Spandau,3575,2,mittel,True,34.61,18.16
-05300737,Gartenfelder Straße,Haselhorst,Haselhorst / Siemensstadt,05,Spandau,11913,3,niedrig,True,36.12,17.9
-05300838,Gartenfeld,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,16,,Planungsraum ohne Zuordnung,False,33.37,18.25
-05300839,Rohrdamm,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,8314,2,mittel,True,31.41,17.31
-05300840,Nonnendammallee,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,503,4,sehr niedrig,True,34.47,17.9
-05300841,Siemensdamm,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,4605,2,mittel,True,35.39,18.83
-05400942,Alt-Gatow,Gatow/Kladow,Gatow / Kladow,05,Spandau,3691,1,hoch,True,32.05,16.39
-05400943,Jägerallee,Gatow/Kladow,Gatow / Kladow,05,Spandau,10533,1,hoch,True,34.61,16.59
-05400944,Kladower Damm,Gatow/Kladow,Gatow / Kladow,05,Spandau,2183,1,hoch,True,33.91,16.35
-05400945,Kafkastraße,Gatow/Kladow,Gatow / Kladow,05,Spandau,3671,1,hoch,True,34.27,16.83
-06100101,Fichtenberg,Schloßstraße,Steglitz,06,Steglitz-Zehlendorf,6912,1,hoch,True,34.27,17.86
-06100102,Schloßstraße,Schloßstraße,Steglitz,06,Steglitz-Zehlendorf,9048,2,mittel,True,36.19,18.63
-06100103,Markelstraße,Schloßstraße,Steglitz,06,Steglitz-Zehlendorf,6186,1,hoch,True,35.84,18.58
-06100204,Munsterdamm,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,6803,2,mittel,True,31.82,17.26
-06100205,Südende,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,9988,2,mittel,True,34.6,17.87
-06100206,Stadtpark,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,7751,2,mittel,True,32.28,17.77
-06100207,Mittelstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,8168,2,mittel,True,34.58,17.94
-06100208,Bergstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,7065,2,mittel,True,36.12,18.46
-06100209,Feuerbachstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,9322,2,mittel,True,35.68,18.48
-06100210,Bismarckstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,5004,2,mittel,True,34.41,18.41
-06200311,Alt-Lankwitz,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,4873,2,mittel,True,35.12,17.6
-06200312,Komponistenviertel Lankwitz,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,6285,2,mittel,True,34.21,17.57
-06200313,Lankwitz Kirche,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7395,2,mittel,True,35.46,17.7
-06200314,Kaiser-Wilhelm-Straße,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7210,2,mittel,True,35.94,17.83
-06200315,Gallwitzallee,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,6890,2,mittel,True,35.59,17.12
-06200316,Belßstraße,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,5788,2,mittel,True,35.78,17.82
-06200317,Lankwitz Süd,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,6257,2,mittel,True,37.17,17.21
-06200418,Landweg,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,0,,Planungsraum ohne Zuordnung,False,32.55,15.86
-06200419,Thermometersiedlung,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,4539,2,mittel,True,33.54,17.48
-06200420,Lichterfelde Süd,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7403,2,mittel,True,34.95,17.24
-06200421,Königsberger Straße,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,8417,2,mittel,True,34.4,17.6
-06200422,Oberhofer Platz,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7009,1,hoch,True,36.81,17.64
-06200423,Schütte-Lanz-Straße,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,8606,2,mittel,True,36.69,17.04
-06300524,Berlepschstraße,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,5624,2,mittel,True,35.52,17.2
-06300525,Zehlendorf Süd,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,5820,2,mittel,True,34.11,16.84
-06300526,Zehlendorf Mitte,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,3350,2,mittel,True,34.26,17.98
-06300527,Sundgauer Straße,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,8541,2,mittel,True,36.05,17.57
-06300528,Teltower Damm,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,10947,1,hoch,True,34.79,17.3
-06300629,Botanischer Garten,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,6988,2,mittel,True,34.06,17.41
-06300630,Hindenburgdamm,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,5667,2,mittel,True,32.47,17.57
-06300631,Goerzwerke,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,2881,1,hoch,True,34.61,17.5
-06300632,Schweizer Viertel,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,13695,1,hoch,True,36.82,17.08
-06300633,Augustaplatz,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,11955,2,mittel,True,35.59,17.81
-06300634,Lichterfelde West,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,8285,1,hoch,True,35.49,17.54
-06400735,Wannsee,Zehlendorf Südwest,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,10188,1,hoch,True,27.47,17.57
-06400736,Düppel,Zehlendorf Südwest,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,5139,1,hoch,True,29.43,17.42
-06400737,Nikolassee,Zehlendorf Südwest,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,11337,1,hoch,True,27.78,17.67
-06400838,Krumme Lanke,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,7341,1,hoch,True,27.82,17.74
-06400839,Fischerhüttenstraße,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,5370,1,hoch,True,33.65,17.44
-06400840,Fischtal,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,7080,1,hoch,True,32.84,17.41
-06400841,Zehlendorf Eiche,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,6191,2,mittel,True,36.54,17.55
-06400842,Hüttenweg,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,4773,1,hoch,True,28.32,17.65
-06400843,Thielallee,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,4690,1,hoch,True,35.28,17.32
-06400844,Dahlem,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,7263,1,hoch,True,34.28,17.13
-07100101,Wittenbergplatz,Schöneberg Nordwest,Schöneberg Nord,07,Tempelhof-Schöneberg,9794,2,mittel,True,36.41,18.85
-07100102,Kalckreuthstraße,Schöneberg Nordwest,Schöneberg Nord,07,Tempelhof-Schöneberg,8696,2,mittel,True,36.12,18.76
-07100103,Frobenstraße,Schöneberg Nordwest,Schöneberg Nord,07,Tempelhof-Schöneberg,7897,2,mittel,True,36.08,18.43
-07100204,Barbarossaplatz,Schöneberg Nordost,Schöneberg Nord,07,Tempelhof-Schöneberg,10425,2,mittel,True,34.51,18.39
-07100205,Alvenslebenstraße,Schöneberg Nordost,Schöneberg Nord,07,Tempelhof-Schöneberg,5177,3,niedrig,True,35.16,18.45
-07100206,Großgörschenstraße,Schöneberg Nordost,Schöneberg Nord,07,Tempelhof-Schöneberg,8355,2,mittel,True,33.71,18.13
-07200307,Bayerischer Platz,Schöneberg Südwest,Schöneberg Süd,07,Tempelhof-Schöneberg,10549,2,mittel,True,35.68,18.73
-07200308,Volkspark (Rudolph-Wilde-Park),Schöneberg Südwest,Schöneberg Süd,07,Tempelhof-Schöneberg,10698,2,mittel,True,35.26,18.63
-07200409,Belziger Straße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,9300,2,mittel,True,35.32,18.47
-07200410,Feurigstraße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,5538,2,mittel,True,37.43,18.76
-07200411,Julius-Leber-Brücke,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,2741,2,mittel,True,36.35,18.89
-07200412,Schöneberger Linse,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,2611,2,mittel,True,39.61,18.98
-07200413,Cheruskerstraße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,7708,2,mittel,True,36.71,18.31
-07200414,Hohenfriedbergstraße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,3778,2,mittel,True,36.71,18.29
-07300515,Taunusstraße,Friedenau West,Friedenau,07,Tempelhof-Schöneberg,6961,1,hoch,True,34.82,18.75
-07300516,Odenwaldstraße,Friedenau West,Friedenau,07,Tempelhof-Schöneberg,8896,1,hoch,True,35.67,18.84
-07300517,Perelsplatz,Friedenau West,Friedenau,07,Tempelhof-Schöneberg,10082,2,mittel,True,36.18,18.57
-07300618,Ceciliengärten,Friedenau Ost,Friedenau,07,Tempelhof-Schöneberg,9243,2,mittel,True,35.23,18.33
-07300619,Grazer Platz,Friedenau Ost,Friedenau,07,Tempelhof-Schöneberg,12219,2,mittel,True,35.72,17.07
-07400720,Gontermannstraße,Tempelhof Nord,Tempelhof,07,Tempelhof-Schöneberg,11668,2,mittel,True,36.77,17.8
-07400721,Paradestraße,Tempelhof Nord,Tempelhof,07,Tempelhof-Schöneberg,7639,2,mittel,True,39.37,16.45
-07400822,Lindenhofsiedlung,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,3291,2,mittel,True,34.25,17.98
-07400823,Wittekindstraße,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,9690,2,mittel,True,36.61,18.09
-07400824,Bosepark,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,7387,2,mittel,True,35.2,18.3
-07400825,Friedrich-Karl-Straße,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,7213,2,mittel,True,35.71,18.62
-07400826,Marienhöhe,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,5110,2,mittel,True,34.46,17.24
-07400927,Rathaus Tempelhof,Tempelhof Südost,Tempelhof,07,Tempelhof-Schöneberg,11415,2,mittel,True,36.11,18.08
-07400928,Germaniagarten,Tempelhof Südost,Tempelhof,07,Tempelhof-Schöneberg,3965,4,sehr niedrig,True,35.44,18.0
-07501029,Ringstraße,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,8544,2,mittel,True,36.23,17.57
-07501030,Machonstraße,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,8753,2,mittel,True,35.87,18.05
-07501031,Eisenacher Straße,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,9124,2,mittel,True,34.46,17.06
-07501032,Imbrosweg,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,6284,2,mittel,True,36.06,16.62
-07501133,Fritz-Werner-Straße,Mariendorf Süd,Mariendorf,07,Tempelhof-Schöneberg,8254,2,mittel,True,37.83,17.86
-07501134,Hundsteinweg,Mariendorf Süd,Mariendorf,07,Tempelhof-Schöneberg,10548,2,mittel,True,35.63,16.94
-07501135,Birnhornweg,Mariendorf Süd,Mariendorf,07,Tempelhof-Schöneberg,2257,1,hoch,True,38.37,17.46
-07601236,Marienfelder Allee Nordwest,Marienfelde Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,10335,3,niedrig,True,37.26,17.65
-07601237,Kirchstraße,Marienfelde Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,4785,1,hoch,True,37.16,17.47
-07601238,Marienfelde Nordost,Marienfelde Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,2877,2,mittel,True,38.55,17.69
-07601339,Tirschenreuther Ring West,Marienfelde Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,5721,3,niedrig,True,33.9,17.35
-07601340,Tirschenreuther Ring Ost,Marienfelde Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,6416,3,niedrig,True,35.04,17.4
-07601341,Diedersdorfer Weg,Marienfelde Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,2225,2,mittel,True,36.48,16.69
-07601442,Kettinger Straße,Lichtenrade Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,10408,2,mittel,True,38.34,17.15
-07601443,Töpchiner Weg,Lichtenrade Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,10849,2,mittel,True,39.31,17.39
-07601544,John-Locke-Straße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,9262,2,mittel,True,37.46,17.42
-07601545,Nahariyastraße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,8570,4,sehr niedrig,True,35.71,17.41
-07601546,Franziusweg,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,6977,1,hoch,True,36.4,17.24
-07601547,Horstwalder Straße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,3828,2,mittel,True,34.95,16.96
-07601548,Wittelsbacherstraße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,2896,2,mittel,True,35.41,16.94
-08100101,Hasenheide,Schillerpromenade,Neukölln,08,Neukölln,4626,2,mittel,True,29.39,16.99
-08100102,Schillerpromenade Nord,Schillerpromenade,Neukölln,08,Neukölln,8181,2,mittel,True,32.91,17.55
-08100103,Schillerpromenade Süd,Schillerpromenade,Neukölln,08,Neukölln,7205,2,mittel,True,36.64,17.17
-08100104,Wartheplatz,Schillerpromenade,Neukölln,08,Neukölln,6699,4,sehr niedrig,True,32.0,17.2
-08100105,Silbersteinstraße,Schillerpromenade,Neukölln,08,Neukölln,6338,3,niedrig,True,33.24,17.54
-08100206,Flughafenstraße,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,9350,2,mittel,True,36.18,18.85
-08100207,Rollberg,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,7442,4,sehr niedrig,True,35.17,18.09
-08100208,Körnerpark,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,11955,2,mittel,True,33.41,18.03
-08100209,Glasower Straße,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,8834,3,niedrig,True,37.88,18.72
-08100310,Maybachufer,Reuterstraße,Neukölln,08,Neukölln,7560,2,mittel,True,34.75,18.95
-08100311,Reuterplatz,Reuterstraße,Neukölln,08,Neukölln,7076,2,mittel,True,35.39,18.93
-08100312,Weichselplatz,Reuterstraße,Neukölln,08,Neukölln,11499,2,mittel,True,34.52,18.52
-08100313,Bouchéstraße,Reuterstraße,Neukölln,08,Neukölln,3740,2,mittel,True,35.07,18.37
-08100314,Donaustraße,Reuterstraße,Neukölln,08,Neukölln,7930,2,mittel,True,36.73,19.25
-08100415,Ganghoferstraße,Rixdorf,Neukölln,08,Neukölln,6388,2,mittel,True,36.5,18.97
-08100416,Alt-Rixdorf,Rixdorf,Neukölln,08,Neukölln,6577,2,mittel,True,36.36,18.49
-08100417,Braunschweiger Straße,Rixdorf,Neukölln,08,Neukölln,9569,3,niedrig,True,35.48,18.75
-08100418,Hertzbergplatz,Rixdorf,Neukölln,08,Neukölln,9193,2,mittel,True,34.89,18.31
-08100419,Treptower Straße Nord,Rixdorf,Neukölln,08,Neukölln,7192,4,sehr niedrig,True,36.04,17.91
-08100520,Weiße Siedlung,Köllnische Heide,Neukölln,08,Neukölln,5737,4,sehr niedrig,True,36.85,16.9
-08100521,Schulenburgpark,Köllnische Heide,Neukölln,08,Neukölln,9457,4,sehr niedrig,True,36.91,18.42
-08200622,Jahnstraße,Britz Nord,Britz/Buckow,08,Neukölln,5860,4,sehr niedrig,True,35.91,18.4
-08200623,Park am Buschkrug,Britz Nord,Britz/Buckow,08,Neukölln,6692,2,mittel,True,34.99,17.79
-08200624,Tempelhofer Weg,Britz Nord,Britz/Buckow,08,Neukölln,8988,3,niedrig,True,35.29,17.99
-08200725,Mohriner Allee Nord,Britz,Britz/Buckow,08,Neukölln,2524,2,mittel,True,37.68,16.66
-08200726,Hufeisensiedlung,Britz,Britz/Buckow,08,Neukölln,6109,2,mittel,True,34.8,17.48
-08200727,Parchimer Allee Süd,Britz,Britz/Buckow,08,Neukölln,8115,2,mittel,True,33.39,17.68
-08200728,Ortolanweg,Britz,Britz/Buckow,08,Neukölln,1206,3,niedrig,True,35.69,16.36
-08200729,Britzer Garten,Britz,Britz/Buckow,08,Neukölln,1869,1,hoch,True,33.61,16.02
-08200730,Handwerker-Siedlung,Britz,Britz/Buckow,08,Neukölln,3373,2,mittel,True,35.8,16.79
-08200831,Buckow West,Buckow,Britz/Buckow,08,Neukölln,8275,2,mittel,True,38.44,17.1
-08200832,Buckow Mitte,Buckow,Britz/Buckow,08,Neukölln,12116,2,mittel,True,37.48,17.08
-08200833,Buckow Ost,Buckow,Britz/Buckow,08,Neukölln,9255,2,mittel,True,37.99,17.49
-08300934,Gropiusstadt Nord-West,Gropiusstadt West,Gropiusstadt,08,Neukölln,12623,3,niedrig,True,34.52,17.69
-08300935,Gropiusstadt Süd-West,Gropiusstadt West,Gropiusstadt,08,Neukölln,7611,2,mittel,True,33.81,17.61
-08301036,Gropiusstadt Mitte,Gropiusstadt Ost,Gropiusstadt,08,Neukölln,7448,2,mittel,True,32.55,17.51
-08301037,Gropiusstadt Süd-Ost,Gropiusstadt Ost,Gropiusstadt,08,Neukölln,11049,3,niedrig,True,34.6,17.75
-08401138,Goldhähnchenweg,Buckow Nord,Buckow Nord/Rudow,08,Neukölln,2900,4,sehr niedrig,True,36.72,17.82
-08401139,Vogelviertel Süd,Buckow Nord,Buckow Nord/Rudow,08,Neukölln,4092,2,mittel,True,38.15,17.93
-08401140,Vogelviertel Nord,Buckow Nord,Buckow Nord/Rudow,08,Neukölln,2670,2,mittel,True,38.45,17.63
-08401241,Blumenviertel,Rudow,Buckow Nord/Rudow,08,Neukölln,8319,2,mittel,True,38.81,17.71
-08401242,Zittauer Straße,Rudow,Buckow Nord/Rudow,08,Neukölln,6893,2,mittel,True,38.47,17.04
-08401243,Alt-Rudow,Rudow,Buckow Nord/Rudow,08,Neukölln,10078,2,mittel,True,38.68,17.99
-08401244,Waßmannsdorfer Chaussee,Rudow,Buckow Nord/Rudow,08,Neukölln,7315,2,mittel,True,37.68,16.7
-08401245,Frauenviertel,Rudow,Buckow Nord/Rudow,08,Neukölln,3720,2,mittel,True,37.97,17.35
-08401246,Waltersdorfer Chaussee Ost,Rudow,Buckow Nord/Rudow,08,Neukölln,7840,2,mittel,True,36.87,16.72
-09100101,Alt-Treptow,Alt-Treptow,Treptow-Köpenick 1,09,Treptow-Köpenick,13453,2,mittel,True,32.62,17.79
-09100202,Plänterwald West,Plänterwald,Treptow-Köpenick 1,09,Treptow-Köpenick,4280,2,mittel,True,35.75,16.99
-09100203,Plänterwald Ost,Plänterwald,Treptow-Köpenick 1,09,Treptow-Köpenick,7473,2,mittel,True,30.75,17.56
-09100304,Baumschulenweg West,Baumschulenweg,Treptow-Köpenick 1,09,Treptow-Köpenick,12007,2,mittel,True,33.9,17.41
-09100305,Baumschulenweg Ost,Baumschulenweg,Treptow-Köpenick 1,09,Treptow-Köpenick,4338,2,mittel,True,33.9,17.96
-09100306,Späthsfelde,Baumschulenweg,Treptow-Köpenick 1,09,Treptow-Köpenick,3059,1,hoch,True,37.57,16.33
-09100407,Johannisthal West,Johannisthal,Treptow-Köpenick 1,09,Treptow-Köpenick,8670,2,mittel,True,31.43,17.38
-09100408,Johannisthal Ost,Johannisthal,Treptow-Köpenick 1,09,Treptow-Köpenick,8870,2,mittel,True,37.0,18.15
-09100409,Landschaftspark Adlershof,Johannisthal,Treptow-Köpenick 1,09,Treptow-Köpenick,4096,2,mittel,True,38.91,16.77
-09200510,Helmholtz-Kiez,Oberschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,8024,2,mittel,True,34.48,17.48
-09200511,Griechischer Park,Oberschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,13207,2,mittel,True,36.25,18.54
-09200512,Wuhlheide,Oberschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,4433,2,mittel,True,28.95,17.44
-09200613,Bahnhof Schöneweide,Niederschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,10704,2,mittel,True,34.88,18.23
-09200614,Oberspree,Niederschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,3804,2,mittel,True,35.94,17.28
-09200715,Wista,Adlershof,Treptow-Köpenick 2,09,Treptow-Köpenick,4259,2,mittel,True,38.0,17.93
-09200716,Dörpfeldstraße West,Adlershof,Treptow-Köpenick 2,09,Treptow-Köpenick,8373,2,mittel,True,37.06,17.9
-09200717,Dörpfeldstraße Ost,Adlershof,Treptow-Köpenick 2,09,Treptow-Köpenick,9785,2,mittel,True,33.03,17.51
-09200818,Spindlersfeld,Köllnische Vorstadt/Spindlersfeld,Treptow-Köpenick 2,09,Treptow-Köpenick,4330,2,mittel,True,34.27,17.77
-09200819,Köllnische Vorstadt,Köllnische Vorstadt/Spindlersfeld,Treptow-Köpenick 2,09,Treptow-Köpenick,8588,2,mittel,True,35.74,17.49
-09300920,Dorf Altglienicke,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,13253,2,mittel,True,37.71,16.94
-09300921,Preußen Siedlung,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,2878,1,hoch,True,34.67,16.81
-09300922,Kosmos Viertel,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,6013,4,sehr niedrig,True,37.0,17.41
-09300923,Kölner Viertel,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,9100,2,mittel,True,39.0,17.02
-09301024,Falkenberg,Bohnsdorf,Treptow-Köpenick 3,09,Treptow-Köpenick,3776,2,mittel,True,36.81,17.06
-09301025,Alt-Bohnsdorf,Bohnsdorf,Treptow-Köpenick 3,09,Treptow-Köpenick,11919,2,mittel,True,38.6,16.51
-09301126,Grünau,Grünau,Treptow-Köpenick 3,09,Treptow-Köpenick,8376,1,hoch,True,28.21,17.7
-09301227,Karolinenhof,Schmöckwitz,Treptow-Köpenick 3,09,Treptow-Köpenick,1852,1,hoch,True,29.77,17.43
-09301228,Schmöckwitz/Rauchfangswerder,Schmöckwitz,Treptow-Köpenick 3,09,Treptow-Köpenick,2635,1,hoch,True,26.74,17.69
-09401329,Kietzer Feld/Nachtheide,Köpenick Süd,Treptow-Köpenick 4,09,Treptow-Köpenick,11009,2,mittel,True,27.76,17.69
-09401330,Wendenschloß,Köpenick Süd,Treptow-Köpenick 4,09,Treptow-Köpenick,1916,1,hoch,True,32.45,17.32
-09401431,Allende I,Allende-Viertel,Treptow-Köpenick 4,09,Treptow-Köpenick,5992,2,mittel,True,34.57,17.56
-09401432,Siedlung Kämmereiheide,Allende-Viertel,Treptow-Köpenick 4,09,Treptow-Köpenick,1572,2,mittel,True,29.75,17.67
-09401433,Allende II,Allende-Viertel,Treptow-Köpenick 4,09,Treptow-Köpenick,4478,2,mittel,True,26.59,17.73
-09401534,Altstadt Köpenick,Altstadt Köpenick,Treptow-Köpenick 4,09,Treptow-Köpenick,7494,2,mittel,True,35.31,18.45
-09401635,Müggelheim,Müggelheim,Treptow-Köpenick 4,09,Treptow-Köpenick,7059,1,hoch,True,28.2,17.07
-09501736,Hirschgarten,Friedrichshagen,Treptow-Köpenick 5,09,Treptow-Köpenick,4677,2,mittel,True,31.8,16.94
-09501737,Alt-Friedrichshagen,Friedrichshagen,Treptow-Köpenick 5,09,Treptow-Köpenick,14359,2,mittel,True,28.08,17.8
-09501838,Rahnsdorf,Rahnsdorf,Treptow-Köpenick 5,09,Treptow-Köpenick,11138,1,hoch,True,27.89,17.59
-09501939,Bahnhofstraße,Dammvorstadt,Treptow-Köpenick 5,09,Treptow-Köpenick,6829,2,mittel,True,34.82,17.93
-09501940,Güterbahnhof Köpenick,Dammvorstadt,Treptow-Köpenick 5,09,Treptow-Köpenick,2759,2,mittel,True,34.53,17.77
-09501941,Friedrichshagener Straße,Dammvorstadt,Treptow-Köpenick 5,09,Treptow-Köpenick,2937,2,mittel,True,33.72,17.6
-09502042,Mittelheide,Köpenick Nord,Treptow-Köpenick 5,09,Treptow-Köpenick,4315,1,hoch,True,28.56,17.49
-09502043,Dammheide,Köpenick Nord,Treptow-Köpenick 5,09,Treptow-Köpenick,9147,2,mittel,True,30.69,17.42
-10100101,Marzahn West,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,5837,4,sehr niedrig,True,36.66,17.1
-10100102,Rosenbecker Straße,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,3680,3,niedrig,True,37.21,17.72
-10100103,Wittenberger Straße,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,8110,3,niedrig,True,35.73,16.85
-10100104,Golliner Straße,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,7521,4,sehr niedrig,True,34.39,16.47
-10100205,Gewerbegebiet Bitterfelder Straße,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,1221,,Planungsraum ohne Zuordnung,False,36.28,16.88
-10100206,Wuhletalstraße,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,11809,2,mittel,True,35.36,17.52
-10100207,Ahrensfelder Berge,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,8320,3,niedrig,True,31.21,17.04
-10100208,Bürgerpark,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,10330,2,mittel,True,34.52,17.14
-10100209,Lea-Grundig-Straße,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,9642,2,mittel,True,36.64,17.45
-10100210,Marzahner Promenade,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,10868,3,niedrig,True,35.32,17.68
-10100311,Marzahner Chaussee,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,2670,2,mittel,True,37.14,17.43
-10100312,Springpfuhl,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,16216,2,mittel,True,34.83,17.39
-10100313,Alt-Marzahn,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,4981,2,mittel,True,38.19,17.27
-10100314,Auersbergstraße,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,6455,2,mittel,True,36.01,17.45
-10100315,Bärenstein,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,8228,2,mittel,True,36.27,17.34
-10100316,Landsberger Tor,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,3696,2,mittel,True,34.04,16.55
-10200417,Zossener Straße,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,8063,4,sehr niedrig,True,35.62,17.68
-10200418,Kyritzer Straße,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,7367,2,mittel,True,36.28,17.26
-10200419,Havelländer Ring,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,4357,2,mittel,True,36.19,17.74
-10200420,Gut Hellersdorf,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,9010,4,sehr niedrig,True,35.71,17.23
-10200421,Helle Mitte,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,1757,2,mittel,True,38.23,19.16
-10200422,Hellersdorfer Promenade,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,7368,4,sehr niedrig,True,34.46,17.94
-10200423,Böhlener Straße,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,6138,4,sehr niedrig,True,31.88,17.17
-10200524,Adele-Sandrock-Straße,Hellersdorf Ost,Hellersdorf,10,Marzahn-Hellersdorf,11814,2,mittel,True,36.46,17.33
-10200525,Schleipfuhl,Hellersdorf Ost,Hellersdorf,10,Marzahn-Hellersdorf,5380,4,sehr niedrig,True,34.2,17.32
-10200526,Boulevard Kastanienallee,Hellersdorf Ost,Hellersdorf,10,Marzahn-Hellersdorf,6241,4,sehr niedrig,True,35.6,17.27
-10200627,Am Kienberg,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,3689,2,mittel,True,34.88,16.67
-10200628,Neue Grottkauer Straße,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,6514,4,sehr niedrig,True,35.96,17.46
-10200629,Teterower Ring,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,9187,2,mittel,True,34.53,17.3
-10200630,Cecilienplatz,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,6627,2,mittel,True,36.5,17.62
-10300731,Oberfeldstraße,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,7926,1,hoch,True,38.0,17.04
-10300732,Buckower Ring,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,7237,2,mittel,True,35.06,16.63
-10300733,Alt-Biesdorf,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,5190,2,mittel,True,34.59,17.16
-10300734,Biesdorf Süd,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,10606,1,hoch,True,36.04,16.72
-10400835,Kaulsdorf Nord,Kaulsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,7832,1,hoch,True,38.59,16.81
-10400836,Alt-Kaulsdorf,Kaulsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,3981,2,mittel,True,37.67,17.14
-10400837,Kaulsdorf Süd,Kaulsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,7870,1,hoch,True,35.48,16.83
-10400938,Mahlsdorf Nord,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,10234,1,hoch,True,39.49,16.43
-10400939,Alt-Mahlsdorf,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,4529,1,hoch,True,38.63,17.15
-10400940,Elsensee,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,5847,1,hoch,True,37.2,16.65
-10400941,Pilgramer Straße,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,9743,1,hoch,True,37.79,16.99
-11100101,Dörfer Malchow-Wartenberg,"Malchow, Wartenberg und Falkenberg",Hohenschönhausen Nord,11,Lichtenberg,3356,1,hoch,True,36.5,15.55
-11100102,Dorf Falkenberg,"Malchow, Wartenberg und Falkenberg",Hohenschönhausen Nord,11,Lichtenberg,3095,2,mittel,True,38.59,15.63
-11100203,Falkenberg Ost,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,9394,4,sehr niedrig,True,33.67,17.15
-11100204,Falkenberg West,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,7463,2,mittel,True,34.68,17.12
-11100205,Wartenberg Süd,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,6304,4,sehr niedrig,True,35.38,17.49
-11100206,Wartenberg Nord,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,7807,4,sehr niedrig,True,35.3,17.09
-11100307,Zingster Straße Ost,Neu-Hohenschönhausen Süd,Hohenschönhausen Nord,11,Lichtenberg,11702,3,niedrig,True,33.25,17.45
-11100308,Zingster Straße West,Neu-Hohenschönhausen Süd,Hohenschönhausen Nord,11,Lichtenberg,9886,4,sehr niedrig,True,34.41,17.15
-11100309,Mühlengrund,Neu-Hohenschönhausen Süd,Hohenschönhausen Nord,11,Lichtenberg,6569,2,mittel,True,34.6,17.48
-11200410,Malchower Weg,Alt-Hohenschönhausen Nord,Hohenschönhausen Süd,11,Lichtenberg,10413,2,mittel,True,38.74,17.05
-11200411,Hauptstraße,Alt-Hohenschönhausen Nord,Hohenschönhausen Süd,11,Lichtenberg,6917,2,mittel,True,37.61,17.99
-11200512,Orankesee,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,3999,2,mittel,True,34.51,17.39
-11200513,Große-Leege-Straße,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,10466,2,mittel,True,37.86,18.16
-11200514,Landsberger Allee,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,16289,2,mittel,True,35.51,17.74
-11200515,Weiße Taube,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,5002,1,hoch,True,38.99,17.5
-11300616,Hohenschönhauser Straße,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,5992,4,sehr niedrig,True,34.69,17.3
-11300617,Fennpfuhlpark,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,4407,3,niedrig,True,32.88,17.44
-11300618,Storkower Bogen,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,3850,2,mittel,True,35.91,17.94
-11300619,Rudolf-Seiffert-Park,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,8889,2,mittel,True,34.56,17.62
-11300620,Fennpfuhl Ost,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,11346,2,mittel,True,34.78,17.83
-11300721,Herzbergstraße,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,6848,2,mittel,True,35.27,17.43
-11300722,Rathaus Lichtenberg,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,10326,2,mittel,True,34.83,17.84
-11300723,Bornitzstraße,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,2581,2,mittel,True,38.15,18.01
-11300724,Roedeliusplatz,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,4372,2,mittel,True,37.02,18.29
-11300725,Nibelungenviertel,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,10202,2,mittel,True,35.87,17.99
-11300826,Frankfurter Allee Süd,Frankfurter Allee Süd,Lichtenberg Nord,11,Lichtenberg,10508,2,mittel,True,36.9,18.3
-11400927,Victoriastadt,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,4173,2,mittel,True,36.43,18.59
-11400928,Nöldnerplatz,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,2933,2,mittel,True,35.92,17.58
-11400929,Weitlingkiez,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,16901,2,mittel,True,36.14,18.37
-11400930,Zachertstraße,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,4760,2,mittel,True,35.29,17.81
-11400931,Massower Straße,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,7064,2,mittel,True,36.51,18.28
-11401032,Rosenfelder Ring,Friedrichsfelde Nord,Lichtenberg Mitte,11,Lichtenberg,6292,2,mittel,True,35.62,18.16
-11401033,Gensinger Straße,Friedrichsfelde Nord,Lichtenberg Mitte,11,Lichtenberg,6890,2,mittel,True,34.25,17.55
-11401034,Tierpark,Friedrichsfelde Nord,Lichtenberg Mitte,11,Lichtenberg,3379,2,mittel,True,30.89,16.82
-11401135,Dolgenseestraße,Friedrichsfelde Süd,Lichtenberg Mitte,11,Lichtenberg,11011,2,mittel,True,33.24,17.52
-11401136,Volkradstraße,Friedrichsfelde Süd,Lichtenberg Mitte,11,Lichtenberg,8336,2,mittel,True,34.41,17.35
-11401137,Erieseering,Friedrichsfelde Süd,Lichtenberg Mitte,11,Lichtenberg,9004,2,mittel,True,34.75,17.88
-11501238,Rummelsburg,Rummelsburger Bucht,Lichtenberg Süd,11,Lichtenberg,4899,1,hoch,True,37.31,18.06
-11501339,Karlshorst West,Karlshorst,Lichtenberg Süd,11,Lichtenberg,10574,2,mittel,True,36.78,17.71
-11501340,Karlshorst Nord,Karlshorst,Lichtenberg Süd,11,Lichtenberg,11246,2,mittel,True,35.9,16.8
-11501341,Karlshorst Süd,Karlshorst,Lichtenberg Süd,11,Lichtenberg,10103,1,hoch,True,35.77,17.09
-12100101,Letteplatz,Ost 1 - Reginhardstraße,Reinickendorf Ost,12,Reinickendorf,11188,3,niedrig,True,36.29,18.23
-12100102,Hausotterplatz,Ost 1 - Reginhardstraße,Reinickendorf Ost,12,Reinickendorf,9980,3,niedrig,True,35.49,18.09
-12100103,Breitkopfbecken,Ost 1 - Reginhardstraße,Reinickendorf Ost,12,Reinickendorf,7592,3,niedrig,True,34.13,17.92
-12100204,Schäfersee,Ost 2 - Alt-Reinickendorf,Reinickendorf Ost,12,Reinickendorf,9554,2,mittel,True,33.23,17.51
-12100205,Teichstraße,Ost 2 - Alt-Reinickendorf,Reinickendorf Ost,12,Reinickendorf,13988,3,niedrig,True,35.53,17.64
-12100206,Humboldtstraße,Ost 2 - Alt-Reinickendorf,Reinickendorf Ost,12,Reinickendorf,4780,2,mittel,True,34.34,17.18
-12200307,Reinickes Hof,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,2804,3,niedrig,True,38.29,18.57
-12200308,Meller Bogen,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,5868,2,mittel,True,36.15,17.59
-12200309,Scharnweberstraße,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,11286,4,sehr niedrig,True,37.2,18.3
-12200310,Klixstraße,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,8284,4,sehr niedrig,True,35.96,17.49
-12200411,Schumacher-Quartier,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,294,,Planungsraum ohne Zuordnung,False,38.17,16.69
-12200412,Waldidyll/Flughafensee,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,6518,2,mittel,True,29.65,17.89
-12200413,Tegel Süd,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,8103,3,niedrig,True,33.06,17.62
-12200414,TXL,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,5440,1,hoch,True,37.15,16.64
-12200515,Alt-Tegel,West 5 - Tegel,Tegel,12,Reinickendorf,11322,2,mittel,True,33.51,17.94
-12400616,Konradshöhe/Tegelort,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,6113,1,hoch,True,33.01,17.43
-12400617,Alt-Heiligensee,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,6704,1,hoch,True,33.95,16.75
-12400618,Heiligensee Nord,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,3789,1,hoch,True,29.75,17.59
-12400619,Heiligensee,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,7726,1,hoch,True,27.09,17.83
-12400720,Frohnau West,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,8480,1,hoch,True,33.51,17.17
-12400721,Frohnau Ost,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,7891,1,hoch,True,29.95,17.41
-12400722,Hermsdorf West,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,8517,1,hoch,True,33.16,17.31
-12400723,Hermsdorf Ost/Waldsee,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,8090,1,hoch,True,34.74,16.94
-12500824,Ziekowstraße/Freie Scholle,West 3 - Borsigwalde/Freie Scholle,Wittenau/Borsigwalde,12,Reinickendorf,9681,2,mittel,True,34.6,17.13
-12500825,Borsigwalde,West 3 - Borsigwalde/Freie Scholle,Wittenau/Borsigwalde,12,Reinickendorf,7079,2,mittel,True,38.41,18.48
-12500926,Wittenau Mitte,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,5181,2,mittel,True,36.36,17.8
-12500927,Wittenau Nord,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,6874,2,mittel,True,34.85,17.16
-12500928,Waidmannslust,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,5158,2,mittel,True,32.18,17.46
-12500929,Lübars,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,5104,1,hoch,True,36.27,15.84
-12500930,Wittenau Süd,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,9873,2,mittel,True,34.67,17.65
-12601031,Lübarser Straße,Rollbergesiedlung,Märkisches Viertel,12,Reinickendorf,3333,2,mittel,True,37.53,17.47
-12601032,Rollbergesiedlung,Rollbergesiedlung,Märkisches Viertel,12,Reinickendorf,6250,4,sehr niedrig,True,35.85,17.66
-12601133,Treuenbrietzener Straße,MV Nord,Märkisches Viertel,12,Reinickendorf,11448,4,sehr niedrig,True,34.13,17.28
-12601134,Märkisches Zentrum,MV Nord,Märkisches Viertel,12,Reinickendorf,16006,4,sehr niedrig,True,33.33,17.54
-12601235,Dannenwalder Weg,MV Süd,Märkisches Viertel,12,Reinickendorf,10610,4,sehr niedrig,True,33.72,17.65
-12601236,Schorfheidestraße,MV Süd,Märkisches Viertel,12,Reinickendorf,3190,2,mittel,True,39.34,17.7
+plr_id,plr_name,bzr_name,pgr_name,bez_id,bez_name,ew,mss_status_index,mss_status_class,mss_valid,pet14h,t2m04h,canopy_pct,veg_pct
+01100101,Stülerstraße,Tiergarten Süd,Zentrum,01,Mitte,3580,2,mittel,True,35.29,18.73,17.5,28.7
+01100102,Großer Tiergarten,Tiergarten Süd,Zentrum,01,Mitte,2034,1,hoch,True,30.46,17.7,45.6,65.7
+01100103,Lützowstraße,Tiergarten Süd,Zentrum,01,Mitte,5790,2,mittel,True,35.89,18.51,18.9,32.8
+01100104,Körnerstraße,Tiergarten Süd,Zentrum,01,Mitte,4889,2,mittel,True,36.7,18.9,15.9,26.7
+01100205,Wilhelmstraße,Regierungsviertel,Zentrum,01,Mitte,2917,2,mittel,True,37.58,18.76,7.1,17.0
+01100206,Unter den Linden,Regierungsviertel,Zentrum,01,Mitte,1876,2,mittel,True,37.26,19.26,5.2,9.2
+01100207,Leipziger Straße,Regierungsviertel,Zentrum,01,Mitte,8844,2,mittel,True,37.45,19.18,8.5,13.8
+01100308,Charitéviertel,Alexanderplatz,Zentrum,01,Mitte,7297,1,hoch,True,36.98,18.52,9.5,22.1
+01100309,Oranienburger Straße,Alexanderplatz,Zentrum,01,Mitte,12651,2,mittel,True,36.91,18.91,12.0,20.7
+01100310,Alexanderplatzviertel,Alexanderplatz,Zentrum,01,Mitte,10181,2,mittel,True,37.19,19.1,8.8,14.5
+01100311,Karl-Marx-Allee,Alexanderplatz,Zentrum,01,Mitte,9787,2,mittel,True,35.57,18.32,22.9,36.4
+01100312,Heine-Viertel West,Alexanderplatz,Zentrum,01,Mitte,10727,2,mittel,True,35.71,18.36,21.4,37.2
+01100313,Heine-Viertel Ost,Alexanderplatz,Zentrum,01,Mitte,11590,2,mittel,True,35.54,18.4,17.8,32.9
+01100414,Nordbahnhof,Brunnenstraße Süd,Zentrum,01,Mitte,5513,1,hoch,True,35.99,17.58,17.6,45.8
+01100415,Invalidenstraße,Brunnenstraße Süd,Zentrum,01,Mitte,13348,1,hoch,True,35.94,18.33,17.2,34.8
+01100416,Arkonaplatz,Brunnenstraße Süd,Zentrum,01,Mitte,13523,1,hoch,True,35.68,18.66,21.3,33.8
+01200517,Huttenkiez,Moabit West,Moabit,01,Mitte,3924,2,mittel,True,37.22,19.24,6.7,14.7
+01200518,Beusselkiez,Moabit West,Moabit,01,Mitte,7096,2,mittel,True,36.3,18.92,17.5,27.0
+01200519,Emdener Straße,Moabit West,Moabit,01,Mitte,9592,2,mittel,True,36.16,18.7,20.1,31.4
+01200520,Bremer Straße,Moabit West,Moabit,01,Mitte,9513,2,mittel,True,34.89,18.74,24.0,35.3
+01200521,Zwinglistraße,Moabit West,Moabit,01,Mitte,5259,3,niedrig,True,35.26,18.48,19.9,30.3
+01200522,Elberfelder Straße,Moabit West,Moabit,01,Mitte,11521,2,mittel,True,34.26,18.64,21.2,32.5
+01200623,Stephankiez,Moabit Ost,Moabit,01,Mitte,10990,2,mittel,True,34.19,18.26,28.8,46.1
+01200624,Heidestraße,Moabit Ost,Moabit,01,Mitte,6942,2,mittel,True,37.58,18.19,5.1,20.9
+01200625,Lübecker Straße,Moabit Ost,Moabit,01,Mitte,6905,2,mittel,True,35.45,18.45,22.3,36.5
+01200626,Thomasiusstraße,Moabit Ost,Moabit,01,Mitte,6079,2,mittel,True,34.79,18.31,20.2,34.4
+01200627,Zillesiedlung,Moabit Ost,Moabit,01,Mitte,3388,4,sehr niedrig,True,34.05,18.0,35.0,56.5
+01200628,Lüneburger Straße,Moabit Ost,Moabit,01,Mitte,3281,2,mittel,True,34.73,18.47,15.5,30.8
+01200629,Hansaviertel,Moabit Ost,Moabit,01,Mitte,6039,2,mittel,True,33.52,18.09,29.8,51.1
+01300730,Drontheimer Straße,Osloer Straße,Gesundbrunnen,01,Mitte,8060,4,sehr niedrig,True,35.51,18.19,22.2,38.6
+01300731,Koloniestraße,Osloer Straße,Gesundbrunnen,01,Mitte,8922,4,sehr niedrig,True,35.73,17.76,21.6,46.3
+01300732,Soldiner Straße,Osloer Straße,Gesundbrunnen,01,Mitte,10078,4,sehr niedrig,True,32.95,17.73,35.2,57.8
+01300733,Gesundbrunnen,Osloer Straße,Gesundbrunnen,01,Mitte,11684,3,niedrig,True,36.75,18.28,16.8,35.4
+01300834,Brunnenstraße,Brunnenstraße Nord,Gesundbrunnen,01,Mitte,14258,3,niedrig,True,35.78,18.32,21.7,39.4
+01300835,Humboldthain Süd,Brunnenstraße Nord,Gesundbrunnen,01,Mitte,10821,2,mittel,True,33.87,18.12,32.4,50.2
+01300836,Humboldthain Nordwest,Brunnenstraße Nord,Gesundbrunnen,01,Mitte,14947,4,sehr niedrig,True,35.87,18.33,18.2,34.3
+01400937,Afrikanische Straße,Parkviertel,Wedding,01,Mitte,10966,2,mittel,True,32.0,17.11,40.5,70.9
+01400938,Kameruner Straße,Parkviertel,Wedding,01,Mitte,9681,2,mittel,True,32.98,17.8,31.2,53.5
+01400939,Glasgower Straße,Parkviertel,Wedding,01,Mitte,6149,2,mittel,True,34.12,18.24,25.8,42.9
+01400940,Schillerpark,Parkviertel,Wedding,01,Mitte,7094,2,mittel,True,33.06,17.32,37.7,67.9
+01400941,Londoner Straße,Parkviertel,Wedding,01,Mitte,3863,2,mittel,True,35.99,17.26,23.3,61.4
+01400942,Westliche Müllerstraße,Parkviertel,Wedding,01,Mitte,8789,2,mittel,True,36.69,18.47,17.4,31.6
+01401043,Antonstraße,Wedding Zentrum,Wedding,01,Mitte,7627,3,niedrig,True,35.43,18.34,22.7,34.3
+01401044,Uferstraße,Wedding Zentrum,Wedding,01,Mitte,10226,4,sehr niedrig,True,35.86,18.38,23.2,36.4
+01401045,Schwedenstraße,Wedding Zentrum,Wedding,01,Mitte,5531,3,niedrig,True,35.41,18.36,22.8,36.5
+01401046,Nordufer,Wedding Zentrum,Wedding,01,Mitte,8869,2,mittel,True,34.36,18.69,19.9,34.5
+01401047,Sparrplatz,Wedding Zentrum,Wedding,01,Mitte,8206,2,mittel,True,35.94,18.64,20.1,31.9
+01401048,Leopoldplatz,Wedding Zentrum,Wedding,01,Mitte,9520,2,mittel,True,35.73,18.58,18.7,31.0
+01401049,Schulstraße,Wedding Zentrum,Wedding,01,Mitte,6637,4,sehr niedrig,True,34.68,17.86,24.5,45.0
+02100101,Askanischer Platz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,7225,3,niedrig,True,34.99,18.21,22.0,35.7
+02100102,Mehringplatz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,8660,4,sehr niedrig,True,36.34,18.47,16.9,29.1
+02100103,Am Berlin Museum,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,5470,3,niedrig,True,36.21,18.29,19.4,34.9
+02100104,Moritzplatz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,5550,3,niedrig,True,35.5,18.42,24.3,38.2
+02100105,Prinzenstraße,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,9263,4,sehr niedrig,True,34.36,18.11,32.1,44.8
+02100106,Wassertorplatz,Südliche  Friedrichstadt,Kreuzberg Nord,02,Friedrichshain-Kreuzberg,4813,4,sehr niedrig,True,32.96,18.19,28.6,43.5
+02200207,Gleisdreieck,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,2666,1,hoch,True,34.93,17.57,20.4,46.0
+02200208,Rathaus Yorckstraße,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,5745,2,mittel,True,35.47,18.74,19.6,27.6
+02200209,Viktoriapark,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,10957,2,mittel,True,34.28,18.36,23.4,37.4
+02200210,Urbanstraße,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,12350,2,mittel,True,34.22,18.43,26.4,38.5
+02200211,Chamissokiez,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,14595,2,mittel,True,33.99,18.14,22.9,40.2
+02200212,Graefekiez Süd,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,8340,2,mittel,True,35.46,18.54,19.1,30.1
+02200213,Graefekiez Nord,Tempelhofer Vorstadt,Kreuzberg Süd,02,Friedrichshain-Kreuzberg,10004,2,mittel,True,34.32,18.68,23.7,32.0
+02300314,Oranienplatz,Nördliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,7085,3,niedrig,True,35.03,18.39,22.8,34.5
+02300315,Lausitzer Platz,Nördliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,8209,2,mittel,True,35.55,18.77,20.8,28.8
+02300316,Köpenicker Straße,Nördliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,4160,2,mittel,True,34.93,18.75,20.5,29.2
+02300417,Reichenberger Straße West,Südliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,8301,2,mittel,True,35.86,18.72,18.8,26.9
+02300418,Reichenberger Straße Ost,Südliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,7629,2,mittel,True,33.32,17.92,27.9,47.3
+02300419,Wrangelkiez,Südliche Luisenstadt,Kreuzberg Ost,02,Friedrichshain-Kreuzberg,10396,2,mittel,True,34.67,18.86,21.3,27.8
+02400520,Barnimkiez,Karl-Marx-Allee Nord,Friedrichshain West,02,Friedrichshain-Kreuzberg,5904,2,mittel,True,31.02,17.31,41.4,67.0
+02400521,Friedenstraße,Karl-Marx-Allee Nord,Friedrichshain West,02,Friedrichshain-Kreuzberg,8712,2,mittel,True,34.22,17.9,28.4,49.1
+02400522,Richard-Sorge-Viertel,Karl-Marx-Allee Nord,Friedrichshain West,02,Friedrichshain-Kreuzberg,11394,2,mittel,True,35.67,18.36,19.2,32.9
+02400623,Andreasviertel,Karl-Marx-Allee Süd,Friedrichshain West,02,Friedrichshain-Kreuzberg,14037,2,mittel,True,34.78,18.31,23.2,37.7
+02400624,Weberwiese,Karl-Marx-Allee Süd,Friedrichshain West,02,Friedrichshain-Kreuzberg,11887,2,mittel,True,35.09,18.4,24.3,39.4
+02400625,Wriezener Bahnhof,Karl-Marx-Allee Süd,Friedrichshain West,02,Friedrichshain-Kreuzberg,1328,2,mittel,True,38.4,19.1,4.2,12.4
+02500726,Hausburgviertel,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,9175,2,mittel,True,36.22,18.89,13.8,22.3
+02500727,Forckenbeckplatz,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,6519,2,mittel,True,35.91,18.49,20.4,36.6
+02500728,Samariterviertel,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,10073,2,mittel,True,37.25,19.18,10.1,17.2
+02500729,Pettenkofer Straße,Frankfurter Allee Nord,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,5407,2,mittel,True,35.65,18.14,13.9,31.0
+02500830,Niederbarnimstraße,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,4071,2,mittel,True,35.76,18.52,20.7,32.3
+02500831,Wismarplatz,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,7857,2,mittel,True,35.32,18.89,23.6,34.0
+02500832,Traveplatz,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,9541,2,mittel,True,37.43,18.87,14.4,29.5
+02500833,Boxhagener Platz,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,10045,2,mittel,True,35.48,19.0,19.4,32.9
+02500834,Revaler Straße,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,11299,2,mittel,True,36.09,18.82,18.5,41.5
+02500835,Stralauer Kiez,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,8820,2,mittel,True,37.6,18.67,7.9,20.6
+02500836,Stralauer Halbinsel,Frankfurter Allee Süd FK,Friedrichshain Ost,02,Friedrichshain-Kreuzberg,5137,1,hoch,True,34.2,18.24,9.8,22.3
+03100101,Bucher Forst,Buch,Buch,03,Pankow,4720,2,mittel,True,33.37,15.87,34.2,89.1
+03100102,Klinikum Buch,Buch,Buch,03,Pankow,3505,2,mittel,True,32.57,16.6,39.5,74.3
+03100103,Karower Chaussee,Buch,Buch,03,Pankow,9449,3,niedrig,True,33.97,16.87,30.6,60.7
+03200204,Blankenfelde,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,2423,1,hoch,True,34.5,15.66,26.9,90.3
+03200205,Uhlandstraße,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,9167,2,mittel,True,37.13,16.66,18.0,60.0
+03200206,Pastor-Niemöller-Platz,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,6842,2,mittel,True,35.82,17.45,23.4,51.5
+03200207,Herthaplatz,Blankenfelde/Niederschönhausen,Nördliches Pankow,03,Pankow,11799,2,mittel,True,37.14,17.28,20.9,52.2
+03200308,Nisbléstraße,Buchholz,Nördliches Pankow,03,Pankow,5261,1,hoch,True,39.13,17.21,14.4,49.4
+03200309,Eddastraße,Buchholz,Nördliches Pankow,03,Pankow,5484,1,hoch,True,37.81,16.54,15.9,61.9
+03200310,Krugpfuhl,Buchholz,Nördliches Pankow,03,Pankow,8088,2,mittel,True,39.1,16.45,10.4,63.2
+03300411,Karow Nord,Karow,Nördliches Weißensee,03,Pankow,11764,2,mittel,True,38.36,17.12,13.3,51.6
+03300412,Karow Bahnhof,Karow,Nördliches Weißensee,03,Pankow,5226,1,hoch,True,37.51,16.11,16.7,67.8
+03300413,Karow Ost,Karow,Nördliches Weißensee,03,Pankow,3195,1,hoch,True,38.32,16.02,13.4,70.3
+03300514,Blankenburg,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,6869,1,hoch,True,37.79,16.38,17.8,65.5
+03300515,Blankenburger Süden,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,49,,Planungsraum ohne Zuordnung,False,38.31,15.31,11.2,89.4
+03300516,Heinersdorf,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,9560,1,hoch,True,38.13,16.73,15.1,59.7
+03300517,Märchenland,Blankenburg/Heinersdorf/Märchenland,Nördliches Weißensee,03,Pankow,1088,1,hoch,True,37.73,15.44,14.0,87.8
+03400618,Rosenthal,Schönholz/Wilhelmsruh/Rosenthal,Südliches Pankow,03,Pankow,4783,1,hoch,True,37.36,16.66,19.3,64.3
+03400619,Wilhelmsruh,Schönholz/Wilhelmsruh/Rosenthal,Südliches Pankow,03,Pankow,10596,2,mittel,True,37.38,17.41,18.1,49.7
+03400620,Schönholz,Schönholz/Wilhelmsruh/Rosenthal,Südliches Pankow,03,Pankow,3506,1,hoch,True,32.17,17.05,43.1,73.4
+03400721,Florakiez,Pankow Zentrum,Südliches Pankow,03,Pankow,11895,2,mittel,True,35.44,17.98,22.5,46.6
+03400722,Parkstraße,Pankow Zentrum,Südliches Pankow,03,Pankow,3807,1,hoch,True,33.02,17.62,36.1,58.0
+03400723,Garbátyplatz,Pankow Zentrum,Südliches Pankow,03,Pankow,7507,2,mittel,True,35.89,18.22,21.9,37.8
+03400724,Wolfshagener Straße,Pankow Zentrum,Südliches Pankow,03,Pankow,8494,2,mittel,True,34.61,17.53,23.3,48.9
+03400725,Schlosspark,Pankow Zentrum,Südliches Pankow,03,Pankow,7645,2,mittel,True,34.02,17.38,31.1,56.6
+03400826,Tiroler Viertel,Pankow Süd,Südliches Pankow,03,Pankow,7222,2,mittel,True,35.58,18.06,26.2,49.1
+03400827,Trelleborger Viertel,Pankow Süd,Südliches Pankow,03,Pankow,9703,2,mittel,True,35.64,18.31,24.2,42.9
+03400828,Spiekermann Straße,Pankow Süd,Südliches Pankow,03,Pankow,4934,2,mittel,True,36.51,18.07,21.7,45.2
+03400829,Arnold-Zweig-Straße,Pankow Süd,Südliches Pankow,03,Pankow,5968,2,mittel,True,36.93,18.12,18.7,43.1
+03400830,Kissingenviertel,Pankow Süd,Südliches Pankow,03,Pankow,9293,2,mittel,True,35.37,18.01,24.9,51.3
+03400831,Pankower Tor,Pankow Süd,Südliches Pankow,03,Pankow,0,,Planungsraum ohne Zuordnung,False,37.38,16.49,11.8,66.8
+03500932,Bühringstraße,Weißensee,Südliches Weißensee,03,Pankow,6659,2,mittel,True,35.07,17.49,27.8,60.7
+03500933,Weißer See,Weißensee,Südliches Weißensee,03,Pankow,7686,2,mittel,True,33.05,17.6,29.5,54.3
+03500934,Weißenseer Spitze,Weißensee,Südliches Weißensee,03,Pankow,10363,2,mittel,True,37.52,18.57,17.8,31.3
+03500935,Behaimstraße,Weißensee,Südliches Weißensee,03,Pankow,6799,2,mittel,True,37.74,18.74,17.3,28.3
+03500936,Komponistenviertel Weißensee,Weißensee,Südliches Weißensee,03,Pankow,10052,2,mittel,True,32.44,17.94,43.2,61.5
+03501037,Rathaus Weißensee,Weißensee Ost,Südliches Weißensee,03,Pankow,8487,2,mittel,True,37.6,17.83,17.5,40.8
+03501038,Hansastraße,Weißensee Ost,Südliches Weißensee,03,Pankow,7506,2,mittel,True,32.95,17.29,38.1,70.4
+03601139,Norweger Viertel,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,4040,2,mittel,True,36.0,17.13,19.5,59.9
+03601140,Malmöer Straße,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,6016,2,mittel,True,36.45,18.94,10.2,23.8
+03601141,Arnimplatz,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,7057,2,mittel,True,35.25,18.75,19.4,29.2
+03601142,Falkplatz,Prenzlauer Berg Nordwest,Nördlicher Prenzlauer Berg,03,Pankow,10860,2,mittel,True,36.46,17.95,14.3,39.5
+03601243,Rodenbergstraße,Prenzlauer Berg Nord,Nördlicher Prenzlauer Berg,03,Pankow,6990,2,mittel,True,36.01,18.87,17.4,27.2
+03601244,Humannplatz,Prenzlauer Berg Nord,Nördlicher Prenzlauer Berg,03,Pankow,7614,2,mittel,True,35.75,18.53,22.1,35.5
+03601245,Ostseestraße,Prenzlauer Berg Nord,Nördlicher Prenzlauer Berg,03,Pankow,13511,2,mittel,True,36.77,18.28,19.8,38.4
+03601346,Gethsemanekirche,Helmholtzplatz,Nördlicher Prenzlauer Berg,03,Pankow,5888,2,mittel,True,36.3,18.98,12.6,18.7
+03601347,Helmholtzplatz,Helmholtzplatz,Nördlicher Prenzlauer Berg,03,Pankow,9495,2,mittel,True,35.83,18.75,16.9,26.2
+03601348,Senefelderstraße,Helmholtzplatz,Nördlicher Prenzlauer Berg,03,Pankow,7470,2,mittel,True,36.25,19.26,14.5,19.0
+03601449,Michelangelostraße,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,9928,3,niedrig,True,34.38,17.63,29.7,56.8
+03601450,Volkspark Prenzlauer Berg,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,5449,4,sehr niedrig,True,34.53,17.41,30.3,61.5
+03601451,Anton-Saefkow-Park,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,6527,2,mittel,True,34.98,18.21,26.1,42.9
+03601452,Velodrom,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,4746,2,mittel,True,37.34,17.7,13.8,38.6
+03601453,Alter Schlachthof,Prenzlauer Berg Ost,Nördlicher Prenzlauer Berg,03,Pankow,3391,1,hoch,True,40.01,18.39,5.3,33.6
+03701554,Teutoburger Platz,Prenzlauer Berg Südwest,Südlicher Prenzlauer Berg,03,Pankow,11453,2,mittel,True,36.65,18.76,16.3,26.6
+03701555,Sredzkistraße,Prenzlauer Berg Südwest,Südlicher Prenzlauer Berg,03,Pankow,7258,2,mittel,True,36.03,18.89,19.4,29.2
+03701556,Kollwitzplatz,Prenzlauer Berg Südwest,Südlicher Prenzlauer Berg,03,Pankow,8598,1,hoch,True,35.73,18.67,21.5,34.1
+03701657,Thälmannpark,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,3215,2,mittel,True,34.18,17.67,29.5,55.2
+03701658,Christburger Straße,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,8285,2,mittel,True,35.96,19.04,14.5,23.2
+03701659,Immanuelkirchstraße,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,9477,2,mittel,True,33.42,18.29,27.8,42.9
+03701660,Bötzowstraße,Prenzlauer Berg Süd,Südlicher Prenzlauer Berg,03,Pankow,12614,2,mittel,True,35.98,18.67,16.1,30.5
+04100101,Jungfernheide/Plötzensee,Charlottenburg Nord,Charlottenburg Nord,04,Charlottenburg-Wilmersdorf,11768,3,niedrig,True,32.86,17.44,36.0,66.5
+04100102,Paul-Hertz-Siedlung,Charlottenburg Nord,Charlottenburg Nord,04,Charlottenburg-Wilmersdorf,7878,4,sehr niedrig,True,33.86,17.9,31.8,58.3
+04200203,Olympiagelände,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,1456,1,hoch,True,31.29,17.19,45.5,76.6
+04200204,Angerburger Allee,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,3325,2,mittel,True,29.78,17.78,55.2,76.8
+04200205,Flatowallee,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,2522,2,mittel,True,31.57,17.36,44.0,74.5
+04200206,Kranzallee,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,2848,2,mittel,True,30.37,17.41,49.1,76.6
+04200207,Eichkamp,Heerstraße,Charlottenburg West,04,Charlottenburg-Wilmersdorf,2996,1,hoch,True,26.97,17.52,70.1,87.7
+04200308,Branitzer Platz,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,6113,2,mittel,True,34.41,16.88,23.7,70.3
+04200309,Neu Westend,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,6895,2,mittel,True,34.51,17.71,29.3,61.1
+04200310,Fürstenplatz,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,7533,2,mittel,True,35.28,18.11,27.5,51.2
+04200311,Königin-Elisabeth-Straße,Westend,Charlottenburg West,04,Charlottenburg-Wilmersdorf,7424,2,mittel,True,36.74,18.56,11.7,25.4
+04300412,Schlossgarten,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,4539,2,mittel,True,33.0,17.25,30.2,60.1
+04300413,Klausenerplatz,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9973,2,mittel,True,35.73,18.5,19.8,34.1
+04300414,Schloßstraße,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,10581,2,mittel,True,36.15,18.94,17.1,27.9
+04300415,Lietzensee,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,6258,2,mittel,True,33.53,17.95,23.5,47.2
+04300416,Amtsgerichtsplatz,Schloss Charlottenburg,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,11646,2,mittel,True,36.13,18.95,17.5,27.2
+04300517,Tegeler Weg,Mierendorffplatz,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9468,2,mittel,True,35.27,18.75,19.0,37.2
+04300518,Kaiserin-Augusta-Allee,Mierendorffplatz,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,6682,2,mittel,True,35.8,18.12,11.4,35.2
+04300619,Alt-Lietzow,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9007,2,mittel,True,35.09,18.48,21.8,37.6
+04300620,Spreestadt,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,4118,2,mittel,True,36.17,18.91,11.0,20.2
+04300621,Richard-Wagner-Straße,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,10941,2,mittel,True,36.92,18.8,16.2,25.6
+04300622,Ernst-Reuter-Platz,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,5269,2,mittel,True,36.09,18.61,16.2,26.0
+04300623,Karl-August-Platz,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,12187,2,mittel,True,36.83,18.8,15.7,25.5
+04300624,Savignyplatz,Otto-Suhr-Allee/Kantstraße,Charlottenburg Zentrum,04,Charlottenburg-Wilmersdorf,9314,2,mittel,True,36.33,18.83,15.9,24.6
+04400725,Güterbahnhof Grunewald,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,61,,Planungsraum ohne Zuordnung,False,37.67,17.11,13.2,52.6
+04400726,Bismarckallee,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,5417,2,mittel,True,33.29,17.73,34.4,61.9
+04400727,Flinsberger Platz,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,8322,2,mittel,True,35.1,18.02,27.5,53.5
+04400728,Hagenplatz,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,3189,2,mittel,True,33.02,17.64,41.1,68.1
+04400729,Hundekehle,Grunewald,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,2840,1,hoch,True,27.6,17.71,70.2,84.5
+04400830,Forckenbeckstraße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,8457,2,mittel,True,35.51,17.68,21.8,51.0
+04400831,Messelpark,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,1543,1,hoch,True,32.32,17.56,47.3,73.0
+04400832,Breite Straße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,6998,1,hoch,True,36.07,17.87,23.7,49.2
+04400833,Schlangenbader Straße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,3901,3,niedrig,True,35.21,17.97,21.7,41.3
+04400834,Binger Straße,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,3384,1,hoch,True,35.0,17.65,27.9,56.6
+04400835,Rüdesheimer Platz,Schmargendorf,Wilmersdorf Süd,04,Charlottenburg-Wilmersdorf,10164,2,mittel,True,35.2,18.31,29.1,49.1
+04500936,Droysenstraße,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5621,2,mittel,True,35.65,18.95,19.8,29.7
+04500937,Halensee,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,7653,2,mittel,True,35.04,18.25,24.1,42.3
+04500938,Hochmeisterplatz,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,8281,2,mittel,True,36.55,18.71,18.0,29.9
+04500939,Eisenzahnstraße,Halensee,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,6761,2,mittel,True,37.07,18.67,17.8,31.8
+04501040,Hindemithplatz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5895,2,mittel,True,35.35,19.03,20.9,30.3
+04501041,George-Grosz-Platz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5420,2,mittel,True,36.3,19.19,15.3,21.1
+04501042,Breitscheidplatz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,3664,2,mittel,True,37.32,19.34,10.5,14.4
+04501043,Preußenpark,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,10999,2,mittel,True,35.12,18.54,23.5,37.4
+04501044,Ludwigkirchplatz,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5328,2,mittel,True,35.38,18.56,22.2,32.7
+04501045,Schaperstraße,Lietzenburger Straße,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,9363,2,mittel,True,34.98,18.77,25.9,35.1
+04501146,Barstraße,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,4744,2,mittel,True,34.4,17.83,24.8,50.8
+04501147,Leon-Jessel-Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,5452,2,mittel,True,35.81,18.87,18.5,27.2
+04501148,Brabanter Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,4564,2,mittel,True,35.18,18.44,20.3,38.3
+04501149,Nikolsburger Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,9878,2,mittel,True,35.57,18.69,20.2,32.9
+04501150,Wilhelmsaue,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,3016,2,mittel,True,34.28,18.14,29.6,46.4
+04501151,Hildegardstraße,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,7420,2,mittel,True,35.25,18.68,20.7,33.9
+04501152,Prager Platz,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,6861,2,mittel,True,35.55,18.79,24.5,36.5
+04501153,Babelsberger Straße,Volkspark Wilmersdorf,Wilmersdorf Zentrum,04,Charlottenburg-Wilmersdorf,7563,2,mittel,True,34.77,18.38,25.4,41.3
+05100101,Hakenfelde Nord,Hakenfelde,Spandau Mitte / Nord,05,Spandau,4504,2,mittel,True,28.1,17.27,67.8,90.8
+05100102,Am Forstacker,Hakenfelde,Spandau Mitte / Nord,05,Spandau,4377,2,mittel,True,34.35,17.66,28.8,60.7
+05100103,Mertensstraße,Hakenfelde,Spandau Mitte / Nord,05,Spandau,6107,2,mittel,True,36.36,18.08,13.5,35.9
+05100104,Maselake,Hakenfelde,Spandau Mitte / Nord,05,Spandau,6960,2,mittel,True,35.08,17.99,14.0,46.4
+05100105,Amorbacher Weg,Hakenfelde,Spandau Mitte / Nord,05,Spandau,7689,2,mittel,True,33.53,17.3,35.1,73.4
+05100206,Griesingerstraße,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,3623,3,niedrig,True,29.96,17.19,54.6,82.5
+05100207,An der Tränke,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,2331,2,mittel,True,37.0,16.79,20.9,67.6
+05100208,Im Spektefeld,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,11137,4,sehr niedrig,True,34.09,17.03,25.3,63.8
+05100209,Westerwaldstraße,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,11935,4,sehr niedrig,True,35.61,17.61,27.7,59.4
+05100210,Germersheimer Platz,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,7911,4,sehr niedrig,True,36.31,17.78,22.6,58.3
+05100211,An der Kappe,Falkenhagener Feld,Spandau Mitte / Nord,05,Spandau,6210,2,mittel,True,37.92,17.2,15.7,62.0
+05100312,Eckschanze,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,4007,3,niedrig,True,35.88,17.95,23.2,54.2
+05100313,Eiswerder,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,7231,2,mittel,True,35.23,18.27,11.2,25.0
+05100314,Kurstraße,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,7493,4,sehr niedrig,True,34.87,18.27,21.6,43.4
+05100315,Ackerstraße,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,7334,2,mittel,True,35.82,18.44,23.1,43.4
+05100316,Carl-Schurz-Straße,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,10505,3,niedrig,True,35.47,17.9,24.4,53.3
+05100317,Freiheit,Spandau Mitte,Spandau Mitte / Nord,05,Spandau,4458,3,niedrig,True,36.71,18.32,13.9,35.4
+05200418,Isenburger Weg,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,3847,1,hoch,True,38.64,16.51,15.5,66.9
+05200419,Am Heideberg,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,1632,2,mittel,True,38.81,17.4,15.5,64.8
+05200420,Staakener Straße,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,5910,2,mittel,True,39.06,17.48,12.7,53.6
+05200421,Spandauer Straße,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,4360,2,mittel,True,37.93,17.21,16.5,61.5
+05200422,Werkstraße,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,1201,2,mittel,True,36.85,17.06,21.3,68.0
+05200423,Magistratsweg,Brunsbütteler Damm,Wilhelmstadt / Staaken,05,Spandau,6809,4,sehr niedrig,True,35.33,17.31,26.7,67.0
+05200524,Döberitzer Weg,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,3380,1,hoch,True,32.82,16.89,43.1,82.1
+05200525,Pillnitzer Weg,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,2464,1,hoch,True,33.8,16.35,32.1,85.5
+05200526,Rudolf-Wissell-Großsiedlung,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,5806,4,sehr niedrig,True,32.99,17.25,34.6,67.1
+05200527,Maulbeerallee,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,12030,4,sehr niedrig,True,36.18,17.2,22.5,57.8
+05200528,Weinmeisterhornweg,Heerstraße,Wilhelmstadt / Staaken,05,Spandau,7291,2,mittel,True,36.91,16.45,21.5,77.7
+05200629,Borkumer Straße,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,8357,2,mittel,True,37.24,18.14,14.7,40.8
+05200630,Wilhelmstadt West,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,10042,2,mittel,True,36.97,18.13,19.3,45.6
+05200631,Wilhelmstadt Ost,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,8679,2,mittel,True,34.46,18.17,24.6,53.2
+05200632,Tiefwerder,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,3655,3,niedrig,True,31.98,17.36,34.1,70.0
+05200633,Graetschelsteig,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,2159,3,niedrig,True,34.0,17.76,27.7,59.0
+05200634,Börnicker Straße,Wilhelmstadt,Wilhelmstadt / Staaken,05,Spandau,4319,2,mittel,True,31.32,17.39,27.4,51.3
+05300735,Haveleck,Haselhorst,Haselhorst / Siemensstadt,05,Spandau,4520,2,mittel,True,33.83,17.35,18.4,50.9
+05300736,Zitadellenweg,Haselhorst,Haselhorst / Siemensstadt,05,Spandau,3575,2,mittel,True,34.61,18.16,18.1,38.6
+05300737,Gartenfelder Straße,Haselhorst,Haselhorst / Siemensstadt,05,Spandau,11913,3,niedrig,True,36.12,17.9,23.9,51.4
+05300838,Gartenfeld,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,16,,Planungsraum ohne Zuordnung,False,33.37,18.25,19.0,32.2
+05300839,Rohrdamm,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,8314,2,mittel,True,31.41,17.31,45.9,76.5
+05300840,Nonnendammallee,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,503,4,sehr niedrig,True,34.47,17.9,21.2,41.7
+05300841,Siemensdamm,Siemensstadt,Haselhorst / Siemensstadt,05,Spandau,4605,2,mittel,True,35.39,18.83,24.3,38.1
+05400942,Alt-Gatow,Gatow/Kladow,Gatow / Kladow,05,Spandau,3691,1,hoch,True,32.05,16.39,40.1,83.7
+05400943,Jägerallee,Gatow/Kladow,Gatow / Kladow,05,Spandau,10533,1,hoch,True,34.61,16.59,27.7,72.2
+05400944,Kladower Damm,Gatow/Kladow,Gatow / Kladow,05,Spandau,2183,1,hoch,True,33.91,16.35,13.4,39.9
+05400945,Kafkastraße,Gatow/Kladow,Gatow / Kladow,05,Spandau,3671,1,hoch,True,34.27,16.83,31.7,68.5
+06100101,Fichtenberg,Schloßstraße,Steglitz,06,Steglitz-Zehlendorf,6912,1,hoch,True,34.27,17.86,33.9,58.6
+06100102,Schloßstraße,Schloßstraße,Steglitz,06,Steglitz-Zehlendorf,9048,2,mittel,True,36.19,18.63,19.8,31.4
+06100103,Markelstraße,Schloßstraße,Steglitz,06,Steglitz-Zehlendorf,6186,1,hoch,True,35.84,18.58,18.8,29.6
+06100204,Munsterdamm,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,6803,2,mittel,True,31.82,17.26,40.8,69.1
+06100205,Südende,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,9988,2,mittel,True,34.6,17.87,29.7,52.0
+06100206,Stadtpark,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,7751,2,mittel,True,32.28,17.77,36.4,57.4
+06100207,Mittelstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,8168,2,mittel,True,34.58,17.94,30.4,51.5
+06100208,Bergstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,7065,2,mittel,True,36.12,18.46,21.3,36.3
+06100209,Feuerbachstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,9322,2,mittel,True,35.68,18.48,24.5,38.4
+06100210,Bismarckstraße,Albrechtstraße,Steglitz,06,Steglitz-Zehlendorf,5004,2,mittel,True,34.41,18.41,27.2,43.9
+06200311,Alt-Lankwitz,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,4873,2,mittel,True,35.12,17.6,28.5,54.6
+06200312,Komponistenviertel Lankwitz,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,6285,2,mittel,True,34.21,17.57,32.6,56.5
+06200313,Lankwitz Kirche,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7395,2,mittel,True,35.46,17.7,27.9,52.7
+06200314,Kaiser-Wilhelm-Straße,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7210,2,mittel,True,35.94,17.83,28.1,51.7
+06200315,Gallwitzallee,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,6890,2,mittel,True,35.59,17.12,25.1,58.7
+06200316,Belßstraße,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,5788,2,mittel,True,35.78,17.82,26.3,47.8
+06200317,Lankwitz Süd,Lankwitz,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,6257,2,mittel,True,37.17,17.21,25.1,61.6
+06200418,Landweg,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,0,,Planungsraum ohne Zuordnung,False,32.55,15.86,40.1,93.9
+06200419,Thermometersiedlung,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,4539,2,mittel,True,33.54,17.48,33.5,57.5
+06200420,Lichterfelde Süd,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7403,2,mittel,True,34.95,17.24,27.1,60.5
+06200421,Königsberger Straße,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,8417,2,mittel,True,34.4,17.6,29.4,54.3
+06200422,Oberhofer Platz,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,7009,1,hoch,True,36.81,17.64,26.6,58.1
+06200423,Schütte-Lanz-Straße,Ostpreußendamm,Lankwitz/Lichterfelde Ost,06,Steglitz-Zehlendorf,8606,2,mittel,True,36.69,17.04,23.8,62.7
+06300524,Berlepschstraße,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,5624,2,mittel,True,35.52,17.2,28.5,65.7
+06300525,Zehlendorf Süd,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,5820,2,mittel,True,34.11,16.84,26.1,68.7
+06300526,Zehlendorf Mitte,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,3350,2,mittel,True,34.26,17.98,32.7,55.2
+06300527,Sundgauer Straße,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,8541,2,mittel,True,36.05,17.57,26.8,55.1
+06300528,Teltower Damm,Teltower Damm,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,10947,1,hoch,True,34.79,17.3,35.0,68.3
+06300629,Botanischer Garten,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,6988,2,mittel,True,34.06,17.41,31.5,58.8
+06300630,Hindenburgdamm,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,5667,2,mittel,True,32.47,17.57,34.2,56.4
+06300631,Goerzwerke,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,2881,1,hoch,True,34.61,17.5,19.2,41.5
+06300632,Schweizer Viertel,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,13695,1,hoch,True,36.82,17.08,22.9,61.5
+06300633,Augustaplatz,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,11955,2,mittel,True,35.59,17.81,29.2,53.2
+06300634,Lichterfelde West,Drakestraße,Zehlendorf Süd/Lichterfelde West,06,Steglitz-Zehlendorf,8285,1,hoch,True,35.49,17.54,31.6,60.9
+06400735,Wannsee,Zehlendorf Südwest,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,10188,1,hoch,True,27.47,17.57,53.9,69.3
+06400736,Düppel,Zehlendorf Südwest,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,5139,1,hoch,True,29.43,17.42,62.3,83.9
+06400737,Nikolassee,Zehlendorf Südwest,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,11337,1,hoch,True,27.78,17.67,55.9,69.6
+06400838,Krumme Lanke,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,7341,1,hoch,True,27.82,17.74,69.6,84.1
+06400839,Fischerhüttenstraße,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,5370,1,hoch,True,33.65,17.44,38.4,70.3
+06400840,Fischtal,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,7080,1,hoch,True,32.84,17.41,42.8,73.2
+06400841,Zehlendorf Eiche,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,6191,2,mittel,True,36.54,17.55,27.1,60.6
+06400842,Hüttenweg,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,4773,1,hoch,True,28.32,17.65,71.3,86.6
+06400843,Thielallee,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,4690,1,hoch,True,35.28,17.32,28.2,59.4
+06400844,Dahlem,Zehlendorf Nord,Zehlendorf Nord/Wannsee,06,Steglitz-Zehlendorf,7263,1,hoch,True,34.28,17.13,34.4,69.9
+07100101,Wittenbergplatz,Schöneberg Nordwest,Schöneberg Nord,07,Tempelhof-Schöneberg,9794,2,mittel,True,36.41,18.85,18.0,26.4
+07100102,Kalckreuthstraße,Schöneberg Nordwest,Schöneberg Nord,07,Tempelhof-Schöneberg,8696,2,mittel,True,36.12,18.76,19.9,28.0
+07100103,Frobenstraße,Schöneberg Nordwest,Schöneberg Nord,07,Tempelhof-Schöneberg,7897,2,mittel,True,36.08,18.43,19.3,28.9
+07100204,Barbarossaplatz,Schöneberg Nordost,Schöneberg Nord,07,Tempelhof-Schöneberg,10425,2,mittel,True,34.51,18.39,24.8,36.9
+07100205,Alvenslebenstraße,Schöneberg Nordost,Schöneberg Nord,07,Tempelhof-Schöneberg,5177,3,niedrig,True,35.16,18.45,23.9,34.7
+07100206,Großgörschenstraße,Schöneberg Nordost,Schöneberg Nord,07,Tempelhof-Schöneberg,8355,2,mittel,True,33.71,18.13,27.2,44.2
+07200307,Bayerischer Platz,Schöneberg Südwest,Schöneberg Süd,07,Tempelhof-Schöneberg,10549,2,mittel,True,35.68,18.73,20.8,33.8
+07200308,Volkspark (Rudolph-Wilde-Park),Schöneberg Südwest,Schöneberg Süd,07,Tempelhof-Schöneberg,10698,2,mittel,True,35.26,18.63,20.9,32.8
+07200409,Belziger Straße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,9300,2,mittel,True,35.32,18.47,19.5,31.4
+07200410,Feurigstraße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,5538,2,mittel,True,37.43,18.76,12.8,21.4
+07200411,Julius-Leber-Brücke,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,2741,2,mittel,True,36.35,18.89,18.1,25.6
+07200412,Schöneberger Linse,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,2611,2,mittel,True,39.61,18.98,5.3,13.0
+07200413,Cheruskerstraße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,7708,2,mittel,True,36.71,18.31,16.1,33.3
+07200414,Hohenfriedbergstraße,Schöneberg Südost,Schöneberg Süd,07,Tempelhof-Schöneberg,3778,2,mittel,True,36.71,18.29,14.0,31.8
+07300515,Taunusstraße,Friedenau West,Friedenau,07,Tempelhof-Schöneberg,6961,1,hoch,True,34.82,18.75,25.9,39.2
+07300516,Odenwaldstraße,Friedenau West,Friedenau,07,Tempelhof-Schöneberg,8896,1,hoch,True,35.67,18.84,22.6,32.4
+07300517,Perelsplatz,Friedenau West,Friedenau,07,Tempelhof-Schöneberg,10082,2,mittel,True,36.18,18.57,19.7,31.3
+07300618,Ceciliengärten,Friedenau Ost,Friedenau,07,Tempelhof-Schöneberg,9243,2,mittel,True,35.23,18.33,23.3,39.6
+07300619,Grazer Platz,Friedenau Ost,Friedenau,07,Tempelhof-Schöneberg,12219,2,mittel,True,35.72,17.07,19.7,57.5
+07400720,Gontermannstraße,Tempelhof Nord,Tempelhof,07,Tempelhof-Schöneberg,11668,2,mittel,True,36.77,17.8,17.7,44.1
+07400721,Paradestraße,Tempelhof Nord,Tempelhof,07,Tempelhof-Schöneberg,7639,2,mittel,True,39.37,16.45,7.0,66.3
+07400822,Lindenhofsiedlung,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,3291,2,mittel,True,34.25,17.98,26.7,47.0
+07400823,Wittekindstraße,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,9690,2,mittel,True,36.61,18.09,19.8,41.4
+07400824,Bosepark,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,7387,2,mittel,True,35.2,18.3,24.1,40.2
+07400825,Friedrich-Karl-Straße,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,7213,2,mittel,True,35.71,18.62,19.7,30.9
+07400826,Marienhöhe,Tempelhof Südwest,Tempelhof,07,Tempelhof-Schöneberg,5110,2,mittel,True,34.46,17.24,26.6,57.2
+07400927,Rathaus Tempelhof,Tempelhof Südost,Tempelhof,07,Tempelhof-Schöneberg,11415,2,mittel,True,36.11,18.08,17.5,36.3
+07400928,Germaniagarten,Tempelhof Südost,Tempelhof,07,Tempelhof-Schöneberg,3965,4,sehr niedrig,True,35.44,18.0,21.0,40.8
+07501029,Ringstraße,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,8544,2,mittel,True,36.23,17.57,16.5,40.8
+07501030,Machonstraße,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,8753,2,mittel,True,35.87,18.05,22.6,40.5
+07501031,Eisenacher Straße,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,9124,2,mittel,True,34.46,17.06,28.0,62.2
+07501032,Imbrosweg,Mariendorf Nord,Mariendorf,07,Tempelhof-Schöneberg,6284,2,mittel,True,36.06,16.62,25.0,66.6
+07501133,Fritz-Werner-Straße,Mariendorf Süd,Mariendorf,07,Tempelhof-Schöneberg,8254,2,mittel,True,37.83,17.86,14.8,36.7
+07501134,Hundsteinweg,Mariendorf Süd,Mariendorf,07,Tempelhof-Schöneberg,10548,2,mittel,True,35.63,16.94,26.6,66.3
+07501135,Birnhornweg,Mariendorf Süd,Mariendorf,07,Tempelhof-Schöneberg,2257,1,hoch,True,38.37,17.46,21.3,59.9
+07601236,Marienfelder Allee Nordwest,Marienfelde Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,10335,3,niedrig,True,37.26,17.65,22.9,51.9
+07601237,Kirchstraße,Marienfelde Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,4785,1,hoch,True,37.16,17.47,23.4,57.5
+07601238,Marienfelde Nordost,Marienfelde Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,2877,2,mittel,True,38.55,17.69,11.8,33.6
+07601339,Tirschenreuther Ring West,Marienfelde Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,5721,3,niedrig,True,33.9,17.35,35.2,60.9
+07601340,Tirschenreuther Ring Ost,Marienfelde Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,6416,3,niedrig,True,35.04,17.4,26.5,54.5
+07601341,Diedersdorfer Weg,Marienfelde Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,2225,2,mittel,True,36.48,16.69,18.4,62.2
+07601442,Kettinger Straße,Lichtenrade Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,10408,2,mittel,True,38.34,17.15,21.8,60.8
+07601443,Töpchiner Weg,Lichtenrade Nord,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,10849,2,mittel,True,39.31,17.39,15.8,53.7
+07601544,John-Locke-Straße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,9262,2,mittel,True,37.46,17.42,21.2,51.2
+07601545,Nahariyastraße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,8570,4,sehr niedrig,True,35.71,17.41,27.5,59.1
+07601546,Franziusweg,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,6977,1,hoch,True,36.4,17.24,27.8,62.3
+07601547,Horstwalder Straße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,3828,2,mittel,True,34.95,16.96,31.5,67.5
+07601548,Wittelsbacherstraße,Lichtenrade Süd,Marienfelde / Lichtenrade,07,Tempelhof-Schöneberg,2896,2,mittel,True,35.41,16.94,34.6,68.3
+08100101,Hasenheide,Schillerpromenade,Neukölln,08,Neukölln,4626,2,mittel,True,29.39,16.99,48.8,76.9
+08100102,Schillerpromenade Nord,Schillerpromenade,Neukölln,08,Neukölln,8181,2,mittel,True,32.91,17.55,29.9,54.9
+08100103,Schillerpromenade Süd,Schillerpromenade,Neukölln,08,Neukölln,7205,2,mittel,True,36.64,17.17,10.8,52.1
+08100104,Wartheplatz,Schillerpromenade,Neukölln,08,Neukölln,6699,4,sehr niedrig,True,32.0,17.2,37.1,64.2
+08100105,Silbersteinstraße,Schillerpromenade,Neukölln,08,Neukölln,6338,3,niedrig,True,33.24,17.54,32.8,53.3
+08100206,Flughafenstraße,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,9350,2,mittel,True,36.18,18.85,14.9,23.2
+08100207,Rollberg,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,7442,4,sehr niedrig,True,35.17,18.09,22.0,37.2
+08100208,Körnerpark,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,11955,2,mittel,True,33.41,18.03,28.6,46.6
+08100209,Glasower Straße,Neuköllner Mitte/Zentrum,Neukölln,08,Neukölln,8834,3,niedrig,True,37.88,18.72,13.1,21.0
+08100310,Maybachufer,Reuterstraße,Neukölln,08,Neukölln,7560,2,mittel,True,34.75,18.95,19.5,25.5
+08100311,Reuterplatz,Reuterstraße,Neukölln,08,Neukölln,7076,2,mittel,True,35.39,18.93,20.3,28.8
+08100312,Weichselplatz,Reuterstraße,Neukölln,08,Neukölln,11499,2,mittel,True,34.52,18.52,22.6,33.9
+08100313,Bouchéstraße,Reuterstraße,Neukölln,08,Neukölln,3740,2,mittel,True,35.07,18.37,23.0,40.1
+08100314,Donaustraße,Reuterstraße,Neukölln,08,Neukölln,7930,2,mittel,True,36.73,19.25,13.0,17.1
+08100415,Ganghoferstraße,Rixdorf,Neukölln,08,Neukölln,6388,2,mittel,True,36.5,18.97,15.9,23.9
+08100416,Alt-Rixdorf,Rixdorf,Neukölln,08,Neukölln,6577,2,mittel,True,36.36,18.49,19.3,33.7
+08100417,Braunschweiger Straße,Rixdorf,Neukölln,08,Neukölln,9569,3,niedrig,True,35.48,18.75,20.8,30.7
+08100418,Hertzbergplatz,Rixdorf,Neukölln,08,Neukölln,9193,2,mittel,True,34.89,18.31,18.4,36.1
+08100419,Treptower Straße Nord,Rixdorf,Neukölln,08,Neukölln,7192,4,sehr niedrig,True,36.04,17.91,19.6,41.7
+08100520,Weiße Siedlung,Köllnische Heide,Neukölln,08,Neukölln,5737,4,sehr niedrig,True,36.85,16.9,15.3,44.4
+08100521,Schulenburgpark,Köllnische Heide,Neukölln,08,Neukölln,9457,4,sehr niedrig,True,36.91,18.42,14.3,31.0
+08200622,Jahnstraße,Britz Nord,Britz/Buckow,08,Neukölln,5860,4,sehr niedrig,True,35.91,18.4,17.8,34.7
+08200623,Park am Buschkrug,Britz Nord,Britz/Buckow,08,Neukölln,6692,2,mittel,True,34.99,17.79,21.3,42.4
+08200624,Tempelhofer Weg,Britz Nord,Britz/Buckow,08,Neukölln,8988,3,niedrig,True,35.29,17.99,21.7,40.3
+08200725,Mohriner Allee Nord,Britz,Britz/Buckow,08,Neukölln,2524,2,mittel,True,37.68,16.66,15.5,59.0
+08200726,Hufeisensiedlung,Britz,Britz/Buckow,08,Neukölln,6109,2,mittel,True,34.8,17.48,31.4,60.0
+08200727,Parchimer Allee Süd,Britz,Britz/Buckow,08,Neukölln,8115,2,mittel,True,33.39,17.68,41.9,65.8
+08200728,Ortolanweg,Britz,Britz/Buckow,08,Neukölln,1206,3,niedrig,True,35.69,16.36,16.2,66.5
+08200729,Britzer Garten,Britz,Britz/Buckow,08,Neukölln,1869,1,hoch,True,33.61,16.02,29.6,77.3
+08200730,Handwerker-Siedlung,Britz,Britz/Buckow,08,Neukölln,3373,2,mittel,True,35.8,16.79,27.5,61.4
+08200831,Buckow West,Buckow,Britz/Buckow,08,Neukölln,8275,2,mittel,True,38.44,17.1,18.6,58.0
+08200832,Buckow Mitte,Buckow,Britz/Buckow,08,Neukölln,12116,2,mittel,True,37.48,17.08,18.2,56.0
+08200833,Buckow Ost,Buckow,Britz/Buckow,08,Neukölln,9255,2,mittel,True,37.99,17.49,18.9,51.8
+08300934,Gropiusstadt Nord-West,Gropiusstadt West,Gropiusstadt,08,Neukölln,12623,3,niedrig,True,34.52,17.69,30.0,52.0
+08300935,Gropiusstadt Süd-West,Gropiusstadt West,Gropiusstadt,08,Neukölln,7611,2,mittel,True,33.81,17.61,35.9,59.8
+08301036,Gropiusstadt Mitte,Gropiusstadt Ost,Gropiusstadt,08,Neukölln,7448,2,mittel,True,32.55,17.51,38.7,60.2
+08301037,Gropiusstadt Süd-Ost,Gropiusstadt Ost,Gropiusstadt,08,Neukölln,11049,3,niedrig,True,34.6,17.75,29.2,50.6
+08401138,Goldhähnchenweg,Buckow Nord,Buckow Nord/Rudow,08,Neukölln,2900,4,sehr niedrig,True,36.72,17.82,20.8,41.3
+08401139,Vogelviertel Süd,Buckow Nord,Buckow Nord/Rudow,08,Neukölln,4092,2,mittel,True,38.15,17.93,17.4,42.5
+08401140,Vogelviertel Nord,Buckow Nord,Buckow Nord/Rudow,08,Neukölln,2670,2,mittel,True,38.45,17.63,17.0,54.3
+08401241,Blumenviertel,Rudow,Buckow Nord/Rudow,08,Neukölln,8319,2,mittel,True,38.81,17.71,16.6,51.3
+08401242,Zittauer Straße,Rudow,Buckow Nord/Rudow,08,Neukölln,6893,2,mittel,True,38.47,17.04,16.0,56.5
+08401243,Alt-Rudow,Rudow,Buckow Nord/Rudow,08,Neukölln,10078,2,mittel,True,38.68,17.99,14.6,42.0
+08401244,Waßmannsdorfer Chaussee,Rudow,Buckow Nord/Rudow,08,Neukölln,7315,2,mittel,True,37.68,16.7,17.8,63.8
+08401245,Frauenviertel,Rudow,Buckow Nord/Rudow,08,Neukölln,3720,2,mittel,True,37.97,17.35,14.1,56.7
+08401246,Waltersdorfer Chaussee Ost,Rudow,Buckow Nord/Rudow,08,Neukölln,7840,2,mittel,True,36.87,16.72,20.1,69.2
+09100101,Alt-Treptow,Alt-Treptow,Treptow-Köpenick 1,09,Treptow-Köpenick,13453,2,mittel,True,32.62,17.79,34.2,59.2
+09100202,Plänterwald West,Plänterwald,Treptow-Köpenick 1,09,Treptow-Köpenick,4280,2,mittel,True,35.75,16.99,22.1,61.9
+09100203,Plänterwald Ost,Plänterwald,Treptow-Köpenick 1,09,Treptow-Köpenick,7473,2,mittel,True,30.75,17.56,55.6,80.4
+09100304,Baumschulenweg West,Baumschulenweg,Treptow-Köpenick 1,09,Treptow-Köpenick,12007,2,mittel,True,33.9,17.41,31.2,61.8
+09100305,Baumschulenweg Ost,Baumschulenweg,Treptow-Köpenick 1,09,Treptow-Köpenick,4338,2,mittel,True,33.9,17.96,26.9,53.6
+09100306,Späthsfelde,Baumschulenweg,Treptow-Köpenick 1,09,Treptow-Köpenick,3059,1,hoch,True,37.57,16.33,12.8,68.0
+09100407,Johannisthal West,Johannisthal,Treptow-Köpenick 1,09,Treptow-Köpenick,8670,2,mittel,True,31.43,17.38,48.6,77.8
+09100408,Johannisthal Ost,Johannisthal,Treptow-Köpenick 1,09,Treptow-Köpenick,8870,2,mittel,True,37.0,18.15,20.3,39.4
+09100409,Landschaftspark Adlershof,Johannisthal,Treptow-Köpenick 1,09,Treptow-Köpenick,4096,2,mittel,True,38.91,16.77,8.9,53.4
+09200510,Helmholtz-Kiez,Oberschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,8024,2,mittel,True,34.48,17.48,19.4,44.8
+09200511,Griechischer Park,Oberschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,13207,2,mittel,True,36.25,18.54,12.7,28.9
+09200512,Wuhlheide,Oberschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,4433,2,mittel,True,28.95,17.44,56.4,76.9
+09200613,Bahnhof Schöneweide,Niederschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,10704,2,mittel,True,34.88,18.23,19.9,40.7
+09200614,Oberspree,Niederschöneweide,Treptow-Köpenick 2,09,Treptow-Köpenick,3804,2,mittel,True,35.94,17.28,22.1,55.0
+09200715,Wista,Adlershof,Treptow-Köpenick 2,09,Treptow-Köpenick,4259,2,mittel,True,38.0,17.93,8.3,33.0
+09200716,Dörpfeldstraße West,Adlershof,Treptow-Köpenick 2,09,Treptow-Köpenick,8373,2,mittel,True,37.06,17.9,18.1,44.4
+09200717,Dörpfeldstraße Ost,Adlershof,Treptow-Köpenick 2,09,Treptow-Köpenick,9785,2,mittel,True,33.03,17.51,39.5,64.5
+09200818,Spindlersfeld,Köllnische Vorstadt/Spindlersfeld,Treptow-Köpenick 2,09,Treptow-Köpenick,4330,2,mittel,True,34.27,17.77,28.5,53.4
+09200819,Köllnische Vorstadt,Köllnische Vorstadt/Spindlersfeld,Treptow-Köpenick 2,09,Treptow-Köpenick,8588,2,mittel,True,35.74,17.49,19.8,44.6
+09300920,Dorf Altglienicke,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,13253,2,mittel,True,37.71,16.94,16.0,63.5
+09300921,Preußen Siedlung,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,2878,1,hoch,True,34.67,16.81,31.2,71.8
+09300922,Kosmos Viertel,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,6013,4,sehr niedrig,True,37.0,17.41,15.5,45.5
+09300923,Kölner Viertel,Altglienicke,Treptow-Köpenick 3,09,Treptow-Köpenick,9100,2,mittel,True,39.0,17.02,12.8,58.8
+09301024,Falkenberg,Bohnsdorf,Treptow-Köpenick 3,09,Treptow-Köpenick,3776,2,mittel,True,36.81,17.06,20.7,61.2
+09301025,Alt-Bohnsdorf,Bohnsdorf,Treptow-Köpenick 3,09,Treptow-Köpenick,11919,2,mittel,True,38.6,16.51,11.8,62.0
+09301126,Grünau,Grünau,Treptow-Köpenick 3,09,Treptow-Köpenick,8376,1,hoch,True,28.21,17.7,60.6,76.2
+09301227,Karolinenhof,Schmöckwitz,Treptow-Köpenick 3,09,Treptow-Köpenick,1852,1,hoch,True,29.77,17.43,41.9,58.1
+09301228,Schmöckwitz/Rauchfangswerder,Schmöckwitz,Treptow-Köpenick 3,09,Treptow-Köpenick,2635,1,hoch,True,26.74,17.69,55.5,67.4
+09401329,Kietzer Feld/Nachtheide,Köpenick Süd,Treptow-Köpenick 4,09,Treptow-Köpenick,11009,2,mittel,True,27.76,17.69,50.8,62.4
+09401330,Wendenschloß,Köpenick Süd,Treptow-Köpenick 4,09,Treptow-Köpenick,1916,1,hoch,True,32.45,17.32,22.1,41.5
+09401431,Allende I,Allende-Viertel,Treptow-Köpenick 4,09,Treptow-Köpenick,5992,2,mittel,True,34.57,17.56,20.3,47.5
+09401432,Siedlung Kämmereiheide,Allende-Viertel,Treptow-Köpenick 4,09,Treptow-Köpenick,1572,2,mittel,True,29.75,17.67,59.8,78.4
+09401433,Allende II,Allende-Viertel,Treptow-Köpenick 4,09,Treptow-Köpenick,4478,2,mittel,True,26.59,17.73,75.6,89.5
+09401534,Altstadt Köpenick,Altstadt Köpenick,Treptow-Köpenick 4,09,Treptow-Köpenick,7494,2,mittel,True,35.31,18.45,15.9,28.2
+09401635,Müggelheim,Müggelheim,Treptow-Köpenick 4,09,Treptow-Köpenick,7059,1,hoch,True,28.2,17.07,57.9,84.9
+09501736,Hirschgarten,Friedrichshagen,Treptow-Köpenick 5,09,Treptow-Köpenick,4677,2,mittel,True,31.8,16.94,38.1,67.6
+09501737,Alt-Friedrichshagen,Friedrichshagen,Treptow-Köpenick 5,09,Treptow-Köpenick,14359,2,mittel,True,28.08,17.8,61.1,73.1
+09501838,Rahnsdorf,Rahnsdorf,Treptow-Köpenick 5,09,Treptow-Köpenick,11138,1,hoch,True,27.89,17.59,64.4,79.2
+09501939,Bahnhofstraße,Dammvorstadt,Treptow-Köpenick 5,09,Treptow-Köpenick,6829,2,mittel,True,34.82,17.93,16.6,33.6
+09501940,Güterbahnhof Köpenick,Dammvorstadt,Treptow-Köpenick 5,09,Treptow-Köpenick,2759,2,mittel,True,34.53,17.77,26.2,52.9
+09501941,Friedrichshagener Straße,Dammvorstadt,Treptow-Köpenick 5,09,Treptow-Köpenick,2937,2,mittel,True,33.72,17.6,20.9,42.9
+09502042,Mittelheide,Köpenick Nord,Treptow-Köpenick 5,09,Treptow-Köpenick,4315,1,hoch,True,28.56,17.49,68.4,88.1
+09502043,Dammheide,Köpenick Nord,Treptow-Köpenick 5,09,Treptow-Köpenick,9147,2,mittel,True,30.69,17.42,55.4,78.0
+10100101,Marzahn West,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,5837,4,sehr niedrig,True,36.66,17.1,17.7,62.7
+10100102,Rosenbecker Straße,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,3680,3,niedrig,True,37.21,17.72,16.2,49.0
+10100103,Wittenberger Straße,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,8110,3,niedrig,True,35.73,16.85,21.5,63.2
+10100104,Golliner Straße,Marzahn Nord,Marzahn,10,Marzahn-Hellersdorf,7521,4,sehr niedrig,True,34.39,16.47,26.6,76.6
+10100205,Gewerbegebiet Bitterfelder Straße,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,1221,,Planungsraum ohne Zuordnung,False,36.28,16.88,18.1,64.8
+10100206,Wuhletalstraße,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,11809,2,mittel,True,35.36,17.52,22.4,54.1
+10100207,Ahrensfelder Berge,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,8320,3,niedrig,True,31.21,17.04,44.0,78.9
+10100208,Bürgerpark,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,10330,2,mittel,True,34.52,17.14,27.8,62.6
+10100209,Lea-Grundig-Straße,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,9642,2,mittel,True,36.64,17.45,20.5,57.7
+10100210,Marzahner Promenade,Marzahn Mitte,Marzahn,10,Marzahn-Hellersdorf,10868,3,niedrig,True,35.32,17.68,21.4,49.7
+10100311,Marzahner Chaussee,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,2670,2,mittel,True,37.14,17.43,16.0,44.9
+10100312,Springpfuhl,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,16216,2,mittel,True,34.83,17.39,26.2,56.0
+10100313,Alt-Marzahn,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,4981,2,mittel,True,38.19,17.27,17.6,59.6
+10100314,Auersbergstraße,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,6455,2,mittel,True,36.01,17.45,23.0,56.8
+10100315,Bärenstein,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,8228,2,mittel,True,36.27,17.34,22.3,57.2
+10100316,Landsberger Tor,Marzahn Süd,Marzahn,10,Marzahn-Hellersdorf,3696,2,mittel,True,34.04,16.55,27.2,74.8
+10200417,Zossener Straße,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,8063,4,sehr niedrig,True,35.62,17.68,19.8,55.4
+10200418,Kyritzer Straße,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,7367,2,mittel,True,36.28,17.26,18.6,60.8
+10200419,Havelländer Ring,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,4357,2,mittel,True,36.19,17.74,20.8,50.7
+10200420,Gut Hellersdorf,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,9010,4,sehr niedrig,True,35.71,17.23,23.3,64.1
+10200421,Helle Mitte,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,1757,2,mittel,True,38.23,19.16,3.3,10.4
+10200422,Hellersdorfer Promenade,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,7368,4,sehr niedrig,True,34.46,17.94,28.7,59.8
+10200423,Böhlener Straße,Hellersdorf Nord,Hellersdorf,10,Marzahn-Hellersdorf,6138,4,sehr niedrig,True,31.88,17.17,40.4,78.5
+10200524,Adele-Sandrock-Straße,Hellersdorf Ost,Hellersdorf,10,Marzahn-Hellersdorf,11814,2,mittel,True,36.46,17.33,19.4,60.2
+10200525,Schleipfuhl,Hellersdorf Ost,Hellersdorf,10,Marzahn-Hellersdorf,5380,4,sehr niedrig,True,34.2,17.32,30.9,66.6
+10200526,Boulevard Kastanienallee,Hellersdorf Ost,Hellersdorf,10,Marzahn-Hellersdorf,6241,4,sehr niedrig,True,35.6,17.27,25.3,64.5
+10200627,Am Kienberg,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,3689,2,mittel,True,34.88,16.67,18.3,67.2
+10200628,Neue Grottkauer Straße,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,6514,4,sehr niedrig,True,35.96,17.46,22.2,60.2
+10200629,Teterower Ring,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,9187,2,mittel,True,34.53,17.3,26.2,60.8
+10200630,Cecilienplatz,Hellersdorf Süd,Hellersdorf,10,Marzahn-Hellersdorf,6627,2,mittel,True,36.5,17.62,20.1,54.3
+10300731,Oberfeldstraße,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,7926,1,hoch,True,38.0,17.04,19.7,63.6
+10300732,Buckower Ring,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,7237,2,mittel,True,35.06,16.63,26.0,70.4
+10300733,Alt-Biesdorf,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,5190,2,mittel,True,34.59,17.16,27.7,64.8
+10300734,Biesdorf Süd,Biesdorf,Biesdorf,10,Marzahn-Hellersdorf,10606,1,hoch,True,36.04,16.72,25.8,70.6
+10400835,Kaulsdorf Nord,Kaulsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,7832,1,hoch,True,38.59,16.81,17.3,65.8
+10400836,Alt-Kaulsdorf,Kaulsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,3981,2,mittel,True,37.67,17.14,18.6,61.7
+10400837,Kaulsdorf Süd,Kaulsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,7870,1,hoch,True,35.48,16.83,25.3,68.6
+10400938,Mahlsdorf Nord,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,10234,1,hoch,True,39.49,16.43,14.3,68.8
+10400939,Alt-Mahlsdorf,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,4529,1,hoch,True,38.63,17.15,16.9,56.6
+10400940,Elsensee,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,5847,1,hoch,True,37.2,16.65,15.5,64.2
+10400941,Pilgramer Straße,Mahlsdorf,Kaulsdorf/Mahlsdorf,10,Marzahn-Hellersdorf,9743,1,hoch,True,37.79,16.99,18.0,60.6
+11100101,Dörfer Malchow-Wartenberg,"Malchow, Wartenberg und Falkenberg",Hohenschönhausen Nord,11,Lichtenberg,3356,1,hoch,True,36.5,15.55,18.2,82.6
+11100102,Dorf Falkenberg,"Malchow, Wartenberg und Falkenberg",Hohenschönhausen Nord,11,Lichtenberg,3095,2,mittel,True,38.59,15.63,10.7,83.0
+11100203,Falkenberg Ost,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,9394,4,sehr niedrig,True,33.67,17.15,29.1,67.5
+11100204,Falkenberg West,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,7463,2,mittel,True,34.68,17.12,24.6,62.6
+11100205,Wartenberg Süd,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,6304,4,sehr niedrig,True,35.38,17.49,21.1,57.0
+11100206,Wartenberg Nord,Neu-Hohenschönhausen Nord,Hohenschönhausen Nord,11,Lichtenberg,7807,4,sehr niedrig,True,35.3,17.09,20.2,54.5
+11100307,Zingster Straße Ost,Neu-Hohenschönhausen Süd,Hohenschönhausen Nord,11,Lichtenberg,11702,3,niedrig,True,33.25,17.45,30.8,57.6
+11100308,Zingster Straße West,Neu-Hohenschönhausen Süd,Hohenschönhausen Nord,11,Lichtenberg,9886,4,sehr niedrig,True,34.41,17.15,25.9,66.1
+11100309,Mühlengrund,Neu-Hohenschönhausen Süd,Hohenschönhausen Nord,11,Lichtenberg,6569,2,mittel,True,34.6,17.48,26.2,57.5
+11200410,Malchower Weg,Alt-Hohenschönhausen Nord,Hohenschönhausen Süd,11,Lichtenberg,10413,2,mittel,True,38.74,17.05,13.3,58.1
+11200411,Hauptstraße,Alt-Hohenschönhausen Nord,Hohenschönhausen Süd,11,Lichtenberg,6917,2,mittel,True,37.61,17.99,12.4,34.8
+11200512,Orankesee,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,3999,2,mittel,True,34.51,17.39,25.2,58.4
+11200513,Große-Leege-Straße,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,10466,2,mittel,True,37.86,18.16,17.8,41.7
+11200514,Landsberger Allee,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,16289,2,mittel,True,35.51,17.74,25.2,55.0
+11200515,Weiße Taube,Alt-Hohenschönhausen Süd,Hohenschönhausen Süd,11,Lichtenberg,5002,1,hoch,True,38.99,17.5,11.4,52.7
+11300616,Hohenschönhauser Straße,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,5992,4,sehr niedrig,True,34.69,17.3,22.0,55.7
+11300617,Fennpfuhlpark,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,4407,3,niedrig,True,32.88,17.44,28.7,52.7
+11300618,Storkower Bogen,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,3850,2,mittel,True,35.91,17.94,24.9,47.3
+11300619,Rudolf-Seiffert-Park,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,8889,2,mittel,True,34.56,17.62,26.1,50.4
+11300620,Fennpfuhl Ost,Fennpfuhl,Lichtenberg Nord,11,Lichtenberg,11346,2,mittel,True,34.78,17.83,24.7,47.0
+11300721,Herzbergstraße,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,6848,2,mittel,True,35.27,17.43,24.4,49.5
+11300722,Rathaus Lichtenberg,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,10326,2,mittel,True,34.83,17.84,26.2,49.4
+11300723,Bornitzstraße,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,2581,2,mittel,True,38.15,18.01,10.8,33.7
+11300724,Roedeliusplatz,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,4372,2,mittel,True,37.02,18.29,17.7,35.7
+11300725,Nibelungenviertel,Alt-Lichtenberg,Lichtenberg Nord,11,Lichtenberg,10202,2,mittel,True,35.87,17.99,23.1,45.2
+11300826,Frankfurter Allee Süd,Frankfurter Allee Süd,Lichtenberg Nord,11,Lichtenberg,10508,2,mittel,True,36.9,18.3,17.2,41.2
+11400927,Victoriastadt,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,4173,2,mittel,True,36.43,18.59,14.2,33.3
+11400928,Nöldnerplatz,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,2933,2,mittel,True,35.92,17.58,20.7,53.6
+11400929,Weitlingkiez,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,16901,2,mittel,True,36.14,18.37,24.1,44.1
+11400930,Zachertstraße,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,4760,2,mittel,True,35.29,17.81,27.3,58.5
+11400931,Massower Straße,Neu-Lichtenberg,Lichtenberg Mitte,11,Lichtenberg,7064,2,mittel,True,36.51,18.28,21.1,41.6
+11401032,Rosenfelder Ring,Friedrichsfelde Nord,Lichtenberg Mitte,11,Lichtenberg,6292,2,mittel,True,35.62,18.16,20.6,40.7
+11401033,Gensinger Straße,Friedrichsfelde Nord,Lichtenberg Mitte,11,Lichtenberg,6890,2,mittel,True,34.25,17.55,27.2,57.2
+11401034,Tierpark,Friedrichsfelde Nord,Lichtenberg Mitte,11,Lichtenberg,3379,2,mittel,True,30.89,16.82,45.2,74.6
+11401135,Dolgenseestraße,Friedrichsfelde Süd,Lichtenberg Mitte,11,Lichtenberg,11011,2,mittel,True,33.24,17.52,35.8,62.1
+11401136,Volkradstraße,Friedrichsfelde Süd,Lichtenberg Mitte,11,Lichtenberg,8336,2,mittel,True,34.41,17.35,34.1,63.0
+11401137,Erieseering,Friedrichsfelde Süd,Lichtenberg Mitte,11,Lichtenberg,9004,2,mittel,True,34.75,17.88,25.0,45.6
+11501238,Rummelsburg,Rummelsburger Bucht,Lichtenberg Süd,11,Lichtenberg,4899,1,hoch,True,37.31,18.06,9.0,29.2
+11501339,Karlshorst West,Karlshorst,Lichtenberg Süd,11,Lichtenberg,10574,2,mittel,True,36.78,17.71,20.5,54.1
+11501340,Karlshorst Nord,Karlshorst,Lichtenberg Süd,11,Lichtenberg,11246,2,mittel,True,35.9,16.8,22.8,67.8
+11501341,Karlshorst Süd,Karlshorst,Lichtenberg Süd,11,Lichtenberg,10103,1,hoch,True,35.77,17.09,23.8,58.6
+12100101,Letteplatz,Ost 1 - Reginhardstraße,Reinickendorf Ost,12,Reinickendorf,11188,3,niedrig,True,36.29,18.23,25.3,44.0
+12100102,Hausotterplatz,Ost 1 - Reginhardstraße,Reinickendorf Ost,12,Reinickendorf,9980,3,niedrig,True,35.49,18.09,26.9,45.8
+12100103,Breitkopfbecken,Ost 1 - Reginhardstraße,Reinickendorf Ost,12,Reinickendorf,7592,3,niedrig,True,34.13,17.92,32.4,50.6
+12100204,Schäfersee,Ost 2 - Alt-Reinickendorf,Reinickendorf Ost,12,Reinickendorf,9554,2,mittel,True,33.23,17.51,31.8,59.3
+12100205,Teichstraße,Ost 2 - Alt-Reinickendorf,Reinickendorf Ost,12,Reinickendorf,13988,3,niedrig,True,35.53,17.64,24.7,47.9
+12100206,Humboldtstraße,Ost 2 - Alt-Reinickendorf,Reinickendorf Ost,12,Reinickendorf,4780,2,mittel,True,34.34,17.18,27.8,59.8
+12200307,Reinickes Hof,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,2804,3,niedrig,True,38.29,18.57,13.7,27.7
+12200308,Meller Bogen,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,5868,2,mittel,True,36.15,17.59,24.7,49.9
+12200309,Scharnweberstraße,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,11286,4,sehr niedrig,True,37.2,18.3,19.2,38.7
+12200310,Klixstraße,West 4 - Auguste-Viktoria-Allee,Tegel,12,Reinickendorf,8284,4,sehr niedrig,True,35.96,17.49,22.0,50.7
+12200411,Schumacher-Quartier,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,294,,Planungsraum ohne Zuordnung,False,38.17,16.69,10.9,69.4
+12200412,Waldidyll/Flughafensee,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,6518,2,mittel,True,29.65,17.89,59.6,73.7
+12200413,Tegel Süd,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,8103,3,niedrig,True,33.06,17.62,33.7,56.9
+12200414,TXL,West 1 - Tegel-Süd/Flughafensee,Tegel,12,Reinickendorf,5440,1,hoch,True,37.15,16.64,11.7,66.0
+12200515,Alt-Tegel,West 5 - Tegel,Tegel,12,Reinickendorf,11322,2,mittel,True,33.51,17.94,29.3,47.5
+12400616,Konradshöhe/Tegelort,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,6113,1,hoch,True,33.01,17.43,30.6,57.2
+12400617,Alt-Heiligensee,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,6704,1,hoch,True,33.95,16.75,23.3,58.9
+12400618,Heiligensee Nord,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,3789,1,hoch,True,29.75,17.59,60.1,82.2
+12400619,Heiligensee,West 2 - Heiligensee/Konradshöhe,Grüner Norden,12,Reinickendorf,7726,1,hoch,True,27.09,17.83,64.0,73.9
+12400720,Frohnau West,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,8480,1,hoch,True,33.51,17.17,39.4,74.8
+12400721,Frohnau Ost,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,7891,1,hoch,True,29.95,17.41,62.0,85.4
+12400722,Hermsdorf West,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,8517,1,hoch,True,33.16,17.31,42.0,74.7
+12400723,Hermsdorf Ost/Waldsee,Nord 1 - Frohnau/Hermsdorf,Grüner Norden,12,Reinickendorf,8090,1,hoch,True,34.74,16.94,30.2,67.7
+12500824,Ziekowstraße/Freie Scholle,West 3 - Borsigwalde/Freie Scholle,Wittenau/Borsigwalde,12,Reinickendorf,9681,2,mittel,True,34.6,17.13,31.2,65.6
+12500825,Borsigwalde,West 3 - Borsigwalde/Freie Scholle,Wittenau/Borsigwalde,12,Reinickendorf,7079,2,mittel,True,38.41,18.48,13.7,29.1
+12500926,Wittenau Mitte,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,5181,2,mittel,True,36.36,17.8,25.6,51.6
+12500927,Wittenau Nord,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,6874,2,mittel,True,34.85,17.16,29.8,61.9
+12500928,Waidmannslust,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,5158,2,mittel,True,32.18,17.46,46.2,71.0
+12500929,Lübars,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,5104,1,hoch,True,36.27,15.84,19.0,81.8
+12500930,Wittenau Süd,Nord 2 - Waidmannslust/Wittenau/Lübars,Wittenau/Borsigwalde,12,Reinickendorf,9873,2,mittel,True,34.67,17.65,32.9,56.8
+12601031,Lübarser Straße,Rollbergesiedlung,Märkisches Viertel,12,Reinickendorf,3333,2,mittel,True,37.53,17.47,17.5,47.6
+12601032,Rollbergesiedlung,Rollbergesiedlung,Märkisches Viertel,12,Reinickendorf,6250,4,sehr niedrig,True,35.85,17.66,23.4,42.5
+12601133,Treuenbrietzener Straße,MV Nord,Märkisches Viertel,12,Reinickendorf,11448,4,sehr niedrig,True,34.13,17.28,26.2,49.6
+12601134,Märkisches Zentrum,MV Nord,Märkisches Viertel,12,Reinickendorf,16006,4,sehr niedrig,True,33.33,17.54,30.0,47.2
+12601235,Dannenwalder Weg,MV Süd,Märkisches Viertel,12,Reinickendorf,10610,4,sehr niedrig,True,33.72,17.65,37.1,54.2
+12601236,Schorfheidestraße,MV Süd,Märkisches Viertel,12,Reinickendorf,3190,2,mittel,True,39.34,17.7,15.8,46.1

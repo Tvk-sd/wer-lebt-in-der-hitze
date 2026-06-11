@@ -24,6 +24,7 @@
       <button data-layer="status" class="active">Sozialstatus</button>
       <button data-layer="pet">Hitze am Tag (PET 14 Uhr)</button>
       <button data-layer="night">Wärmeinsel nachts (4 Uhr)</button>
+      <button data-layer="canopy">Baumkronen</button>
     </div>
     <div id="map" aria-label="Karte der Berliner Planungsräume"></div>
     <div class="legend" id="legend-status">
@@ -46,12 +47,25 @@
       <span><i style="background:#fe9929"></i> 17,5 °C</span>
       <span><i style="background:#993404"></i> 19,5 °C</span>
     </div>
+    <div class="legend hidden" id="legend-canopy">
+      <strong>Baumkronenanteil (ab 4 m)</strong>
+      <span><i style="background:#f7fcf5"></i> 0 %</span>
+      <span><i style="background:#74c476"></i> 30 %</span>
+      <span><i style="background:#00441b"></i> 75 %</span>
+    </div>
 
     <section class="chapter" id="heat-chapter">
       <h2>Wie heiß wird es — und für wen?</h2>
       <p id="heat-text">Lade Daten …</p>
       <div id="heat-chart" class="bars" aria-label="Nächtliche Lufttemperatur nach Sozialstatus"></div>
       <p class="method-note" id="heat-note"></p>
+    </section>
+
+    <section class="chapter" id="canopy-chapter">
+      <h2>Wer hat Baumkronen über sich?</h2>
+      <p id="canopy-text">Lade Daten …</p>
+      <div id="canopy-chart" class="bars bars-green" aria-label="Baumkronenanteil nach Sozialstatus"></div>
+      <p class="method-note" id="canopy-note"></p>
     </section>
   </main>
 

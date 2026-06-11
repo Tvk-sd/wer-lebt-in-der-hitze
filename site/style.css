@@ -137,6 +137,8 @@ main {
 
 .bar-value { text-align: right; font-variant-numeric: tabular-nums; }
 
+.bars-green .bar { background: linear-gradient(90deg, #74c476, #00441b); }
+
 footer p {
   font-size: 0.8rem;
   color: #6b6b6b;

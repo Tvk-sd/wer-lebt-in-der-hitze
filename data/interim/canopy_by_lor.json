@@ -1,0 +1,2175 @@
+{
+ "source": "Geoportal Berlin / Vegetationshöhen 2020 (Umweltatlas), 1×1m raster, DL-DE-Zero-2.0",
+ "method": "canopy = vegetation height >= 4.0 m (raster in dm); share of total LOR area (incl. water/sealed); zonal count on EPSG:25833 grid",
+ "canopy_min_height_m": 4.0,
+ "by_lor": {
+  "01100101": {
+   "canopy_pct": 17.5,
+   "veg_pct": 28.7
+  },
+  "01100102": {
+   "canopy_pct": 45.6,
+   "veg_pct": 65.7
+  },
+  "01100103": {
+   "canopy_pct": 18.9,
+   "veg_pct": 32.8
+  },
+  "01100104": {
+   "canopy_pct": 15.9,
+   "veg_pct": 26.7
+  },
+  "01100205": {
+   "canopy_pct": 7.1,
+   "veg_pct": 17.0
+  },
+  "01100206": {
+   "canopy_pct": 5.2,
+   "veg_pct": 9.2
+  },
+  "01100207": {
+   "canopy_pct": 8.5,
+   "veg_pct": 13.8
+  },
+  "01100308": {
+   "canopy_pct": 9.5,
+   "veg_pct": 22.1
+  },
+  "01100309": {
+   "canopy_pct": 12.0,
+   "veg_pct": 20.7
+  },
+  "01100310": {
+   "canopy_pct": 8.8,
+   "veg_pct": 14.5
+  },
+  "01100311": {
+   "canopy_pct": 22.9,
+   "veg_pct": 36.4
+  },
+  "01100312": {
+   "canopy_pct": 21.4,
+   "veg_pct": 37.2
+  },
+  "01100313": {
+   "canopy_pct": 17.8,
+   "veg_pct": 32.9
+  },
+  "01100414": {
+   "canopy_pct": 17.6,
+   "veg_pct": 45.8
+  },
+  "01100415": {
+   "canopy_pct": 17.2,
+   "veg_pct": 34.8
+  },
+  "01100416": {
+   "canopy_pct": 21.3,
+   "veg_pct": 33.8
+  },
+  "01200517": {
+   "canopy_pct": 6.7,
+   "veg_pct": 14.7
+  },
+  "01200518": {
+   "canopy_pct": 17.5,
+   "veg_pct": 27.0
+  },
+  "01200519": {
+   "canopy_pct": 20.1,
+   "veg_pct": 31.4
+  },
+  "01200520": {
+   "canopy_pct": 24.0,
+   "veg_pct": 35.3
+  },
+  "01200521": {
+   "canopy_pct": 19.9,
+   "veg_pct": 30.3
+  },
+  "01200522": {
+   "canopy_pct": 21.2,
+   "veg_pct": 32.5
+  },
+  "01200623": {
+   "canopy_pct": 28.8,
+   "veg_pct": 46.1
+  },
+  "01200624": {
+   "canopy_pct": 5.1,
+   "veg_pct": 20.9
+  },
+  "01200625": {
+   "canopy_pct": 22.3,
+   "veg_pct": 36.5
+  },
+  "01200626": {
+   "canopy_pct": 20.2,
+   "veg_pct": 34.4
+  },
+  "01200627": {
+   "canopy_pct": 35.0,
+   "veg_pct": 56.5
+  },
+  "01200628": {
+   "canopy_pct": 15.5,
+   "veg_pct": 30.8
+  },
+  "01200629": {
+   "canopy_pct": 29.8,
+   "veg_pct": 51.1
+  },
+  "01300730": {
+   "canopy_pct": 22.2,
+   "veg_pct": 38.6
+  },
+  "01300731": {
+   "canopy_pct": 21.6,
+   "veg_pct": 46.3
+  },
+  "01300732": {
+   "canopy_pct": 35.2,
+   "veg_pct": 57.8
+  },
+  "01300733": {
+   "canopy_pct": 16.8,
+   "veg_pct": 35.4
+  },
+  "01300834": {
+   "canopy_pct": 21.7,
+   "veg_pct": 39.4
+  },
+  "01300835": {
+   "canopy_pct": 32.4,
+   "veg_pct": 50.2
+  },
+  "01300836": {
+   "canopy_pct": 18.2,
+   "veg_pct": 34.3
+  },
+  "01400937": {
+   "canopy_pct": 40.5,
+   "veg_pct": 70.9
+  },
+  "01400938": {
+   "canopy_pct": 31.2,
+   "veg_pct": 53.5
+  },
+  "01400939": {
+   "canopy_pct": 25.8,
+   "veg_pct": 42.9
+  },
+  "01400940": {
+   "canopy_pct": 37.7,
+   "veg_pct": 67.9
+  },
+  "01400941": {
+   "canopy_pct": 23.3,
+   "veg_pct": 61.4
+  },
+  "01400942": {
+   "canopy_pct": 17.4,
+   "veg_pct": 31.6
+  },
+  "01401043": {
+   "canopy_pct": 22.7,
+   "veg_pct": 34.3
+  },
+  "01401044": {
+   "canopy_pct": 23.2,
+   "veg_pct": 36.4
+  },
+  "01401045": {
+   "canopy_pct": 22.8,
+   "veg_pct": 36.5
+  },
+  "01401046": {
+   "canopy_pct": 19.9,
+   "veg_pct": 34.5
+  },
+  "01401047": {
+   "canopy_pct": 20.1,
+   "veg_pct": 31.9
+  },
+  "01401048": {
+   "canopy_pct": 18.7,
+   "veg_pct": 31.0
+  },
+  "01401049": {
+   "canopy_pct": 24.5,
+   "veg_pct": 45.0
+  },
+  "02100101": {
+   "canopy_pct": 22.0,
+   "veg_pct": 35.7
+  },
+  "02100102": {
+   "canopy_pct": 16.9,
+   "veg_pct": 29.1
+  },
+  "02100103": {
+   "canopy_pct": 19.4,
+   "veg_pct": 34.9
+  },
+  "02100104": {
+   "canopy_pct": 24.3,
+   "veg_pct": 38.2
+  },
+  "02100105": {
+   "canopy_pct": 32.1,
+   "veg_pct": 44.8
+  },
+  "02100106": {
+   "canopy_pct": 28.6,
+   "veg_pct": 43.5
+  },
+  "02200207": {
+   "canopy_pct": 20.4,
+   "veg_pct": 46.0
+  },
+  "02200208": {
+   "canopy_pct": 19.6,
+   "veg_pct": 27.6
+  },
+  "02200209": {
+   "canopy_pct": 23.4,
+   "veg_pct": 37.4
+  },
+  "02200210": {
+   "canopy_pct": 26.4,
+   "veg_pct": 38.5
+  },
+  "02200211": {
+   "canopy_pct": 22.9,
+   "veg_pct": 40.2
+  },
+  "02200212": {
+   "canopy_pct": 19.1,
+   "veg_pct": 30.1
+  },
+  "02200213": {
+   "canopy_pct": 23.7,
+   "veg_pct": 32.0
+  },
+  "02300314": {
+   "canopy_pct": 22.8,
+   "veg_pct": 34.5
+  },
+  "02300315": {
+   "canopy_pct": 20.8,
+   "veg_pct": 28.8
+  },
+  "02300316": {
+   "canopy_pct": 20.5,
+   "veg_pct": 29.2
+  },
+  "02300417": {
+   "canopy_pct": 18.8,
+   "veg_pct": 26.9
+  },
+  "02300418": {
+   "canopy_pct": 27.9,
+   "veg_pct": 47.3
+  },
+  "02300419": {
+   "canopy_pct": 21.3,
+   "veg_pct": 27.8
+  },
+  "02400520": {
+   "canopy_pct": 41.4,
+   "veg_pct": 67.0
+  },
+  "02400521": {
+   "canopy_pct": 28.4,
+   "veg_pct": 49.1
+  },
+  "02400522": {
+   "canopy_pct": 19.2,
+   "veg_pct": 32.9
+  },
+  "02400623": {
+   "canopy_pct": 23.2,
+   "veg_pct": 37.7
+  },
+  "02400624": {
+   "canopy_pct": 24.3,
+   "veg_pct": 39.4
+  },
+  "02400625": {
+   "canopy_pct": 4.2,
+   "veg_pct": 12.4
+  },
+  "02500726": {
+   "canopy_pct": 13.8,
+   "veg_pct": 22.3
+  },
+  "02500727": {
+   "canopy_pct": 20.4,
+   "veg_pct": 36.6
+  },
+  "02500728": {
+   "canopy_pct": 10.1,
+   "veg_pct": 17.2
+  },
+  "02500729": {
+   "canopy_pct": 13.9,
+   "veg_pct": 31.0
+  },
+  "02500830": {
+   "canopy_pct": 20.7,
+   "veg_pct": 32.3
+  },
+  "02500831": {
+   "canopy_pct": 23.6,
+   "veg_pct": 34.0
+  },
+  "02500832": {
+   "canopy_pct": 14.4,
+   "veg_pct": 29.5
+  },
+  "02500833": {
+   "canopy_pct": 19.4,
+   "veg_pct": 32.9
+  },
+  "02500834": {
+   "canopy_pct": 18.5,
+   "veg_pct": 41.5
+  },
+  "02500835": {
+   "canopy_pct": 7.9,
+   "veg_pct": 20.6
+  },
+  "02500836": {
+   "canopy_pct": 9.8,
+   "veg_pct": 22.3
+  },
+  "03100101": {
+   "canopy_pct": 34.2,
+   "veg_pct": 89.1
+  },
+  "03100102": {
+   "canopy_pct": 39.5,
+   "veg_pct": 74.3
+  },
+  "03100103": {
+   "canopy_pct": 30.6,
+   "veg_pct": 60.7
+  },
+  "03200204": {
+   "canopy_pct": 26.9,
+   "veg_pct": 90.3
+  },
+  "03200205": {
+   "canopy_pct": 18.0,
+   "veg_pct": 60.0
+  },
+  "03200206": {
+   "canopy_pct": 23.4,
+   "veg_pct": 51.5
+  },
+  "03200207": {
+   "canopy_pct": 20.9,
+   "veg_pct": 52.2
+  },
+  "03200308": {
+   "canopy_pct": 14.4,
+   "veg_pct": 49.4
+  },
+  "03200309": {
+   "canopy_pct": 15.9,
+   "veg_pct": 61.9
+  },
+  "03200310": {
+   "canopy_pct": 10.4,
+   "veg_pct": 63.2
+  },
+  "03300411": {
+   "canopy_pct": 13.3,
+   "veg_pct": 51.6
+  },
+  "03300412": {
+   "canopy_pct": 16.7,
+   "veg_pct": 67.8
+  },
+  "03300413": {
+   "canopy_pct": 13.4,
+   "veg_pct": 70.3
+  },
+  "03300514": {
+   "canopy_pct": 17.8,
+   "veg_pct": 65.5
+  },
+  "03300515": {
+   "canopy_pct": 11.2,
+   "veg_pct": 89.4
+  },
+  "03300516": {
+   "canopy_pct": 15.1,
+   "veg_pct": 59.7
+  },
+  "03300517": {
+   "canopy_pct": 14.0,
+   "veg_pct": 87.8
+  },
+  "03400618": {
+   "canopy_pct": 19.3,
+   "veg_pct": 64.3
+  },
+  "03400619": {
+   "canopy_pct": 18.1,
+   "veg_pct": 49.7
+  },
+  "03400620": {
+   "canopy_pct": 43.1,
+   "veg_pct": 73.4
+  },
+  "03400721": {
+   "canopy_pct": 22.5,
+   "veg_pct": 46.6
+  },
+  "03400722": {
+   "canopy_pct": 36.1,
+   "veg_pct": 58.0
+  },
+  "03400723": {
+   "canopy_pct": 21.9,
+   "veg_pct": 37.8
+  },
+  "03400724": {
+   "canopy_pct": 23.3,
+   "veg_pct": 48.9
+  },
+  "03400725": {
+   "canopy_pct": 31.1,
+   "veg_pct": 56.6
+  },
+  "03400826": {
+   "canopy_pct": 26.2,
+   "veg_pct": 49.1
+  },
+  "03400827": {
+   "canopy_pct": 24.2,
+   "veg_pct": 42.9
+  },
+  "03400828": {
+   "canopy_pct": 21.7,
+   "veg_pct": 45.2
+  },
+  "03400829": {
+   "canopy_pct": 18.7,
+   "veg_pct": 43.1
+  },
+  "03400830": {
+   "canopy_pct": 24.9,
+   "veg_pct": 51.3
+  },
+  "03400831": {
+   "canopy_pct": 11.8,
+   "veg_pct": 66.8
+  },
+  "03500932": {
+   "canopy_pct": 27.8,
+   "veg_pct": 60.7
+  },
+  "03500933": {
+   "canopy_pct": 29.5,
+   "veg_pct": 54.3
+  },
+  "03500934": {
+   "canopy_pct": 17.8,
+   "veg_pct": 31.3
+  },
+  "03500935": {
+   "canopy_pct": 17.3,
+   "veg_pct": 28.3
+  },
+  "03500936": {
+   "canopy_pct": 43.2,
+   "veg_pct": 61.5
+  },
+  "03501037": {
+   "canopy_pct": 17.5,
+   "veg_pct": 40.8
+  },
+  "03501038": {
+   "canopy_pct": 38.1,
+   "veg_pct": 70.4
+  },
+  "03601139": {
+   "canopy_pct": 19.5,
+   "veg_pct": 59.9
+  },
+  "03601140": {
+   "canopy_pct": 10.2,
+   "veg_pct": 23.8
+  },
+  "03601141": {
+   "canopy_pct": 19.4,
+   "veg_pct": 29.2
+  },
+  "03601142": {
+   "canopy_pct": 14.3,
+   "veg_pct": 39.5
+  },
+  "03601243": {
+   "canopy_pct": 17.4,
+   "veg_pct": 27.2
+  },
+  "03601244": {
+   "canopy_pct": 22.1,
+   "veg_pct": 35.5
+  },
+  "03601245": {
+   "canopy_pct": 19.8,
+   "veg_pct": 38.4
+  },
+  "03601346": {
+   "canopy_pct": 12.6,
+   "veg_pct": 18.7
+  },
+  "03601347": {
+   "canopy_pct": 16.9,
+   "veg_pct": 26.2
+  },
+  "03601348": {
+   "canopy_pct": 14.5,
+   "veg_pct": 19.0
+  },
+  "03601449": {
+   "canopy_pct": 29.7,
+   "veg_pct": 56.8
+  },
+  "03601450": {
+   "canopy_pct": 30.3,
+   "veg_pct": 61.5
+  },
+  "03601451": {
+   "canopy_pct": 26.1,
+   "veg_pct": 42.9
+  },
+  "03601452": {
+   "canopy_pct": 13.8,
+   "veg_pct": 38.6
+  },
+  "03601453": {
+   "canopy_pct": 5.3,
+   "veg_pct": 33.6
+  },
+  "03701554": {
+   "canopy_pct": 16.3,
+   "veg_pct": 26.6
+  },
+  "03701555": {
+   "canopy_pct": 19.4,
+   "veg_pct": 29.2
+  },
+  "03701556": {
+   "canopy_pct": 21.5,
+   "veg_pct": 34.1
+  },
+  "03701657": {
+   "canopy_pct": 29.5,
+   "veg_pct": 55.2
+  },
+  "03701658": {
+   "canopy_pct": 14.5,
+   "veg_pct": 23.2
+  },
+  "03701659": {
+   "canopy_pct": 27.8,
+   "veg_pct": 42.9
+  },
+  "03701660": {
+   "canopy_pct": 16.1,
+   "veg_pct": 30.5
+  },
+  "04100101": {
+   "canopy_pct": 36.0,
+   "veg_pct": 66.5
+  },
+  "04100102": {
+   "canopy_pct": 31.8,
+   "veg_pct": 58.3
+  },
+  "04200203": {
+   "canopy_pct": 45.5,
+   "veg_pct": 76.6
+  },
+  "04200204": {
+   "canopy_pct": 55.2,
+   "veg_pct": 76.8
+  },
+  "04200205": {
+   "canopy_pct": 44.0,
+   "veg_pct": 74.5
+  },
+  "04200206": {
+   "canopy_pct": 49.1,
+   "veg_pct": 76.6
+  },
+  "04200207": {
+   "canopy_pct": 70.1,
+   "veg_pct": 87.7
+  },
+  "04200308": {
+   "canopy_pct": 23.7,
+   "veg_pct": 70.3
+  },
+  "04200309": {
+   "canopy_pct": 29.3,
+   "veg_pct": 61.1
+  },
+  "04200310": {
+   "canopy_pct": 27.5,
+   "veg_pct": 51.2
+  },
+  "04200311": {
+   "canopy_pct": 11.7,
+   "veg_pct": 25.4
+  },
+  "04300412": {
+   "canopy_pct": 30.2,
+   "veg_pct": 60.1
+  },
+  "04300413": {
+   "canopy_pct": 19.8,
+   "veg_pct": 34.1
+  },
+  "04300414": {
+   "canopy_pct": 17.1,
+   "veg_pct": 27.9
+  },
+  "04300415": {
+   "canopy_pct": 23.5,
+   "veg_pct": 47.2
+  },
+  "04300416": {
+   "canopy_pct": 17.5,
+   "veg_pct": 27.2
+  },
+  "04300517": {
+   "canopy_pct": 19.0,
+   "veg_pct": 37.2
+  },
+  "04300518": {
+   "canopy_pct": 11.4,
+   "veg_pct": 35.2
+  },
+  "04300619": {
+   "canopy_pct": 21.8,
+   "veg_pct": 37.6
+  },
+  "04300620": {
+   "canopy_pct": 11.0,
+   "veg_pct": 20.2
+  },
+  "04300621": {
+   "canopy_pct": 16.2,
+   "veg_pct": 25.6
+  },
+  "04300622": {
+   "canopy_pct": 16.2,
+   "veg_pct": 26.0
+  },
+  "04300623": {
+   "canopy_pct": 15.7,
+   "veg_pct": 25.5
+  },
+  "04300624": {
+   "canopy_pct": 15.9,
+   "veg_pct": 24.6
+  },
+  "04400725": {
+   "canopy_pct": 13.2,
+   "veg_pct": 52.6
+  },
+  "04400726": {
+   "canopy_pct": 34.4,
+   "veg_pct": 61.9
+  },
+  "04400727": {
+   "canopy_pct": 27.5,
+   "veg_pct": 53.5
+  },
+  "04400728": {
+   "canopy_pct": 41.1,
+   "veg_pct": 68.1
+  },
+  "04400729": {
+   "canopy_pct": 70.2,
+   "veg_pct": 84.5
+  },
+  "04400830": {
+   "canopy_pct": 21.8,
+   "veg_pct": 51.0
+  },
+  "04400831": {
+   "canopy_pct": 47.3,
+   "veg_pct": 73.0
+  },
+  "04400832": {
+   "canopy_pct": 23.7,
+   "veg_pct": 49.2
+  },
+  "04400833": {
+   "canopy_pct": 21.7,
+   "veg_pct": 41.3
+  },
+  "04400834": {
+   "canopy_pct": 27.9,
+   "veg_pct": 56.6
+  },
+  "04400835": {
+   "canopy_pct": 29.1,
+   "veg_pct": 49.1
+  },
+  "04500936": {
+   "canopy_pct": 19.8,
+   "veg_pct": 29.7
+  },
+  "04500937": {
+   "canopy_pct": 24.1,
+   "veg_pct": 42.3
+  },
+  "04500938": {
+   "canopy_pct": 18.0,
+   "veg_pct": 29.9
+  },
+  "04500939": {
+   "canopy_pct": 17.8,
+   "veg_pct": 31.8
+  },
+  "04501040": {
+   "canopy_pct": 20.9,
+   "veg_pct": 30.3
+  },
+  "04501041": {
+   "canopy_pct": 15.3,
+   "veg_pct": 21.1
+  },
+  "04501042": {
+   "canopy_pct": 10.5,
+   "veg_pct": 14.4
+  },
+  "04501043": {
+   "canopy_pct": 23.5,
+   "veg_pct": 37.4
+  },
+  "04501044": {
+   "canopy_pct": 22.2,
+   "veg_pct": 32.7
+  },
+  "04501045": {
+   "canopy_pct": 25.9,
+   "veg_pct": 35.1
+  },
+  "04501146": {
+   "canopy_pct": 24.8,
+   "veg_pct": 50.8
+  },
+  "04501147": {
+   "canopy_pct": 18.5,
+   "veg_pct": 27.2
+  },
+  "04501148": {
+   "canopy_pct": 20.3,
+   "veg_pct": 38.3
+  },
+  "04501149": {
+   "canopy_pct": 20.2,
+   "veg_pct": 32.9
+  },
+  "04501150": {
+   "canopy_pct": 29.6,
+   "veg_pct": 46.4
+  },
+  "04501151": {
+   "canopy_pct": 20.7,
+   "veg_pct": 33.9
+  },
+  "04501152": {
+   "canopy_pct": 24.5,
+   "veg_pct": 36.5
+  },
+  "04501153": {
+   "canopy_pct": 25.4,
+   "veg_pct": 41.3
+  },
+  "05100101": {
+   "canopy_pct": 67.8,
+   "veg_pct": 90.8
+  },
+  "05100102": {
+   "canopy_pct": 28.8,
+   "veg_pct": 60.7
+  },
+  "05100103": {
+   "canopy_pct": 13.5,
+   "veg_pct": 35.9
+  },
+  "05100104": {
+   "canopy_pct": 14.0,
+   "veg_pct": 46.4
+  },
+  "05100105": {
+   "canopy_pct": 35.1,
+   "veg_pct": 73.4
+  },
+  "05100206": {
+   "canopy_pct": 54.6,
+   "veg_pct": 82.5
+  },
+  "05100207": {
+   "canopy_pct": 20.9,
+   "veg_pct": 67.6
+  },
+  "05100208": {
+   "canopy_pct": 25.3,
+   "veg_pct": 63.8
+  },
+  "05100209": {
+   "canopy_pct": 27.7,
+   "veg_pct": 59.4
+  },
+  "05100210": {
+   "canopy_pct": 22.6,
+   "veg_pct": 58.3
+  },
+  "05100211": {
+   "canopy_pct": 15.7,
+   "veg_pct": 62.0
+  },
+  "05100312": {
+   "canopy_pct": 23.2,
+   "veg_pct": 54.2
+  },
+  "05100313": {
+   "canopy_pct": 11.2,
+   "veg_pct": 25.0
+  },
+  "05100314": {
+   "canopy_pct": 21.6,
+   "veg_pct": 43.4
+  },
+  "05100315": {
+   "canopy_pct": 23.1,
+   "veg_pct": 43.4
+  },
+  "05100316": {
+   "canopy_pct": 24.4,
+   "veg_pct": 53.3
+  },
+  "05100317": {
+   "canopy_pct": 13.9,
+   "veg_pct": 35.4
+  },
+  "05200418": {
+   "canopy_pct": 15.5,
+   "veg_pct": 66.9
+  },
+  "05200419": {
+   "canopy_pct": 15.5,
+   "veg_pct": 64.8
+  },
+  "05200420": {
+   "canopy_pct": 12.7,
+   "veg_pct": 53.6
+  },
+  "05200421": {
+   "canopy_pct": 16.5,
+   "veg_pct": 61.5
+  },
+  "05200422": {
+   "canopy_pct": 21.3,
+   "veg_pct": 68.0
+  },
+  "05200423": {
+   "canopy_pct": 26.7,
+   "veg_pct": 67.0
+  },
+  "05200524": {
+   "canopy_pct": 43.1,
+   "veg_pct": 82.1
+  },
+  "05200525": {
+   "canopy_pct": 32.1,
+   "veg_pct": 85.5
+  },
+  "05200526": {
+   "canopy_pct": 34.6,
+   "veg_pct": 67.1
+  },
+  "05200527": {
+   "canopy_pct": 22.5,
+   "veg_pct": 57.8
+  },
+  "05200528": {
+   "canopy_pct": 21.5,
+   "veg_pct": 77.7
+  },
+  "05200629": {
+   "canopy_pct": 14.7,
+   "veg_pct": 40.8
+  },
+  "05200630": {
+   "canopy_pct": 19.3,
+   "veg_pct": 45.6
+  },
+  "05200631": {
+   "canopy_pct": 24.6,
+   "veg_pct": 53.2
+  },
+  "05200632": {
+   "canopy_pct": 34.1,
+   "veg_pct": 70.0
+  },
+  "05200633": {
+   "canopy_pct": 27.7,
+   "veg_pct": 59.0
+  },
+  "05200634": {
+   "canopy_pct": 27.4,
+   "veg_pct": 51.3
+  },
+  "05300735": {
+   "canopy_pct": 18.4,
+   "veg_pct": 50.9
+  },
+  "05300736": {
+   "canopy_pct": 18.1,
+   "veg_pct": 38.6
+  },
+  "05300737": {
+   "canopy_pct": 23.9,
+   "veg_pct": 51.4
+  },
+  "05300838": {
+   "canopy_pct": 19.0,
+   "veg_pct": 32.2
+  },
+  "05300839": {
+   "canopy_pct": 45.9,
+   "veg_pct": 76.5
+  },
+  "05300840": {
+   "canopy_pct": 21.2,
+   "veg_pct": 41.7
+  },
+  "05300841": {
+   "canopy_pct": 24.3,
+   "veg_pct": 38.1
+  },
+  "05400942": {
+   "canopy_pct": 40.1,
+   "veg_pct": 83.7
+  },
+  "05400943": {
+   "canopy_pct": 27.7,
+   "veg_pct": 72.2
+  },
+  "05400944": {
+   "canopy_pct": 13.4,
+   "veg_pct": 39.9
+  },
+  "05400945": {
+   "canopy_pct": 31.7,
+   "veg_pct": 68.5
+  },
+  "06100101": {
+   "canopy_pct": 33.9,
+   "veg_pct": 58.6
+  },
+  "06100102": {
+   "canopy_pct": 19.8,
+   "veg_pct": 31.4
+  },
+  "06100103": {
+   "canopy_pct": 18.8,
+   "veg_pct": 29.6
+  },
+  "06100204": {
+   "canopy_pct": 40.8,
+   "veg_pct": 69.1
+  },
+  "06100205": {
+   "canopy_pct": 29.7,
+   "veg_pct": 52.0
+  },
+  "06100206": {
+   "canopy_pct": 36.4,
+   "veg_pct": 57.4
+  },
+  "06100207": {
+   "canopy_pct": 30.4,
+   "veg_pct": 51.5
+  },
+  "06100208": {
+   "canopy_pct": 21.3,
+   "veg_pct": 36.3
+  },
+  "06100209": {
+   "canopy_pct": 24.5,
+   "veg_pct": 38.4
+  },
+  "06100210": {
+   "canopy_pct": 27.2,
+   "veg_pct": 43.9
+  },
+  "06200311": {
+   "canopy_pct": 28.5,
+   "veg_pct": 54.6
+  },
+  "06200312": {
+   "canopy_pct": 32.6,
+   "veg_pct": 56.5
+  },
+  "06200313": {
+   "canopy_pct": 27.9,
+   "veg_pct": 52.7
+  },
+  "06200314": {
+   "canopy_pct": 28.1,
+   "veg_pct": 51.7
+  },
+  "06200315": {
+   "canopy_pct": 25.1,
+   "veg_pct": 58.7
+  },
+  "06200316": {
+   "canopy_pct": 26.3,
+   "veg_pct": 47.8
+  },
+  "06200317": {
+   "canopy_pct": 25.1,
+   "veg_pct": 61.6
+  },
+  "06200418": {
+   "canopy_pct": 40.1,
+   "veg_pct": 93.9
+  },
+  "06200419": {
+   "canopy_pct": 33.5,
+   "veg_pct": 57.5
+  },
+  "06200420": {
+   "canopy_pct": 27.1,
+   "veg_pct": 60.5
+  },
+  "06200421": {
+   "canopy_pct": 29.4,
+   "veg_pct": 54.3
+  },
+  "06200422": {
+   "canopy_pct": 26.6,
+   "veg_pct": 58.1
+  },
+  "06200423": {
+   "canopy_pct": 23.8,
+   "veg_pct": 62.7
+  },
+  "06300524": {
+   "canopy_pct": 28.5,
+   "veg_pct": 65.7
+  },
+  "06300525": {
+   "canopy_pct": 26.1,
+   "veg_pct": 68.7
+  },
+  "06300526": {
+   "canopy_pct": 32.7,
+   "veg_pct": 55.2
+  },
+  "06300527": {
+   "canopy_pct": 26.8,
+   "veg_pct": 55.1
+  },
+  "06300528": {
+   "canopy_pct": 35.0,
+   "veg_pct": 68.3
+  },
+  "06300629": {
+   "canopy_pct": 31.5,
+   "veg_pct": 58.8
+  },
+  "06300630": {
+   "canopy_pct": 34.2,
+   "veg_pct": 56.4
+  },
+  "06300631": {
+   "canopy_pct": 19.2,
+   "veg_pct": 41.5
+  },
+  "06300632": {
+   "canopy_pct": 22.9,
+   "veg_pct": 61.5
+  },
+  "06300633": {
+   "canopy_pct": 29.2,
+   "veg_pct": 53.2
+  },
+  "06300634": {
+   "canopy_pct": 31.6,
+   "veg_pct": 60.9
+  },
+  "06400735": {
+   "canopy_pct": 53.9,
+   "veg_pct": 69.3
+  },
+  "06400736": {
+   "canopy_pct": 62.3,
+   "veg_pct": 83.9
+  },
+  "06400737": {
+   "canopy_pct": 55.9,
+   "veg_pct": 69.6
+  },
+  "06400838": {
+   "canopy_pct": 69.6,
+   "veg_pct": 84.1
+  },
+  "06400839": {
+   "canopy_pct": 38.4,
+   "veg_pct": 70.3
+  },
+  "06400840": {
+   "canopy_pct": 42.8,
+   "veg_pct": 73.2
+  },
+  "06400841": {
+   "canopy_pct": 27.1,
+   "veg_pct": 60.6
+  },
+  "06400842": {
+   "canopy_pct": 71.3,
+   "veg_pct": 86.6
+  },
+  "06400843": {
+   "canopy_pct": 28.2,
+   "veg_pct": 59.4
+  },
+  "06400844": {
+   "canopy_pct": 34.4,
+   "veg_pct": 69.9
+  },
+  "07100101": {
+   "canopy_pct": 18.0,
+   "veg_pct": 26.4
+  },
+  "07100102": {
+   "canopy_pct": 19.9,
+   "veg_pct": 28.0
+  },
+  "07100103": {
+   "canopy_pct": 19.3,
+   "veg_pct": 28.9
+  },
+  "07100204": {
+   "canopy_pct": 24.8,
+   "veg_pct": 36.9
+  },
+  "07100205": {
+   "canopy_pct": 23.9,
+   "veg_pct": 34.7
+  },
+  "07100206": {
+   "canopy_pct": 27.2,
+   "veg_pct": 44.2
+  },
+  "07200307": {
+   "canopy_pct": 20.8,
+   "veg_pct": 33.8
+  },
+  "07200308": {
+   "canopy_pct": 20.9,
+   "veg_pct": 32.8
+  },
+  "07200409": {
+   "canopy_pct": 19.5,
+   "veg_pct": 31.4
+  },
+  "07200410": {
+   "canopy_pct": 12.8,
+   "veg_pct": 21.4
+  },
+  "07200411": {
+   "canopy_pct": 18.1,
+   "veg_pct": 25.6
+  },
+  "07200412": {
+   "canopy_pct": 5.3,
+   "veg_pct": 13.0
+  },
+  "07200413": {
+   "canopy_pct": 16.1,
+   "veg_pct": 33.3
+  },
+  "07200414": {
+   "canopy_pct": 14.0,
+   "veg_pct": 31.8
+  },
+  "07300515": {
+   "canopy_pct": 25.9,
+   "veg_pct": 39.2
+  },
+  "07300516": {
+   "canopy_pct": 22.6,
+   "veg_pct": 32.4
+  },
+  "07300517": {
+   "canopy_pct": 19.7,
+   "veg_pct": 31.3
+  },
+  "07300618": {
+   "canopy_pct": 23.3,
+   "veg_pct": 39.6
+  },
+  "07300619": {
+   "canopy_pct": 19.7,
+   "veg_pct": 57.5
+  },
+  "07400720": {
+   "canopy_pct": 17.7,
+   "veg_pct": 44.1
+  },
+  "07400721": {
+   "canopy_pct": 7.0,
+   "veg_pct": 66.3
+  },
+  "07400822": {
+   "canopy_pct": 26.7,
+   "veg_pct": 47.0
+  },
+  "07400823": {
+   "canopy_pct": 19.8,
+   "veg_pct": 41.4
+  },
+  "07400824": {
+   "canopy_pct": 24.1,
+   "veg_pct": 40.2
+  },
+  "07400825": {
+   "canopy_pct": 19.7,
+   "veg_pct": 30.9
+  },
+  "07400826": {
+   "canopy_pct": 26.6,
+   "veg_pct": 57.2
+  },
+  "07400927": {
+   "canopy_pct": 17.5,
+   "veg_pct": 36.3
+  },
+  "07400928": {
+   "canopy_pct": 21.0,
+   "veg_pct": 40.8
+  },
+  "07501029": {
+   "canopy_pct": 16.5,
+   "veg_pct": 40.8
+  },
+  "07501030": {
+   "canopy_pct": 22.6,
+   "veg_pct": 40.5
+  },
+  "07501031": {
+   "canopy_pct": 28.0,
+   "veg_pct": 62.2
+  },
+  "07501032": {
+   "canopy_pct": 25.0,
+   "veg_pct": 66.6
+  },
+  "07501133": {
+   "canopy_pct": 14.8,
+   "veg_pct": 36.7
+  },
+  "07501134": {
+   "canopy_pct": 26.6,
+   "veg_pct": 66.3
+  },
+  "07501135": {
+   "canopy_pct": 21.3,
+   "veg_pct": 59.9
+  },
+  "07601236": {
+   "canopy_pct": 22.9,
+   "veg_pct": 51.9
+  },
+  "07601237": {
+   "canopy_pct": 23.4,
+   "veg_pct": 57.5
+  },
+  "07601238": {
+   "canopy_pct": 11.8,
+   "veg_pct": 33.6
+  },
+  "07601339": {
+   "canopy_pct": 35.2,
+   "veg_pct": 60.9
+  },
+  "07601340": {
+   "canopy_pct": 26.5,
+   "veg_pct": 54.5
+  },
+  "07601341": {
+   "canopy_pct": 18.4,
+   "veg_pct": 62.2
+  },
+  "07601442": {
+   "canopy_pct": 21.8,
+   "veg_pct": 60.8
+  },
+  "07601443": {
+   "canopy_pct": 15.8,
+   "veg_pct": 53.7
+  },
+  "07601544": {
+   "canopy_pct": 21.2,
+   "veg_pct": 51.2
+  },
+  "07601545": {
+   "canopy_pct": 27.5,
+   "veg_pct": 59.1
+  },
+  "07601546": {
+   "canopy_pct": 27.8,
+   "veg_pct": 62.3
+  },
+  "07601547": {
+   "canopy_pct": 31.5,
+   "veg_pct": 67.5
+  },
+  "07601548": {
+   "canopy_pct": 34.6,
+   "veg_pct": 68.3
+  },
+  "08100101": {
+   "canopy_pct": 48.8,
+   "veg_pct": 76.9
+  },
+  "08100102": {
+   "canopy_pct": 29.9,
+   "veg_pct": 54.9
+  },
+  "08100103": {
+   "canopy_pct": 10.8,
+   "veg_pct": 52.1
+  },
+  "08100104": {
+   "canopy_pct": 37.1,
+   "veg_pct": 64.2
+  },
+  "08100105": {
+   "canopy_pct": 32.8,
+   "veg_pct": 53.3
+  },
+  "08100206": {
+   "canopy_pct": 14.9,
+   "veg_pct": 23.2
+  },
+  "08100207": {
+   "canopy_pct": 22.0,
+   "veg_pct": 37.2
+  },
+  "08100208": {
+   "canopy_pct": 28.6,
+   "veg_pct": 46.6
+  },
+  "08100209": {
+   "canopy_pct": 13.1,
+   "veg_pct": 21.0
+  },
+  "08100310": {
+   "canopy_pct": 19.5,
+   "veg_pct": 25.5
+  },
+  "08100311": {
+   "canopy_pct": 20.3,
+   "veg_pct": 28.8
+  },
+  "08100312": {
+   "canopy_pct": 22.6,
+   "veg_pct": 33.9
+  },
+  "08100313": {
+   "canopy_pct": 23.0,
+   "veg_pct": 40.1
+  },
+  "08100314": {
+   "canopy_pct": 13.0,
+   "veg_pct": 17.1
+  },
+  "08100415": {
+   "canopy_pct": 15.9,
+   "veg_pct": 23.9
+  },
+  "08100416": {
+   "canopy_pct": 19.3,
+   "veg_pct": 33.7
+  },
+  "08100417": {
+   "canopy_pct": 20.8,
+   "veg_pct": 30.7
+  },
+  "08100418": {
+   "canopy_pct": 18.4,
+   "veg_pct": 36.1
+  },
+  "08100419": {
+   "canopy_pct": 19.6,
+   "veg_pct": 41.7
+  },
+  "08100520": {
+   "canopy_pct": 15.3,
+   "veg_pct": 44.4
+  },
+  "08100521": {
+   "canopy_pct": 14.3,
+   "veg_pct": 31.0
+  },
+  "08200622": {
+   "canopy_pct": 17.8,
+   "veg_pct": 34.7
+  },
+  "08200623": {
+   "canopy_pct": 21.3,
+   "veg_pct": 42.4
+  },
+  "08200624": {
+   "canopy_pct": 21.7,
+   "veg_pct": 40.3
+  },
+  "08200725": {
+   "canopy_pct": 15.5,
+   "veg_pct": 59.0
+  },
+  "08200726": {
+   "canopy_pct": 31.4,
+   "veg_pct": 60.0
+  },
+  "08200727": {
+   "canopy_pct": 41.9,
+   "veg_pct": 65.8
+  },
+  "08200728": {
+   "canopy_pct": 16.2,
+   "veg_pct": 66.5
+  },
+  "08200729": {
+   "canopy_pct": 29.6,
+   "veg_pct": 77.3
+  },
+  "08200730": {
+   "canopy_pct": 27.5,
+   "veg_pct": 61.4
+  },
+  "08200831": {
+   "canopy_pct": 18.6,
+   "veg_pct": 58.0
+  },
+  "08200832": {
+   "canopy_pct": 18.2,
+   "veg_pct": 56.0
+  },
+  "08200833": {
+   "canopy_pct": 18.9,
+   "veg_pct": 51.8
+  },
+  "08300934": {
+   "canopy_pct": 30.0,
+   "veg_pct": 52.0
+  },
+  "08300935": {
+   "canopy_pct": 35.9,
+   "veg_pct": 59.8
+  },
+  "08301036": {
+   "canopy_pct": 38.7,
+   "veg_pct": 60.2
+  },
+  "08301037": {
+   "canopy_pct": 29.2,
+   "veg_pct": 50.6
+  },
+  "08401138": {
+   "canopy_pct": 20.8,
+   "veg_pct": 41.3
+  },
+  "08401139": {
+   "canopy_pct": 17.4,
+   "veg_pct": 42.5
+  },
+  "08401140": {
+   "canopy_pct": 17.0,
+   "veg_pct": 54.3
+  },
+  "08401241": {
+   "canopy_pct": 16.6,
+   "veg_pct": 51.3
+  },
+  "08401242": {
+   "canopy_pct": 16.0,
+   "veg_pct": 56.5
+  },
+  "08401243": {
+   "canopy_pct": 14.6,
+   "veg_pct": 42.0
+  },
+  "08401244": {
+   "canopy_pct": 17.8,
+   "veg_pct": 63.8
+  },
+  "08401245": {
+   "canopy_pct": 14.1,
+   "veg_pct": 56.7
+  },
+  "08401246": {
+   "canopy_pct": 20.1,
+   "veg_pct": 69.2
+  },
+  "09100101": {
+   "canopy_pct": 34.2,
+   "veg_pct": 59.2
+  },
+  "09100202": {
+   "canopy_pct": 22.1,
+   "veg_pct": 61.9
+  },
+  "09100203": {
+   "canopy_pct": 55.6,
+   "veg_pct": 80.4
+  },
+  "09100304": {
+   "canopy_pct": 31.2,
+   "veg_pct": 61.8
+  },
+  "09100305": {
+   "canopy_pct": 26.9,
+   "veg_pct": 53.6
+  },
+  "09100306": {
+   "canopy_pct": 12.8,
+   "veg_pct": 68.0
+  },
+  "09100407": {
+   "canopy_pct": 48.6,
+   "veg_pct": 77.8
+  },
+  "09100408": {
+   "canopy_pct": 20.3,
+   "veg_pct": 39.4
+  },
+  "09100409": {
+   "canopy_pct": 8.9,
+   "veg_pct": 53.4
+  },
+  "09200510": {
+   "canopy_pct": 19.4,
+   "veg_pct": 44.8
+  },
+  "09200511": {
+   "canopy_pct": 12.7,
+   "veg_pct": 28.9
+  },
+  "09200512": {
+   "canopy_pct": 56.4,
+   "veg_pct": 76.9
+  },
+  "09200613": {
+   "canopy_pct": 19.9,
+   "veg_pct": 40.7
+  },
+  "09200614": {
+   "canopy_pct": 22.1,
+   "veg_pct": 55.0
+  },
+  "09200715": {
+   "canopy_pct": 8.3,
+   "veg_pct": 33.0
+  },
+  "09200716": {
+   "canopy_pct": 18.1,
+   "veg_pct": 44.4
+  },
+  "09200717": {
+   "canopy_pct": 39.5,
+   "veg_pct": 64.5
+  },
+  "09200818": {
+   "canopy_pct": 28.5,
+   "veg_pct": 53.4
+  },
+  "09200819": {
+   "canopy_pct": 19.8,
+   "veg_pct": 44.6
+  },
+  "09300920": {
+   "canopy_pct": 16.0,
+   "veg_pct": 63.5
+  },
+  "09300921": {
+   "canopy_pct": 31.2,
+   "veg_pct": 71.8
+  },
+  "09300922": {
+   "canopy_pct": 15.5,
+   "veg_pct": 45.5
+  },
+  "09300923": {
+   "canopy_pct": 12.8,
+   "veg_pct": 58.8
+  },
+  "09301024": {
+   "canopy_pct": 20.7,
+   "veg_pct": 61.2
+  },
+  "09301025": {
+   "canopy_pct": 11.8,
+   "veg_pct": 62.0
+  },
+  "09301126": {
+   "canopy_pct": 60.6,
+   "veg_pct": 76.2
+  },
+  "09301227": {
+   "canopy_pct": 41.9,
+   "veg_pct": 58.1
+  },
+  "09301228": {
+   "canopy_pct": 55.5,
+   "veg_pct": 67.4
+  },
+  "09401329": {
+   "canopy_pct": 50.8,
+   "veg_pct": 62.4
+  },
+  "09401330": {
+   "canopy_pct": 22.1,
+   "veg_pct": 41.5
+  },
+  "09401431": {
+   "canopy_pct": 20.3,
+   "veg_pct": 47.5
+  },
+  "09401432": {
+   "canopy_pct": 59.8,
+   "veg_pct": 78.4
+  },
+  "09401433": {
+   "canopy_pct": 75.6,
+   "veg_pct": 89.5
+  },
+  "09401534": {
+   "canopy_pct": 15.9,
+   "veg_pct": 28.2
+  },
+  "09401635": {
+   "canopy_pct": 57.9,
+   "veg_pct": 84.9
+  },
+  "09501736": {
+   "canopy_pct": 38.1,
+   "veg_pct": 67.6
+  },
+  "09501737": {
+   "canopy_pct": 61.1,
+   "veg_pct": 73.1
+  },
+  "09501838": {
+   "canopy_pct": 64.4,
+   "veg_pct": 79.2
+  },
+  "09501939": {
+   "canopy_pct": 16.6,
+   "veg_pct": 33.6
+  },
+  "09501940": {
+   "canopy_pct": 26.2,
+   "veg_pct": 52.9
+  },
+  "09501941": {
+   "canopy_pct": 20.9,
+   "veg_pct": 42.9
+  },
+  "09502042": {
+   "canopy_pct": 68.4,
+   "veg_pct": 88.1
+  },
+  "09502043": {
+   "canopy_pct": 55.4,
+   "veg_pct": 78.0
+  },
+  "10100101": {
+   "canopy_pct": 17.7,
+   "veg_pct": 62.7
+  },
+  "10100102": {
+   "canopy_pct": 16.2,
+   "veg_pct": 49.0
+  },
+  "10100103": {
+   "canopy_pct": 21.5,
+   "veg_pct": 63.2
+  },
+  "10100104": {
+   "canopy_pct": 26.6,
+   "veg_pct": 76.6
+  },
+  "10100205": {
+   "canopy_pct": 18.1,
+   "veg_pct": 64.8
+  },
+  "10100206": {
+   "canopy_pct": 22.4,
+   "veg_pct": 54.1
+  },
+  "10100207": {
+   "canopy_pct": 44.0,
+   "veg_pct": 78.9
+  },
+  "10100208": {
+   "canopy_pct": 27.8,
+   "veg_pct": 62.6
+  },
+  "10100209": {
+   "canopy_pct": 20.5,
+   "veg_pct": 57.7
+  },
+  "10100210": {
+   "canopy_pct": 21.4,
+   "veg_pct": 49.7
+  },
+  "10100311": {
+   "canopy_pct": 16.0,
+   "veg_pct": 44.9
+  },
+  "10100312": {
+   "canopy_pct": 26.2,
+   "veg_pct": 56.0
+  },
+  "10100313": {
+   "canopy_pct": 17.6,
+   "veg_pct": 59.6
+  },
+  "10100314": {
+   "canopy_pct": 23.0,
+   "veg_pct": 56.8
+  },
+  "10100315": {
+   "canopy_pct": 22.3,
+   "veg_pct": 57.2
+  },
+  "10100316": {
+   "canopy_pct": 27.2,
+   "veg_pct": 74.8
+  },
+  "10200417": {
+   "canopy_pct": 19.8,
+   "veg_pct": 55.4
+  },
+  "10200418": {
+   "canopy_pct": 18.6,
+   "veg_pct": 60.8
+  },
+  "10200419": {
+   "canopy_pct": 20.8,
+   "veg_pct": 50.7
+  },
+  "10200420": {
+   "canopy_pct": 23.3,
+   "veg_pct": 64.1
+  },
+  "10200421": {
+   "canopy_pct": 3.3,
+   "veg_pct": 10.4
+  },
+  "10200422": {
+   "canopy_pct": 28.7,
+   "veg_pct": 59.8
+  },
+  "10200423": {
+   "canopy_pct": 40.4,
+   "veg_pct": 78.5
+  },
+  "10200524": {
+   "canopy_pct": 19.4,
+   "veg_pct": 60.2
+  },
+  "10200525": {
+   "canopy_pct": 30.9,
+   "veg_pct": 66.6
+  },
+  "10200526": {
+   "canopy_pct": 25.3,
+   "veg_pct": 64.5
+  },
+  "10200627": {
+   "canopy_pct": 18.3,
+   "veg_pct": 67.2
+  },
+  "10200628": {
+   "canopy_pct": 22.2,
+   "veg_pct": 60.2
+  },
+  "10200629": {
+   "canopy_pct": 26.2,
+   "veg_pct": 60.8
+  },
+  "10200630": {
+   "canopy_pct": 20.1,
+   "veg_pct": 54.3
+  },
+  "10300731": {
+   "canopy_pct": 19.7,
+   "veg_pct": 63.6
+  },
+  "10300732": {
+   "canopy_pct": 26.0,
+   "veg_pct": 70.4
+  },
+  "10300733": {
+   "canopy_pct": 27.7,
+   "veg_pct": 64.8
+  },
+  "10300734": {
+   "canopy_pct": 25.8,
+   "veg_pct": 70.6
+  },
+  "10400835": {
+   "canopy_pct": 17.3,
+   "veg_pct": 65.8
+  },
+  "10400836": {
+   "canopy_pct": 18.6,
+   "veg_pct": 61.7
+  },
+  "10400837": {
+   "canopy_pct": 25.3,
+   "veg_pct": 68.6
+  },
+  "10400938": {
+   "canopy_pct": 14.3,
+   "veg_pct": 68.8
+  },
+  "10400939": {
+   "canopy_pct": 16.9,
+   "veg_pct": 56.6
+  },
+  "10400940": {
+   "canopy_pct": 15.5,
+   "veg_pct": 64.2
+  },
+  "10400941": {
+   "canopy_pct": 18.0,
+   "veg_pct": 60.6
+  },
+  "11100101": {
+   "canopy_pct": 18.2,
+   "veg_pct": 82.6
+  },
+  "11100102": {
+   "canopy_pct": 10.7,
+   "veg_pct": 83.0
+  },
+  "11100203": {
+   "canopy_pct": 29.1,
+   "veg_pct": 67.5
+  },
+  "11100204": {
+   "canopy_pct": 24.6,
+   "veg_pct": 62.6
+  },
+  "11100205": {
+   "canopy_pct": 21.1,
+   "veg_pct": 57.0
+  },
+  "11100206": {
+   "canopy_pct": 20.2,
+   "veg_pct": 54.5
+  },
+  "11100307": {
+   "canopy_pct": 30.8,
+   "veg_pct": 57.6
+  },
+  "11100308": {
+   "canopy_pct": 25.9,
+   "veg_pct": 66.1
+  },
+  "11100309": {
+   "canopy_pct": 26.2,
+   "veg_pct": 57.5
+  },
+  "11200410": {
+   "canopy_pct": 13.3,
+   "veg_pct": 58.1
+  },
+  "11200411": {
+   "canopy_pct": 12.4,
+   "veg_pct": 34.8
+  },
+  "11200512": {
+   "canopy_pct": 25.2,
+   "veg_pct": 58.4
+  },
+  "11200513": {
+   "canopy_pct": 17.8,
+   "veg_pct": 41.7
+  },
+  "11200514": {
+   "canopy_pct": 25.2,
+   "veg_pct": 55.0
+  },
+  "11200515": {
+   "canopy_pct": 11.4,
+   "veg_pct": 52.7
+  },
+  "11300616": {
+   "canopy_pct": 22.0,
+   "veg_pct": 55.7
+  },
+  "11300617": {
+   "canopy_pct": 28.7,
+   "veg_pct": 52.7
+  },
+  "11300618": {
+   "canopy_pct": 24.9,
+   "veg_pct": 47.3
+  },
+  "11300619": {
+   "canopy_pct": 26.1,
+   "veg_pct": 50.4
+  },
+  "11300620": {
+   "canopy_pct": 24.7,
+   "veg_pct": 47.0
+  },
+  "11300721": {
+   "canopy_pct": 24.4,
+   "veg_pct": 49.5
+  },
+  "11300722": {
+   "canopy_pct": 26.2,
+   "veg_pct": 49.4
+  },
+  "11300723": {
+   "canopy_pct": 10.8,
+   "veg_pct": 33.7
+  },
+  "11300724": {
+   "canopy_pct": 17.7,
+   "veg_pct": 35.7
+  },
+  "11300725": {
+   "canopy_pct": 23.1,
+   "veg_pct": 45.2
+  },
+  "11300826": {
+   "canopy_pct": 17.2,
+   "veg_pct": 41.2
+  },
+  "11400927": {
+   "canopy_pct": 14.2,
+   "veg_pct": 33.3
+  },
+  "11400928": {
+   "canopy_pct": 20.7,
+   "veg_pct": 53.6
+  },
+  "11400929": {
+   "canopy_pct": 24.1,
+   "veg_pct": 44.1
+  },
+  "11400930": {
+   "canopy_pct": 27.3,
+   "veg_pct": 58.5
+  },
+  "11400931": {
+   "canopy_pct": 21.1,
+   "veg_pct": 41.6
+  },
+  "11401032": {
+   "canopy_pct": 20.6,
+   "veg_pct": 40.7
+  },
+  "11401033": {
+   "canopy_pct": 27.2,
+   "veg_pct": 57.2
+  },
+  "11401034": {
+   "canopy_pct": 45.2,
+   "veg_pct": 74.6
+  },
+  "11401135": {
+   "canopy_pct": 35.8,
+   "veg_pct": 62.1
+  },
+  "11401136": {
+   "canopy_pct": 34.1,
+   "veg_pct": 63.0
+  },
+  "11401137": {
+   "canopy_pct": 25.0,
+   "veg_pct": 45.6
+  },
+  "11501238": {
+   "canopy_pct": 9.0,
+   "veg_pct": 29.2
+  },
+  "11501339": {
+   "canopy_pct": 20.5,
+   "veg_pct": 54.1
+  },
+  "11501340": {
+   "canopy_pct": 22.8,
+   "veg_pct": 67.8
+  },
+  "11501341": {
+   "canopy_pct": 23.8,
+   "veg_pct": 58.6
+  },
+  "12100101": {
+   "canopy_pct": 25.3,
+   "veg_pct": 44.0
+  },
+  "12100102": {
+   "canopy_pct": 26.9,
+   "veg_pct": 45.8
+  },
+  "12100103": {
+   "canopy_pct": 32.4,
+   "veg_pct": 50.6
+  },
+  "12100204": {
+   "canopy_pct": 31.8,
+   "veg_pct": 59.3
+  },
+  "12100205": {
+   "canopy_pct": 24.7,
+   "veg_pct": 47.9
+  },
+  "12100206": {
+   "canopy_pct": 27.8,
+   "veg_pct": 59.8
+  },
+  "12200307": {
+   "canopy_pct": 13.7,
+   "veg_pct": 27.7
+  },
+  "12200308": {
+   "canopy_pct": 24.7,
+   "veg_pct": 49.9
+  },
+  "12200309": {
+   "canopy_pct": 19.2,
+   "veg_pct": 38.7
+  },
+  "12200310": {
+   "canopy_pct": 22.0,
+   "veg_pct": 50.7
+  },
+  "12200411": {
+   "canopy_pct": 10.9,
+   "veg_pct": 69.4
+  },
+  "12200412": {
+   "canopy_pct": 59.6,
+   "veg_pct": 73.7
+  },
+  "12200413": {
+   "canopy_pct": 33.7,
+   "veg_pct": 56.9
+  },
+  "12200414": {
+   "canopy_pct": 11.7,
+   "veg_pct": 66.0
+  },
+  "12200515": {
+   "canopy_pct": 29.3,
+   "veg_pct": 47.5
+  },
+  "12400616": {
+   "canopy_pct": 30.6,
+   "veg_pct": 57.2
+  },
+  "12400617": {
+   "canopy_pct": 23.3,
+   "veg_pct": 58.9
+  },
+  "12400618": {
+   "canopy_pct": 60.1,
+   "veg_pct": 82.2
+  },
+  "12400619": {
+   "canopy_pct": 64.0,
+   "veg_pct": 73.9
+  },
+  "12400720": {
+   "canopy_pct": 39.4,
+   "veg_pct": 74.8
+  },
+  "12400721": {
+   "canopy_pct": 62.0,
+   "veg_pct": 85.4
+  },
+  "12400722": {
+   "canopy_pct": 42.0,
+   "veg_pct": 74.7
+  },
+  "12400723": {
+   "canopy_pct": 30.2,
+   "veg_pct": 67.7
+  },
+  "12500824": {
+   "canopy_pct": 31.2,
+   "veg_pct": 65.6
+  },
+  "12500825": {
+   "canopy_pct": 13.7,
+   "veg_pct": 29.1
+  },
+  "12500926": {
+   "canopy_pct": 25.6,
+   "veg_pct": 51.6
+  },
+  "12500927": {
+   "canopy_pct": 29.8,
+   "veg_pct": 61.9
+  },
+  "12500928": {
+   "canopy_pct": 46.2,
+   "veg_pct": 71.0
+  },
+  "12500929": {
+   "canopy_pct": 19.0,
+   "veg_pct": 81.8
+  },
+  "12500930": {
+   "canopy_pct": 32.9,
+   "veg_pct": 56.8
+  },
+  "12601031": {
+   "canopy_pct": 17.5,
+   "veg_pct": 47.6
+  },
+  "12601032": {
+   "canopy_pct": 23.4,
+   "veg_pct": 42.5
+  },
+  "12601133": {
+   "canopy_pct": 26.2,
+   "veg_pct": 49.6
+  },
+  "12601134": {
+   "canopy_pct": 30.0,
+   "veg_pct": 47.2
+  },
+  "12601235": {
+   "canopy_pct": 37.1,
+   "veg_pct": 54.2
+  },
+  "12601236": {
+   "canopy_pct": 15.8,
+   "veg_pct": 46.1
+  }
+ }
+}

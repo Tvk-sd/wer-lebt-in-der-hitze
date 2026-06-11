@@ -11,7 +11,7 @@ from compute_stats import compute_stats
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "site" / "data"
 
 
-def row(plr_id, ew, status, valid=True, pet14h=None, t2m04h=None):
+def row(plr_id, ew, status, valid=True, pet14h=None, t2m04h=None, canopy_pct=None):
     return {
         "plr_id": plr_id,
         "ew": ew,
@@ -19,6 +19,7 @@ def row(plr_id, ew, status, valid=True, pet14h=None, t2m04h=None):
         "mss_valid": valid,
         "pet14h": pet14h,
         "t2m04h": t2m04h,
+        "canopy_pct": canopy_pct,
     }
 
 
@@ -67,7 +68,25 @@ def test_stats_without_heat_columns():
     """Stats must still work on a dataset built before heat_layer.py ran."""
     stats = compute_stats([row("01", 1000, 1), row("02", 1000, 4)])
     assert stats["heat"] is None
+    assert stats["canopy"] is None
     assert "pet14h_mean" not in stats["by_status"][0]
+
+
+def test_canopy_stats_on_fixture():
+    """Hand-computed: gap, 30%-rule population share."""
+    rows = [
+        row("01", 1000, 1, canopy_pct=40.0),  # meets 30% rule
+        row("02", 1000, 4, canopy_pct=20.0),
+        row("03", 3000, 4, canopy_pct=30.0),  # meets 30% rule
+    ]
+    stats = compute_stats(rows)
+    s4 = next(g for g in stats["by_status"] if g["index"] == 4)
+    # (1000*20 + 3000*30) / 4000 = 27.5 ; gap = 40 - 27.5 = 12.5
+    assert s4["canopy_pct_mean"] == 27.5
+    assert stats["canopy"]["canopy_gap_highest_vs_lowest_status"] == 12.5
+    # population in LORs >= 30%: 1000 + 3000 of 5000 = 80%
+    assert stats["canopy"]["pop_in_lor_canopy_30plus"] == 4000
+    assert stats["canopy"]["pop_share_canopy_30plus_pct"] == 80.0
 
 
 def test_golden_numbers_mss_2025():
@@ -86,3 +105,8 @@ def test_golden_numbers_mss_2025():
     assert stats["heat"]["berlin_t2m04h_mean"] == 17.85
     assert stats["heat"]["pet14h_gap_lowest_vs_highest_status"] == 0.67
     assert stats["heat"]["t2m04h_gap_lowest_vs_highest_status"] == 0.31
+    # canopy layer, pinned to Vegetationshöhen 2020, threshold 4m (issue 02)
+    assert stats["canopy"]["berlin_canopy_pct_mean"] == 24.67
+    assert stats["canopy"]["canopy_gap_highest_vs_lowest_status"] == 6.34
+    assert stats["canopy"]["pop_in_lor_canopy_30plus"] == 755_469
+    assert stats["canopy"]["pop_share_canopy_30plus_pct"] == 19.4

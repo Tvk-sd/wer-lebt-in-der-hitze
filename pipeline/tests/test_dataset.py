@@ -104,6 +104,23 @@ def test_dense_center_hotter_than_forest_edge(rows):
     assert center["pet14h"] > edge["pet14h"]
 
 
+def test_canopy_columns_complete_and_bounded(rows):
+    """Issue 02: every LOR carries canopy + vegetation share within 0–100,
+    and canopy (>=4m) can never exceed total vegetation share."""
+    for r in rows:
+        assert r["canopy_pct"] is not None, f"canopy_pct missing for {r['plr_id']}"
+        assert 0 <= r["canopy_pct"] <= 100
+        assert 0 <= r["veg_pct"] <= 100
+        assert r["canopy_pct"] <= r["veg_pct"] + 0.1
+
+
+def test_forest_edge_greener_than_dense_center(rows):
+    """Forest-edge Schmöckwitz/Rauchfangswerder must have far more canopy
+    than dense central Stülerstraße."""
+    by_name = {r["plr_name"]: r for r in rows}
+    assert by_name["Schmöckwitz/Rauchfangswerder"]["canopy_pct"] > 2 * by_name["Stülerstraße"]["canopy_pct"]
+
+
 def test_csv_matches_geojson(rows):
     path = DATA_DIR / "lor_dataset.csv"
     assert path.exists(), "CSV missing — run pipeline/build_dataset.py first"

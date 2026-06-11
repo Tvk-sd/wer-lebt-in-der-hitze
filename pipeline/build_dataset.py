@@ -29,13 +29,14 @@ MSS_WFS = (
 
 OUT_DIR = Path(__file__).resolve().parent.parent / "site" / "data"
 HEAT_INTERIM = Path(__file__).resolve().parent.parent / "data" / "interim" / "heat_by_lor.json"
+CANOPY_INTERIM = Path(__file__).resolve().parent.parent / "data" / "interim" / "canopy_by_lor.json"
 
 MSS_UNASSIGNED = -9999  # official marker: Planungsraum ohne Zuordnung
 
 CSV_COLUMNS = [
     "plr_id", "plr_name", "bzr_name", "pgr_name", "bez_id", "bez_name",
     "ew", "mss_status_index", "mss_status_class", "mss_valid",
-    "pet14h", "t2m04h",
+    "pet14h", "t2m04h", "canopy_pct", "veg_pct",
 ]
 
 
@@ -54,14 +55,14 @@ def round_coords(obj, ndigits=5):
     return obj
 
 
-def load_heat():
-    """Per-LOR heat metrics from pipeline/heat_layer.py, if it has been run."""
-    if not HEAT_INTERIM.exists():
+def load_interim(path):
+    """Per-LOR metrics from a stage-1b script (heat_layer.py / canopy_layer.py)."""
+    if not path.exists():
         return {}
-    return json.loads(HEAT_INTERIM.read_text(encoding="utf-8"))["by_lor"]
+    return json.loads(path.read_text(encoding="utf-8"))["by_lor"]
 
 
-def join_features(lor_fc, mss_fc, heat_by_lor=None):
+def join_features(lor_fc, mss_fc, heat_by_lor=None, canopy_by_lor=None):
     """Join LOR boundary features with MSS rows on plr_id, plus heat metrics
     (issue 03) when available.
 
@@ -69,6 +70,7 @@ def join_features(lor_fc, mss_fc, heat_by_lor=None):
     a partial join means the data vintages no longer match).
     """
     heat_by_lor = heat_by_lor or {}
+    canopy_by_lor = canopy_by_lor or {}
     mss_by_id = {f["properties"]["plr_id"]: f["properties"] for f in mss_fc["features"]}
     features = []
     missing = []
@@ -82,6 +84,7 @@ def join_features(lor_fc, mss_fc, heat_by_lor=None):
         si_n = mss.get("si_n")
         unassigned = si_n is None or int(si_n) == MSS_UNASSIGNED
         heat = heat_by_lor.get(lor["plr_id"], {})
+        canopy = canopy_by_lor.get(lor["plr_id"], {})
         features.append({
             "type": "Feature",
             "geometry": round_coords(f["geometry"]),
@@ -98,6 +101,8 @@ def join_features(lor_fc, mss_fc, heat_by_lor=None):
                 "mss_valid": mss.get("kom") == "gültig",
                 "pet14h": heat.get("pet14h"),
                 "t2m04h": heat.get("t2m04h"),
+                "canopy_pct": canopy.get("canopy_pct"),
+                "veg_pct": canopy.get("veg_pct"),
             },
         })
     if missing:
@@ -111,6 +116,7 @@ def join_features(lor_fc, mss_fc, heat_by_lor=None):
                 "lor": "Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) 01.01.2021, WFS lor_2021",
                 "mss": "SenStadt / Monitoring Soziale Stadtentwicklung 2025, WFS mss_2025 (Datenstand 2024-12)",
                 "heat": "SenStadt / Klimamodell Berlin: Klimaanalysekarten 2022, WFS ua_klimaanalyse_2022 (PET 14 Uhr, Lufttemperatur 4 Uhr; flächengewichtetes Mittel je LOR)",
+                "canopy": "SenStadt / Vegetationshöhen 2020 (Umweltatlas), 1×1m-Raster; Baumkronen = Vegetation ≥ 4 m, Anteil an der LOR-Gesamtfläche",
             },
             "license": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
             "generated": date.today().isoformat(),
@@ -140,9 +146,11 @@ def main():
     print("Fetching MSS 2025 indices …")
     mss_fc = fetch_geojson(MSS_WFS)
     print(f"  {len(mss_fc['features'])} MSS rows")
-    heat = load_heat()
+    heat = load_interim(HEAT_INTERIM)
     print(f"Heat metrics: {'loaded for ' + str(len(heat)) + ' LORs' if heat else 'not available (run heat_layer.py)'}")
-    dataset = join_features(lor_fc, mss_fc, heat)
+    canopy = load_interim(CANOPY_INTERIM)
+    print(f"Canopy metrics: {'loaded for ' + str(len(canopy)) + ' LORs' if canopy else 'not available (run canopy_layer.py)'}")
+    dataset = join_features(lor_fc, mss_fc, heat, canopy)
     geojson_path, csv_path = write_outputs(dataset)
     size_mb = geojson_path.stat().st_size / 1e6
     print(f"Wrote {geojson_path} ({size_mb:.1f} MB) and {csv_path}")

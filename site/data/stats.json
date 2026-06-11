@@ -11,7 +11,8 @@
       "population": 511565,
       "pop_share_pct": 13.1,
       "pet14h_mean": 34.38,
-      "t2m04h_mean": 17.34
+      "t2m04h_mean": 17.34,
+      "canopy_pct_mean": 31.28
     },
     {
       "index": 2,
@@ -20,7 +21,8 @@
       "population": 2660767,
       "pop_share_pct": 68.3,
       "pet14h_mean": 35.43,
-      "t2m04h_mean": 17.97
+      "t2m04h_mean": 17.97,
+      "canopy_pct_mean": 23.21
     },
     {
       "index": 3,
@@ -29,7 +31,8 @@
       "population": 332053,
       "pop_share_pct": 8.5,
       "pet14h_mean": 35.02,
-      "t2m04h_mean": 17.86
+      "t2m04h_mean": 17.86,
+      "canopy_pct_mean": 25.86
     },
     {
       "index": 4,
@@ -38,7 +41,8 @@
       "population": 391119,
       "pop_share_pct": 10.0,
       "pet14h_mean": 35.05,
-      "t2m04h_mean": 17.65
+      "t2m04h_mean": 17.65,
+      "canopy_pct_mean": 24.94
     }
   ],
   "heat": {
@@ -47,6 +51,13 @@
     "t2m04h_gap_lowest_vs_highest_status": 0.31,
     "pet14h_gap_lowest_vs_highest_status": 0.67,
     "note": "Die Werte beziehen sich nicht auf einen realen Messtag, sondern auf einen modellierten durchschnittlichen autochthonen Sommertag: wolkenlos, windschwach, Hochdruckwetterlage — die Bedingungen, unter denen sich der städtische Wärmeinseleffekt am stärksten ausprägt. Simulation: FITNAH 3D (10×10 m) auf Basis der Stadtstruktur 2022, im Auftrag von SenStadt. PET 14 Uhr = Hitzebelastung am Tag (strahlungsdominiert), Lufttemperatur 4 Uhr = nächtliche Wärmeinsel. Mittelwerte bevölkerungsgewichtet."
+  },
+  "canopy": {
+    "berlin_canopy_pct_mean": 24.67,
+    "canopy_gap_highest_vs_lowest_status": 6.34,
+    "pop_in_lor_canopy_30plus": 755469,
+    "pop_share_canopy_30plus_pct": 19.4,
+    "note": "Baumkronenanteil = Vegetation ab 4 m Höhe (Vegetationshöhen 2020, 1×1m-Laserscan-Raster) als Anteil an der gesamten LOR-Fläche. Die 30-%-Marke entspricht der 3-30-300-Regel für gesundes Stadtgrün. Mittelwerte bevölkerungsgewichtet."
   },
   "headline": {
     "disadvantaged_population": 723172,
@@ -58,7 +69,8 @@
     "sources": {
       "lor": "Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) 01.01.2021, WFS lor_2021",
       "mss": "SenStadt / Monitoring Soziale Stadtentwicklung 2025, WFS mss_2025 (Datenstand 2024-12)",
-      "heat": "SenStadt / Klimamodell Berlin: Klimaanalysekarten 2022, WFS ua_klimaanalyse_2022 (PET 14 Uhr, Lufttemperatur 4 Uhr; flächengewichtetes Mittel je LOR)"
+      "heat": "SenStadt / Klimamodell Berlin: Klimaanalysekarten 2022, WFS ua_klimaanalyse_2022 (PET 14 Uhr, Lufttemperatur 4 Uhr; flächengewichtetes Mittel je LOR)",
+      "canopy": "SenStadt / Vegetationshöhen 2020 (Umweltatlas), 1×1m-Raster; Baumkronen = Vegetation ≥ 4 m, Anteil an der LOR-Gesamtfläche"
     },
     "license": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
     "generated": "2026-06-11"

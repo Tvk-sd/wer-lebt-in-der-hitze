@@ -19,6 +19,10 @@ const LAYER_PAINT = {
     "interpolate", ["linear"], ["coalesce", ["get", "t2m04h"], 15.5],
     15.5, "#ffffcc", 17.5, "#fe9929", 19.5, "#993404",
   ],
+  canopy: [
+    "interpolate", ["linear"], ["coalesce", ["get", "canopy_pct"], 0],
+    0, "#f7fcf5", 30, "#74c476", 75, "#00441b",
+  ],
 };
 
 function fmt(n) {
@@ -52,6 +56,31 @@ function renderHeatChapter(stats) {
   }
 }
 
+function renderCanopyChapter(stats) {
+  const c = stats.canopy;
+  if (!c) return;
+  document.getElementById("canopy-text").textContent =
+    `Im Berliner Schnitt leben die Menschen unter ${fmt(c.berlin_canopy_pct_mean)} % Baumkronen. ` +
+    `In Planungsräumen mit hohem Sozialstatus sind es deutlich mehr als in den übrigen — die Lücke ` +
+    `zwischen hohem und sehr niedrigem Status beträgt ${fmt(c.canopy_gap_highest_vs_lowest_status)} Prozentpunkte. ` +
+    `Die 30-%-Marke der 3-30-300-Regel erreichen nur Planungsräume, in denen ` +
+    `${fmt(c.pop_in_lor_canopy_30plus)} Berliner:innen leben (${fmt(c.pop_share_canopy_30plus_pct)} %).`;
+  document.getElementById("canopy-note").textContent = c.note;
+
+  const chart = document.getElementById("canopy-chart");
+  chart.innerHTML = "";
+  const max = Math.max(...stats.by_status.map((g) => g.canopy_pct_mean));
+  for (const g of stats.by_status) {
+    const rowEl = document.createElement("div");
+    rowEl.className = "bar-row";
+    rowEl.innerHTML =
+      `<span class="bar-label">Status ${g.class}</span>` +
+      `<span class="bar" style="width:${(g.canopy_pct_mean / max) * 100}%"></span>` +
+      `<span class="bar-value">${fmt(g.canopy_pct_mean)} %</span>`;
+    chart.appendChild(rowEl);
+  }
+}
+
 function wireLayerToggle(map) {
   const buttons = document.querySelectorAll(".layer-toggle button");
   buttons.forEach((btn) => {
@@ -59,7 +88,7 @@ function wireLayerToggle(map) {
       buttons.forEach((b) => b.classList.toggle("active", b === btn));
       const layer = btn.dataset.layer;
       map.setPaintProperty("lor-fill", "fill-color", LAYER_PAINT[layer]);
-      for (const key of ["status", "pet", "night"]) {
+      for (const key of ["status", "pet", "night", "canopy"]) {
         document.getElementById(`legend-${key}`).classList.toggle("hidden", key !== layer);
       }
     });
@@ -70,6 +99,7 @@ async function init() {
   const stats = await (await fetch("data/stats.json")).json();
   document.getElementById("headline").textContent = stats.headline.text_de;
   renderHeatChapter(stats);
+  renderCanopyChapter(stats);
 
   const map = new maplibregl.Map({
     container: "map",
@@ -117,12 +147,15 @@ async function init() {
       const heat = p.pet14h != null
         ? `<br>PET 14 Uhr: ${fmt(p.pet14h)} °C · Nachts: ${fmt(p.t2m04h)} °C`
         : "";
+      const canopy = p.canopy_pct != null
+        ? `<br>Baumkronen: ${fmt(p.canopy_pct)} %`
+        : "";
       popup
         .setLngLat(e.lngLat)
         .setHTML(
           `<strong>${p.plr_name}</strong> (${p.bez_name})<br>` +
           `Sozialstatus: ${p.mss_status_class}<br>` +
-          `Einwohner:innen: ${fmt(p.ew ?? 0)}` + heat
+          `Einwohner:innen: ${fmt(p.ew ?? 0)}` + heat + canopy
         )
         .addTo(map);
     });

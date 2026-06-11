@@ -28,6 +28,7 @@ def compute_stats(rows):
     """rows: list of property dicts from the LOR dataset features."""
     total_population = sum(r["ew"] or 0 for r in rows)
     has_heat = any(r.get("pet14h") is not None for r in rows)
+    has_canopy = any(r.get("canopy_pct") is not None for r in rows)
     by_status = []
     for index, label in STATUS_CLASSES.items():
         group = [r for r in rows if r["mss_status_index"] == index]
@@ -42,6 +43,8 @@ def compute_stats(rows):
         if has_heat:
             entry["pet14h_mean"] = pop_weighted_mean(group, "pet14h")
             entry["t2m04h_mean"] = pop_weighted_mean(group, "t2m04h")
+        if has_canopy:
+            entry["canopy_pct_mean"] = pop_weighted_mean(group, "canopy_pct")
         by_status.append(entry)
     unassigned = [r for r in rows if r["mss_status_index"] is None]
     disadvantaged_pop = sum(
@@ -70,6 +73,30 @@ def compute_stats(rows):
                 "4 Uhr = nächtliche Wärmeinsel. Mittelwerte bevölkerungsgewichtet."
             ),
         }
+    canopy = None
+    if has_canopy:
+        lowest = next(g for g in by_status if g["index"] == 4)
+        highest = next(g for g in by_status if g["index"] == 1)
+        pop_30plus = sum(
+            r["ew"] or 0 for r in rows
+            if r.get("canopy_pct") is not None and r["canopy_pct"] >= 30
+        )
+        canopy = {
+            "berlin_canopy_pct_mean": pop_weighted_mean(rows, "canopy_pct"),
+            "canopy_gap_highest_vs_lowest_status": round(
+                highest["canopy_pct_mean"] - lowest["canopy_pct_mean"], 2
+            ),
+            "pop_in_lor_canopy_30plus": pop_30plus,
+            "pop_share_canopy_30plus_pct": round(
+                100 * pop_30plus / total_population, 1
+            ),
+            "note": (
+                "Baumkronenanteil = Vegetation ab 4 m Höhe (Vegetationshöhen 2020, "
+                "1×1m-Laserscan-Raster) als Anteil an der gesamten LOR-Fläche. "
+                "Die 30-%-Marke entspricht der 3-30-300-Regel für gesundes Stadtgrün. "
+                "Mittelwerte bevölkerungsgewichtet."
+            ),
+        }
     return {
         "total_lors": len(rows),
         "valid_lors": sum(1 for r in rows if r["mss_valid"]),
@@ -77,6 +104,7 @@ def compute_stats(rows):
         "total_population": total_population,
         "by_status": by_status,
         "heat": heat,
+        "canopy": canopy,
         "headline": {
             "disadvantaged_population": disadvantaged_pop,
             "disadvantaged_pop_share_pct": round(
