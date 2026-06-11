@@ -110,12 +110,15 @@ def test_golden_numbers_mss_2025():
     assert stats["canopy"]["canopy_gap_highest_vs_lowest_status"] == 6.34
     assert stats["canopy"]["pop_in_lor_canopy_30plus"] == 755_469
     assert stats["canopy"]["pop_share_canopy_30plus_pct"] == 19.4
-    # generated insights: present, and numbers inside the text match the data
+    # generated insights: interpretation only — they reference findings and
+    # must not duplicate their statistics (Befund vs. Einordnung, CONTEXT.md)
     ids = [i["id"] for i in stats["insights"]]
-    assert ids == ["heat-shared", "canopy-divided", "rule-30", "below-average"]
-    assert "19,4 %" in stats["insights"][2]["text_de"]
-    assert "755.469" in stats["insights"][2]["text_de"]
-    assert "6,34 Prozentpunkten" in stats["insights"][1]["text_de"]
+    assert ids == ["heat-shared-canopy-not", "canopy-lever", "below-average"]
+    for ins in stats["insights"]:
+        assert "Befund" in ins["text_de"], f"{ins['id']} doesn't reference a finding"
+        assert "%" not in ins["text_de"] and "°C" not in ins["text_de"], (
+            f"{ins['id']} duplicates statistics from the findings"
+        )
     # generated findings: concrete facts incl. named extremes
     fids = [f["id"] for f in stats["findings"]]
     assert fids == ["rule-30", "canopy-status-gap", "canopy-range", "heat-range"]

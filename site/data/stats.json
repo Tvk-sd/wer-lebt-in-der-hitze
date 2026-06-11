@@ -96,27 +96,19 @@
   ],
   "insights": [
     {
-      "id": "heat-shared",
-      "title": "Die Hitze trifft fast alle gleich",
-      "text_de": "Zwischen den Planungsräumen mit sehr niedrigem und hohem Sozialstatus liegen nachts im Schnitt nur 0,31 °C, am Tag 0,67 °C gefühlte Temperatur. Auf LOR-Ebene ist die Hitze weitgehend geteilt.",
+      "id": "heat-shared-canopy-not",
+      "title": "Die Hitze ist geteilt — der Schutz nicht",
+      "text_de": "Bei der Temperatur unterscheiden sich die Statusgruppen kaum (Befund 4), beim Baumkronendach dagegen deutlich (Befund 2). Die Belastung trifft fast alle ähnlich — die Abschirmung folgt dem Sozialstatus.",
       "sources": [
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
-        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
-      ]
-    },
-    {
-      "id": "canopy-divided",
-      "title": "Der Schatten ist es nicht",
-      "text_de": "Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt 31,28 % Baumkronen über sich. Bei sehr niedrigem Status sind es 24,94 % — eine Lücke von 6,34 Prozentpunkten. Die Hitze ist geteilt, der Schutz davor nicht.",
-      "sources": [
         "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
         "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
       ]
     },
     {
-      "id": "rule-30",
-      "title": "4 von 5 verfehlen die 30-Prozent-Marke",
-      "text_de": "Nur 19,4 % der Berliner:innen (755.469 Menschen) leben in einem Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht.",
+      "id": "canopy-lever",
+      "title": "Baumkronen sind der Hebel",
+      "text_de": "Temperatur lässt sich nicht umverteilen — Baumkronen schon. Das Kronendach ist die Stellgröße, die eine Stadt tatsächlich verändern kann, und genau sie ist ungleich verteilt (Befunde 1 und 2).",
       "sources": [
         "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
         "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)",
@@ -126,7 +118,7 @@
     {
       "id": "below-average",
       "title": "Die Ungleichheit liegt unter dem Durchschnitt",
-      "text_de": "Ein sauberes Gefälle ist es nicht: Am wenigsten Baumkronen haben Planungsräume mit Status „mittel“ (23,21 %). Hitze-Ungleichheit entscheidet sich unterhalb der Planungsraum-Mittelwerte — auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder.",
+      "text_de": "Weder Hitze noch Grün bilden ein sauberes Gefälle über die Statusgruppen (Befunde 2 und 4). Die eigentlichen Unterschiede liegen unterhalb der Planungsraum-Mittelwerte, auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder.",
       "sources": [
         "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
