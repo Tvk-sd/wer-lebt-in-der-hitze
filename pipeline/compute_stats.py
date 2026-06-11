@@ -31,6 +31,30 @@ def de(value):
     return f"{value:,}".translate(str.maketrans(",.", ".,"))
 
 
+PET_HOT = 38.0  # threshold for "hottest LORs" in the inversion finding
+
+
+def pearson(rows, key_x, key_y):
+    """Pearson correlation over LORs where both values exist (unweighted)."""
+    pairs = [(r[key_x], r[key_y]) for r in rows
+             if r.get(key_x) is not None and r.get(key_y) is not None]
+    n = len(pairs)
+    mx = sum(x for x, _ in pairs) / n
+    my = sum(y for _, y in pairs) / n
+    cov = sum((x - mx) * (y - my) for x, y in pairs)
+    sx = sum((x - mx) ** 2 for x, _ in pairs) ** 0.5
+    sy = sum((y - my) ** 2 for _, y in pairs) ** 0.5
+    return round(cov / (sx * sy), 2)
+
+
+def pop_share_above(rows, key, threshold):
+    """Share of a group's population living in LORs at/above a threshold."""
+    total = sum(r["ew"] or 0 for r in rows)
+    above = sum(r["ew"] or 0 for r in rows
+                if r.get(key) is not None and r[key] >= threshold)
+    return round(100 * above / total, 1) if total else None
+
+
 def pop_weighted_mean(rows, key):
     """Population-weighted mean of `key` over rows that have a value.
     Weighted by people, not area — the study asks who LIVES in the heat."""
@@ -39,6 +63,72 @@ def pop_weighted_mean(rows, key):
     if total == 0:
         return None
     return round(sum(ew * v for ew, v in pairs) / total, 2)
+
+
+def build_methodology(rows):
+    """Methodology chapter content — generated, so its numbers stay true."""
+    n = len(rows)
+    unassigned = sum(1 for r in rows if r["mss_status_index"] is None)
+    return [
+        {
+            "title": "Räumliche Einheit",
+            "text_de": (
+                f"Alle Aussagen beziehen sich auf Berlins {n} LOR-Planungsräume "
+                f"(Stand 01.01.2021). {unassigned} davon tragen keinen Sozialstatus "
+                f"(unter 300 Einwohner:innen oder statistischer Ausreißer); sie bleiben "
+                f"im Datensatz, werden aber bei Statusvergleichen ausgeschlossen."
+            ),
+            "sources": [SRC["lor"], SRC["mss"]],
+        },
+        {
+            "title": "Sozialstatus",
+            "text_de": (
+                "Sozialstatus ist der Statusindex des Monitorings Soziale Stadtentwicklung "
+                "(vier Klassen: hoch bis sehr niedrig) — ein zusammengesetzter Index aus "
+                "Arbeitslosigkeit, Transferbezug und Kinderarmut, kein Einkommensmaß."
+            ),
+            "sources": [SRC["mss"]],
+        },
+        {
+            "title": "Hitze",
+            "text_de": (
+                "Die Hitzewerte sind keine Messwerte, sondern eine FITNAH-3D-Simulation "
+                "(10×10 m) eines durchschnittlichen wolkenlosen, windschwachen Sommertags "
+                "auf Basis der Stadtstruktur 2022. PET 14 Uhr beschreibt die gefühlte "
+                "Hitzebelastung am Tag, die Lufttemperatur um 4 Uhr die nächtliche "
+                "Wärmeinsel. Blockwerte wurden flächengewichtet auf Planungsräume gemittelt."
+            ),
+            "sources": [SRC["klima"]],
+        },
+        {
+            "title": "Baumkronen",
+            "text_de": (
+                "Baumkronenanteil = Vegetation ab 4 m Höhe im 1×1m-Laserscan-Raster von 2020, "
+                "als Anteil an der gesamten Planungsraum-Fläche einschließlich Wasser- und "
+                "versiegelter Flächen. Erfasst sind öffentliche und private Bäume."
+            ),
+            "sources": [SRC["veg"]],
+        },
+        {
+            "title": "Gewichtung",
+            "text_de": (
+                "Alle veröffentlichten Mittelwerte sind bevölkerungsgewichtet — gefragt wird, "
+                "unter welchen Bedingungen Menschen leben, nicht wie heiß Flächen sind."
+            ),
+            "sources": [SRC["mss"]],
+        },
+        {
+            "title": "Grenzen",
+            "text_de": (
+                "Die Datenstände unterscheiden sich (Baumkronen 2020, Klimamodell 2022, "
+                "Sozialdaten 12/2024). Planungsraum-Mittelwerte glätten Extremwerte einzelner "
+                "Blöcke — Unterschiede innerhalb der Räume sind unsichtbar. Korrelation ist "
+                "keine Kausalität; der starke Zusammenhang von Baumkronen und Tageshitze ist "
+                "physikalisch plausibel, hier aber rein statistisch gezeigt."
+            ),
+            "sources": [SRC["veg"], SRC["klima"], SRC["mss"]],
+        },
+    ]
 
 
 def compute_stats(rows):
@@ -170,6 +260,53 @@ def compute_stats(rows):
             "sources": [SRC["klima"], SRC["mss"]],
         })
 
+    correlations = None
+    lead = None
+    if heat and canopy:
+        correlations = {
+            "canopy_pet14h": pearson(rows, "canopy_pct", "pet14h"),
+            "canopy_t2m04h": pearson(rows, "canopy_pct", "t2m04h"),
+        }
+        findings.append({
+            "id": "canopy-cooling",
+            "text_de": (
+                f"Baumkronen kühlen den Tag: Über alle {len(rows)} Planungsräume korreliert "
+                f"der Baumkronenanteil stark negativ mit der gefühlten Temperatur um 14 Uhr "
+                f"(r = {de(correlations['canopy_pet14h'])}). Nachts ist der Zusammenhang schwach "
+                f"(r = {de(correlations['canopy_t2m04h'])}) — die nächtliche Wärmeinsel folgt "
+                f"der Bebauung, nicht dem Grün."
+            ),
+            "sources": [SRC["veg"], SRC["klima"], SRC["lor"]],
+        })
+        hot_share = {
+            idx: pop_share_above(
+                [r for r in rows if r["mss_status_index"] == idx], "pet14h", PET_HOT
+            )
+            for idx in STATUS_CLASSES
+        }
+        findings.append({
+            "id": "heat-inversion",
+            "text_de": (
+                f"In den heißesten Planungsräumen (PET ≥ {de(PET_HOT)} °C) wohnen vor allem "
+                f"Menschen mit hohem Sozialstatus ({de(hot_share[1])} % dieser Gruppe) — und "
+                f"praktisch niemand mit sehr niedrigem Status ({de(hot_share[4])} %). "
+                f"Ein „Arm wohnt heiß“ gibt es auf Planungsraum-Ebene nicht."
+            ),
+            "sources": [SRC["klima"], SRC["mss"]],
+        })
+        # Lead headline — chosen by the author (issue 04, 2026-06-11):
+        # the 3-30-300 failure leads; "1 von N" derived from the computed share.
+        one_in_n = round(100 / canopy["pop_share_canopy_30plus_pct"])
+        lead = {
+            "text_de": f"Nur 1 von {one_in_n} Berliner:innen lebt unter genug Baumkronen.",
+            "sub_de": (
+                f"{de(round(100 - canopy['pop_share_canopy_30plus_pct'], 1))} % der Stadt "
+                f"wohnen in Planungsräumen unterhalb der 30-%-Baumkronen-Marke der "
+                f"3-30-300-Regel für gesundes Stadtgrün."
+            ),
+            "sources": [SRC["veg"], SRC["mss"], SRC["rule"]],
+        }
+
     # Insights interpret the findings; they reference them ("Befund N") and
     # deliberately repeat none of their numbers (CONTEXT.md: Befund vs. Einordnung).
     insights = []
@@ -215,8 +352,11 @@ def compute_stats(rows):
         "by_status": by_status,
         "heat": heat,
         "canopy": canopy,
+        "correlations": correlations,
+        "lead": lead,
         "findings": findings,
         "insights": insights,
+        "methodology": build_methodology(rows) if (heat and canopy) else None,
         "headline": {
             "disadvantaged_population": disadvantaged_pop,
             "disadvantaged_pop_share_pct": round(

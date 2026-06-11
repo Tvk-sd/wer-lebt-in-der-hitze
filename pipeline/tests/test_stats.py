@@ -121,15 +121,32 @@ def test_golden_numbers_mss_2025():
         )
     # generated findings: concrete facts incl. named extremes
     fids = [f["id"] for f in stats["findings"]]
-    assert fids == ["rule-30", "canopy-status-gap", "canopy-range", "heat-range"]
+    assert fids == ["rule-30", "canopy-status-gap", "canopy-range", "heat-range",
+                    "canopy-cooling", "heat-inversion"]
     by_id = {f["id"]: f["text_de"] for f in stats["findings"]}
     assert "Helle Mitte" in by_id["canopy-range"]
     assert "Allende II" in by_id["canopy-range"]
     assert "75,6 %" in by_id["canopy-range"]
     assert "Alter Schlachthof" in by_id["heat-range"]
     assert "40,01 °C" in by_id["heat-range"]
-    # every published finding and insight must carry source attributions
-    for item in stats["findings"] + stats["insights"]:
-        assert item["sources"], f"{item['id']} has no sources"
+    # correlations pinned (issue 04): canopy cools days, barely nights
+    assert stats["correlations"]["canopy_pet14h"] == -0.9
+    assert stats["correlations"]["canopy_t2m04h"] == -0.24
+    # lead headline (author decision 2026-06-11): 3-30-300 failure leads
+    assert stats["lead"]["text_de"] == (
+        "Nur 1 von 5 Berliner:innen lebt unter genug Baumkronen."
+    )
+    assert "80,6 %" in stats["lead"]["sub_de"]
+    # methodology chapter: six generated items, each sourced
+    assert [m["title"] for m in stats["methodology"]] == [
+        "Räumliche Einheit", "Sozialstatus", "Hitze", "Baumkronen",
+        "Gewichtung", "Grenzen",
+    ]
+    # every published finding, insight, lead and methodology item carries sources
+    items = (stats["findings"] + stats["insights"]
+             + [stats["lead"]] + stats["methodology"])
+    for item in items:
+        label = item.get("id") or item.get("title") or "lead"
+        assert item["sources"], f"{label} has no sources"
         assert all("SenStadt" in s or "Geoportal" in s or "Konijnendijk" in s
-                   for s in item["sources"]), f"unrecognized source in {item['id']}"
+                   for s in item["sources"]), f"unrecognized source in {label}"

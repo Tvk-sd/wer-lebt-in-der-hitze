@@ -43,6 +43,31 @@ h1 {
   border-left: 4px solid var(--accent);
   padding-left: 0.75rem;
   line-height: 1.4;
+  margin-bottom: 0.2rem;
+}
+
+.headline-sub {
+  font-size: 0.95rem;
+  color: #6b6b6b;
+  border-left: 4px solid transparent;
+  padding-left: 0.75rem;
+  margin-top: 0;
+}
+
+.method-item { margin-bottom: 1.1rem; }
+
+.chapter .method-item h3 {
+  font-size: 0.95rem;
+  margin: 0 0 0.2rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+
+.method-item p {
+  margin: 0 0 0.15rem;
+  font-size: 0.92rem;
+  color: #3c3c3e;
 }
 
 main {

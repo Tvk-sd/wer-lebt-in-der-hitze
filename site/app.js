@@ -120,6 +120,25 @@ function renderInsights(stats) {
   }
 }
 
+function renderMethodology(stats) {
+  if (!stats.methodology) return;
+  document.getElementById("methodology-chapter").hidden = false;
+  const wrap = document.getElementById("methodology");
+  wrap.innerHTML = "";
+  for (const item of stats.methodology) {
+    const block = document.createElement("div");
+    block.className = "method-item";
+    const h3 = document.createElement("h3");
+    h3.textContent = item.title;
+    const p = document.createElement("p");
+    p.textContent = item.text_de;
+    block.append(h3, p);
+    const src = sourcesLine(item);
+    if (src) block.appendChild(src);
+    wrap.appendChild(block);
+  }
+}
+
 function wireLayerToggle(map) {
   const buttons = document.querySelectorAll(".layer-toggle button");
   buttons.forEach((btn) => {
@@ -136,11 +155,17 @@ function wireLayerToggle(map) {
 
 async function init() {
   const stats = await (await fetch("data/stats.json")).json();
-  document.getElementById("headline").textContent = stats.headline.text_de;
+  if (stats.lead) {
+    document.getElementById("headline").textContent = stats.lead.text_de;
+    document.getElementById("headline-sub").textContent = stats.lead.sub_de;
+  } else {
+    document.getElementById("headline").textContent = stats.headline.text_de;
+  }
   renderHeatChapter(stats);
   renderCanopyChapter(stats);
   renderFindings(stats);
   renderInsights(stats);
+  renderMethodology(stats);
 
   const map = new maplibregl.Map({
     container: "map",

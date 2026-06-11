@@ -59,6 +59,19 @@
     "pop_share_canopy_30plus_pct": 19.4,
     "note": "Baumkronenanteil = Vegetation ab 4 m Höhe (Vegetationshöhen 2020, 1×1m-Laserscan-Raster) als Anteil an der gesamten LOR-Fläche. Die 30-%-Marke entspricht der 3-30-300-Regel für gesundes Stadtgrün. Mittelwerte bevölkerungsgewichtet."
   },
+  "correlations": {
+    "canopy_pet14h": -0.9,
+    "canopy_t2m04h": -0.24
+  },
+  "lead": {
+    "text_de": "Nur 1 von 5 Berliner:innen lebt unter genug Baumkronen.",
+    "sub_de": "80,6 % der Stadt wohnen in Planungsräumen unterhalb der 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün.",
+    "sources": [
+      "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+      "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)",
+      "3-30-300-Regel nach Konijnendijk (2022)"
+    ]
+  },
   "findings": [
     {
       "id": "rule-30",
@@ -92,6 +105,23 @@
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
         "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
       ]
+    },
+    {
+      "id": "canopy-cooling",
+      "text_de": "Baumkronen kühlen den Tag: Über alle 542 Planungsräume korreliert der Baumkronenanteil stark negativ mit der gefühlten Temperatur um 14 Uhr (r = -0,9). Nachts ist der Zusammenhang schwach (r = -0,24) — die nächtliche Wärmeinsel folgt der Bebauung, nicht dem Grün.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+        "LOR Planungsräume 01.01.2021 (Geoportal Berlin)"
+      ]
+    },
+    {
+      "id": "heat-inversion",
+      "text_de": "In den heißesten Planungsräumen (PET ≥ 38,0 °C) wohnen vor allem Menschen mit hohem Sozialstatus (12,3 % dieser Gruppe) — und praktisch niemand mit sehr niedrigem Status (0,0 %). Ein „Arm wohnt heiß“ gibt es auf Planungsraum-Ebene nicht.",
+      "sources": [
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
     }
   ],
   "insights": [
@@ -119,6 +149,53 @@
       "id": "below-average",
       "title": "Die Ungleichheit liegt unter dem Durchschnitt",
       "text_de": "Weder Hitze noch Grün bilden ein sauberes Gefälle über die Statusgruppen (Befunde 2 und 4). Die eigentlichen Unterschiede liegen unterhalb der Planungsraum-Mittelwerte, auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
+    }
+  ],
+  "methodology": [
+    {
+      "title": "Räumliche Einheit",
+      "text_de": "Alle Aussagen beziehen sich auf Berlins 542 LOR-Planungsräume (Stand 01.01.2021). 7 davon tragen keinen Sozialstatus (unter 300 Einwohner:innen oder statistischer Ausreißer); sie bleiben im Datensatz, werden aber bei Statusvergleichen ausgeschlossen.",
+      "sources": [
+        "LOR Planungsräume 01.01.2021 (Geoportal Berlin)",
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
+    },
+    {
+      "title": "Sozialstatus",
+      "text_de": "Sozialstatus ist der Statusindex des Monitorings Soziale Stadtentwicklung (vier Klassen: hoch bis sehr niedrig) — ein zusammengesetzter Index aus Arbeitslosigkeit, Transferbezug und Kinderarmut, kein Einkommensmaß.",
+      "sources": [
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
+    },
+    {
+      "title": "Hitze",
+      "text_de": "Die Hitzewerte sind keine Messwerte, sondern eine FITNAH-3D-Simulation (10×10 m) eines durchschnittlichen wolkenlosen, windschwachen Sommertags auf Basis der Stadtstruktur 2022. PET 14 Uhr beschreibt die gefühlte Hitzebelastung am Tag, die Lufttemperatur um 4 Uhr die nächtliche Wärmeinsel. Blockwerte wurden flächengewichtet auf Planungsräume gemittelt.",
+      "sources": [
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)"
+      ]
+    },
+    {
+      "title": "Baumkronen",
+      "text_de": "Baumkronenanteil = Vegetation ab 4 m Höhe im 1×1m-Laserscan-Raster von 2020, als Anteil an der gesamten Planungsraum-Fläche einschließlich Wasser- und versiegelter Flächen. Erfasst sind öffentliche und private Bäume.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)"
+      ]
+    },
+    {
+      "title": "Gewichtung",
+      "text_de": "Alle veröffentlichten Mittelwerte sind bevölkerungsgewichtet — gefragt wird, unter welchen Bedingungen Menschen leben, nicht wie heiß Flächen sind.",
+      "sources": [
+        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
+      ]
+    },
+    {
+      "title": "Grenzen",
+      "text_de": "Die Datenstände unterscheiden sich (Baumkronen 2020, Klimamodell 2022, Sozialdaten 12/2024). Planungsraum-Mittelwerte glätten Extremwerte einzelner Blöcke — Unterschiede innerhalb der Räume sind unsichtbar. Korrelation ist keine Kausalität; der starke Zusammenhang von Baumkronen und Tageshitze ist physikalisch plausibel, hier aber rein statistisch gezeigt.",
       "sources": [
         "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
