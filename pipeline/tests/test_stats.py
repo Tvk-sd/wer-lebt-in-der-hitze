@@ -116,3 +116,12 @@ def test_golden_numbers_mss_2025():
     assert "19,4 %" in stats["insights"][2]["text_de"]
     assert "755.469" in stats["insights"][2]["text_de"]
     assert "6,34 Prozentpunkten" in stats["insights"][1]["text_de"]
+    # generated findings: concrete facts incl. named extremes
+    fids = [f["id"] for f in stats["findings"]]
+    assert fids == ["rule-30", "canopy-status-gap", "canopy-range", "heat-range"]
+    by_id = {f["id"]: f["text_de"] for f in stats["findings"]}
+    assert "Helle Mitte" in by_id["canopy-range"]
+    assert "Allende II" in by_id["canopy-range"]
+    assert "75,6 %" in by_id["canopy-range"]
+    assert "Alter Schlachthof" in by_id["heat-range"]
+    assert "40,01 °C" in by_id["heat-range"]

@@ -81,6 +81,16 @@ function renderCanopyChapter(stats) {
   }
 }
 
+function renderFindings(stats) {
+  const list = document.getElementById("findings");
+  list.innerHTML = "";
+  for (const f of stats.findings ?? []) {
+    const li = document.createElement("li");
+    li.textContent = f.text_de;
+    list.appendChild(li);
+  }
+}
+
 function renderInsights(stats) {
   const grid = document.getElementById("insights");
   grid.innerHTML = "";
@@ -115,6 +125,7 @@ async function init() {
   document.getElementById("headline").textContent = stats.headline.text_de;
   renderHeatChapter(stats);
   renderCanopyChapter(stats);
+  renderFindings(stats);
   renderInsights(stats);
 
   const map = new maplibregl.Map({

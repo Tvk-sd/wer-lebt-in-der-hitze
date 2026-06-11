@@ -104,10 +104,65 @@ def compute_stats(rows):
                 "Mittelwerte bevölkerungsgewichtet."
             ),
         }
+    findings = []
+    if canopy:
+        s = {g["index"]: g for g in by_status}
+        rated = [g for g in by_status if g["canopy_pct_mean"] is not None]
+        least = min(rated, key=lambda g: g["canopy_pct_mean"])
+        crows = [r for r in rows if r.get("canopy_pct") is not None]
+        cmin = min(crows, key=lambda r: r["canopy_pct"])
+        cmax = max(crows, key=lambda r: r["canopy_pct"])
+        findings.append({
+            "id": "rule-30",
+            "text_de": (
+                f"Nur {de(canopy['pop_share_canopy_30plus_pct'])} % der Berliner:innen "
+                f"({de(canopy['pop_in_lor_canopy_30plus'])} Menschen) leben in einem Planungsraum, "
+                f"der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes Stadtgrün erreicht."
+            ),
+        })
+        findings.append({
+            "id": "canopy-status-gap",
+            "text_de": (
+                f"Planungsräume mit hohem Sozialstatus haben im Schnitt "
+                f"{de(s[1]['canopy_pct_mean'])} % Baumkronen, solche mit sehr niedrigem Status "
+                f"{de(s[4]['canopy_pct_mean'])} % — eine Lücke von "
+                f"{de(canopy['canopy_gap_highest_vs_lowest_status'])} Prozentpunkten. "
+                f"Ein sauberes Gefälle ist es nicht: am niedrigsten liegt Status "
+                f"„{least['class']}“ mit {de(least['canopy_pct_mean'])} %."
+            ),
+        })
+        findings.append({
+            "id": "canopy-range",
+            "text_de": (
+                f"Berlinweit leben die Menschen unter {de(canopy['berlin_canopy_pct_mean'])} % "
+                f"Baumkronen. Die Spanne reicht von {de(cmin['canopy_pct'])} % "
+                f"({cmin.get('plr_name', '?')}, {cmin.get('bez_name', '?')}) bis {de(cmax['canopy_pct'])} % "
+                f"({cmax.get('plr_name', '?')}, {cmax.get('bez_name', '?')})."
+            ),
+        })
+    if heat:
+        hrows = [r for r in rows if r.get("pet14h") is not None]
+        hot = max(hrows, key=lambda r: r["pet14h"])
+        cool = min(hrows, key=lambda r: r["pet14h"])
+        findings.append({
+            "id": "heat-range",
+            "text_de": (
+                f"Am modellierten Sommertag reicht die gefühlte Temperatur um 14 Uhr von "
+                f"{de(cool['pet14h'])} °C ({cool.get('plr_name', '?')}, {cool.get('bez_name', '?')}) bis "
+                f"{de(hot['pet14h'])} °C ({hot.get('plr_name', '?')}, {hot.get('bez_name', '?')}). "
+                f"Zwischen den Statusgruppen liegen dagegen nur "
+                f"{de(heat['pet14h_gap_lowest_vs_highest_status'])} °C am Tag und "
+                f"{de(heat['t2m04h_gap_lowest_vs_highest_status'])} °C in der Nacht."
+            ),
+        })
+
     insights = []
     if heat and canopy:
         s = {g["index"]: g for g in by_status}
-        least_canopy = min(by_status, key=lambda g: g["canopy_pct_mean"])
+        least_canopy = min(
+            (g for g in by_status if g["canopy_pct_mean"] is not None),
+            key=lambda g: g["canopy_pct_mean"],
+        )
         insights = [
             {
                 "id": "heat-shared",
@@ -158,6 +213,7 @@ def compute_stats(rows):
         "by_status": by_status,
         "heat": heat,
         "canopy": canopy,
+        "findings": findings,
         "insights": insights,
         "headline": {
             "disadvantaged_population": disadvantaged_pop,
