@@ -1,0 +1,50 @@
+{
+  "total_lors": 542,
+  "valid_lors": 535,
+  "unassigned_lors": 7,
+  "total_population": 3897145,
+  "by_status": [
+    {
+      "index": 1,
+      "class": "hoch",
+      "lors": 86,
+      "population": 511565,
+      "pop_share_pct": 13.1
+    },
+    {
+      "index": 2,
+      "class": "mittel",
+      "lors": 356,
+      "population": 2660767,
+      "pop_share_pct": 68.3
+    },
+    {
+      "index": 3,
+      "class": "niedrig",
+      "lors": 43,
+      "population": 332053,
+      "pop_share_pct": 8.5
+    },
+    {
+      "index": 4,
+      "class": "sehr niedrig",
+      "lors": 50,
+      "population": 391119,
+      "pop_share_pct": 10.0
+    }
+  ],
+  "headline": {
+    "disadvantaged_population": 723172,
+    "disadvantaged_pop_share_pct": 18.6,
+    "text_de": "723.172 Berliner:innen leben in Planungsräumen mit niedrigem oder sehr niedrigem Sozialstatus — 18,6 % der Stadt."
+  },
+  "meta": {
+    "title": "Wer lebt in der Hitze? — LOR-Basisdatensatz",
+    "sources": {
+      "lor": "Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) 01.01.2021, WFS lor_2021",
+      "mss": "SenStadt / Monitoring Soziale Stadtentwicklung 2025, WFS mss_2025 (Datenstand 2024-12)"
+    },
+    "license": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+    "generated": "2026-06-11"
+  }
+}

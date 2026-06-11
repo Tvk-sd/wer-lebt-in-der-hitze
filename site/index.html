@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wer lebt in der Hitze? — Berlin</title>
+  <meta name="description" content="Eine Datenanalyse zu Hitze, Stadtgrün und sozialer Ungleichheit in Berlins 542 Planungsräumen." />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <p class="kicker">Eine Berliner Datengeschichte · Kapitel 1 von „Cooling Island Finder“</p>
+    <h1>Wer lebt in der Hitze?</h1>
+    <p class="lede">
+      Berlin hat sich verpflichtet, 1.000 kühle Inseln zu schaffen. Aber wo werden sie
+      am dringendsten gebraucht? Wir beginnen mit der sozialen Landkarte der Stadt.
+    </p>
+    <p class="headline-stat" id="headline">Lade Daten …</p>
+  </header>
+
+  <main>
+    <div id="map" aria-label="Karte der Berliner Planungsräume, eingefärbt nach Sozialstatus"></div>
+    <div class="legend" id="legend">
+      <strong>Sozialstatus (MSS&nbsp;2025)</strong>
+      <span><i style="background:#f2f0f7"></i> hoch</span>
+      <span><i style="background:#cbc9e2"></i> mittel</span>
+      <span><i style="background:#9e9ac8"></i> niedrig</span>
+      <span><i style="background:#6a51a3"></i> sehr niedrig</span>
+      <span><i style="background:#d9d9d9"></i> ohne Zuordnung</span>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      Datengrundlagen: Geoportal Berlin (LOR 2021), Monitoring Soziale Stadtentwicklung 2025
+      (Datenstand 12/2024) — Datenlizenz Deutschland 2.0.
+      Nächste Kapitel: Baumkronen &amp; Hitzebelastung.
+    </p>
+  </footer>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
