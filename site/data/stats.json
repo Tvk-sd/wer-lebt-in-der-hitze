@@ -9,30 +9,45 @@
       "class": "hoch",
       "lors": 86,
       "population": 511565,
-      "pop_share_pct": 13.1
+      "pop_share_pct": 13.1,
+      "pet14h_mean": 34.38,
+      "t2m04h_mean": 17.34
     },
     {
       "index": 2,
       "class": "mittel",
       "lors": 356,
       "population": 2660767,
-      "pop_share_pct": 68.3
+      "pop_share_pct": 68.3,
+      "pet14h_mean": 35.43,
+      "t2m04h_mean": 17.97
     },
     {
       "index": 3,
       "class": "niedrig",
       "lors": 43,
       "population": 332053,
-      "pop_share_pct": 8.5
+      "pop_share_pct": 8.5,
+      "pet14h_mean": 35.02,
+      "t2m04h_mean": 17.86
     },
     {
       "index": 4,
       "class": "sehr niedrig",
       "lors": 50,
       "population": 391119,
-      "pop_share_pct": 10.0
+      "pop_share_pct": 10.0,
+      "pet14h_mean": 35.05,
+      "t2m04h_mean": 17.65
     }
   ],
+  "heat": {
+    "berlin_pet14h_mean": 35.22,
+    "berlin_t2m04h_mean": 17.85,
+    "t2m04h_gap_lowest_vs_highest_status": 0.31,
+    "pet14h_gap_lowest_vs_highest_status": 0.67,
+    "note": "Mittelwerte bevölkerungsgewichtet. PET 14 Uhr = Hitzebelastung am Tag (strahlungsdominiert), Lufttemperatur 4 Uhr = nächtliche Wärmeinsel. Quelle: Klimamodell Berlin 2022."
+  },
   "headline": {
     "disadvantaged_population": 723172,
     "disadvantaged_pop_share_pct": 18.6,
@@ -42,7 +57,8 @@
     "title": "Wer lebt in der Hitze? — LOR-Basisdatensatz",
     "sources": {
       "lor": "Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) 01.01.2021, WFS lor_2021",
-      "mss": "SenStadt / Monitoring Soziale Stadtentwicklung 2025, WFS mss_2025 (Datenstand 2024-12)"
+      "mss": "SenStadt / Monitoring Soziale Stadtentwicklung 2025, WFS mss_2025 (Datenstand 2024-12)",
+      "heat": "SenStadt / Klimamodell Berlin: Klimaanalysekarten 2022, WFS ua_klimaanalyse_2022 (PET 14 Uhr, Lufttemperatur 4 Uhr; flächengewichtetes Mittel je LOR)"
     },
     "license": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
     "generated": "2026-06-11"

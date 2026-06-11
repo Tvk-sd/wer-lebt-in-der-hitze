@@ -77,6 +77,66 @@ main {
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
+.layer-toggle {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0 0 0.6rem;
+  flex-wrap: wrap;
+}
+
+.layer-toggle button {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #c9c5bd;
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.layer-toggle button.active {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+.hidden { display: none !important; }
+
+.chapter {
+  max-width: 720px;
+  margin: 2.5rem auto 0;
+}
+
+.chapter h2 { font-size: 1.6rem; }
+
+.chapter p { line-height: 1.6; }
+
+.method-note {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+}
+
+.bars { margin: 1rem 0; }
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr 4.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.bar {
+  display: block;
+  height: 1.1rem;
+  background: linear-gradient(90deg, #fe9929, #993404);
+  border-radius: 3px;
+  min-width: 2px;
+}
+
+.bar-value { text-align: right; font-variant-numeric: tabular-nums; }
+
 footer p {
   font-size: 0.8rem;
   color: #6b6b6b;

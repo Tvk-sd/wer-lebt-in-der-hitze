@@ -33,6 +33,7 @@ python3 -m http.server -d site 8000  # view at http://localhost:8000
 |---|---|---|
 | LOR Planungsräume boundaries | Geoportal Berlin, WFS `lor_2021` | 01.01.2021 |
 | Social status (MSS) | SenStadt, WFS `mss_2025` (`si_n` status index) | 2025 (data 12/2024) |
+| Heat (PET 14:00, air temp 04:00) | SenStadt Klimamodell Berlin, WFS `ua_klimaanalyse_2022`, area-weighted block→LOR (`pipeline/heat_layer.py`, needs `shapely`) | 2022 |
 
 License of source data: Datenlizenz Deutschland – Namensnennung – 2.0.
 

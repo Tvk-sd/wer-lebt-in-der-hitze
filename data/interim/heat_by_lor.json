@@ -1,0 +1,3262 @@
+{
+ "source": "Geoportal Berlin, WFS ua_klimaanalyse_2022 (Klimamodell Berlin 2022)",
+ "method": "area-weighted mean over ISU block polygons (settlement, traffic, green/open), EPSG:25833",
+ "metrics": {
+  "pet14h": "PET 14:00 [°C], daytime heat stress",
+  "t2m04h": "air temperature 04:00 [°C], nighttime heat indicator"
+ },
+ "by_lor": {
+  "01100101": {
+   "pet14h": 35.29,
+   "pet14h_coverage_pct": 98.3,
+   "t2m04h": 18.73,
+   "t2m04h_coverage_pct": 98.3
+  },
+  "01100102": {
+   "pet14h": 30.46,
+   "pet14h_coverage_pct": 94.7,
+   "t2m04h": 17.7,
+   "t2m04h_coverage_pct": 94.7
+  },
+  "01100103": {
+   "pet14h": 35.89,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 18.51,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "01100104": {
+   "pet14h": 36.7,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.9,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01100205": {
+   "pet14h": 37.58,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.76,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01100206": {
+   "pet14h": 37.26,
+   "pet14h_coverage_pct": 98.4,
+   "t2m04h": 19.26,
+   "t2m04h_coverage_pct": 98.4
+  },
+  "01100207": {
+   "pet14h": 37.45,
+   "pet14h_coverage_pct": 99.0,
+   "t2m04h": 19.18,
+   "t2m04h_coverage_pct": 99.0
+  },
+  "01100308": {
+   "pet14h": 36.98,
+   "pet14h_coverage_pct": 91.8,
+   "t2m04h": 18.52,
+   "t2m04h_coverage_pct": 91.8
+  },
+  "01100309": {
+   "pet14h": 36.91,
+   "pet14h_coverage_pct": 97.3,
+   "t2m04h": 18.91,
+   "t2m04h_coverage_pct": 97.3
+  },
+  "01100310": {
+   "pet14h": 37.19,
+   "pet14h_coverage_pct": 92.1,
+   "t2m04h": 19.1,
+   "t2m04h_coverage_pct": 92.1
+  },
+  "01100311": {
+   "pet14h": 35.57,
+   "pet14h_coverage_pct": 96.9,
+   "t2m04h": 18.32,
+   "t2m04h_coverage_pct": 96.9
+  },
+  "01100312": {
+   "pet14h": 35.71,
+   "pet14h_coverage_pct": 97.8,
+   "t2m04h": 18.36,
+   "t2m04h_coverage_pct": 97.8
+  },
+  "01100313": {
+   "pet14h": 35.54,
+   "pet14h_coverage_pct": 97.7,
+   "t2m04h": 18.4,
+   "t2m04h_coverage_pct": 97.7
+  },
+  "01100414": {
+   "pet14h": 35.99,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.58,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01100415": {
+   "pet14h": 35.94,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.33,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01100416": {
+   "pet14h": 35.68,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.66,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200517": {
+   "pet14h": 37.22,
+   "pet14h_coverage_pct": 82.8,
+   "t2m04h": 19.24,
+   "t2m04h_coverage_pct": 82.8
+  },
+  "01200518": {
+   "pet14h": 36.3,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.92,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200519": {
+   "pet14h": 36.16,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.7,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200520": {
+   "pet14h": 34.89,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.74,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200521": {
+   "pet14h": 35.26,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.48,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200522": {
+   "pet14h": 34.26,
+   "pet14h_coverage_pct": 85.7,
+   "t2m04h": 18.64,
+   "t2m04h_coverage_pct": 85.7
+  },
+  "01200623": {
+   "pet14h": 34.19,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.26,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200624": {
+   "pet14h": 37.58,
+   "pet14h_coverage_pct": 94.1,
+   "t2m04h": 18.19,
+   "t2m04h_coverage_pct": 94.1
+  },
+  "01200625": {
+   "pet14h": 35.45,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.45,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200626": {
+   "pet14h": 34.79,
+   "pet14h_coverage_pct": 93.4,
+   "t2m04h": 18.31,
+   "t2m04h_coverage_pct": 93.4
+  },
+  "01200627": {
+   "pet14h": 34.05,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.0,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01200628": {
+   "pet14h": 34.73,
+   "pet14h_coverage_pct": 88.2,
+   "t2m04h": 18.47,
+   "t2m04h_coverage_pct": 88.2
+  },
+  "01200629": {
+   "pet14h": 33.52,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 18.09,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "01300730": {
+   "pet14h": 35.51,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.19,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01300731": {
+   "pet14h": 35.73,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.76,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01300732": {
+   "pet14h": 32.95,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.73,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01300733": {
+   "pet14h": 36.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.28,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01300834": {
+   "pet14h": 35.78,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.32,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01300835": {
+   "pet14h": 33.87,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.12,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01300836": {
+   "pet14h": 35.87,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 18.33,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "01400937": {
+   "pet14h": 32.0,
+   "pet14h_coverage_pct": 97.4,
+   "t2m04h": 17.11,
+   "t2m04h_coverage_pct": 97.4
+  },
+  "01400938": {
+   "pet14h": 32.98,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.8,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "01400939": {
+   "pet14h": 34.12,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.24,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01400940": {
+   "pet14h": 33.06,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.32,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01400941": {
+   "pet14h": 35.99,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.26,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01400942": {
+   "pet14h": 36.69,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.47,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01401043": {
+   "pet14h": 35.43,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.34,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01401044": {
+   "pet14h": 35.86,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.38,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01401045": {
+   "pet14h": 35.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.36,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01401046": {
+   "pet14h": 34.36,
+   "pet14h_coverage_pct": 99.3,
+   "t2m04h": 18.69,
+   "t2m04h_coverage_pct": 99.3
+  },
+  "01401047": {
+   "pet14h": 35.94,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.64,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01401048": {
+   "pet14h": 35.73,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.58,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "01401049": {
+   "pet14h": 34.68,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.86,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02100101": {
+   "pet14h": 34.99,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 18.21,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "02100102": {
+   "pet14h": 36.34,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.47,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02100103": {
+   "pet14h": 36.21,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.29,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02100104": {
+   "pet14h": 35.5,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.42,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02100105": {
+   "pet14h": 34.36,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.11,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02100106": {
+   "pet14h": 32.96,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 18.19,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "02200207": {
+   "pet14h": 34.93,
+   "pet14h_coverage_pct": 97.7,
+   "t2m04h": 17.57,
+   "t2m04h_coverage_pct": 97.7
+  },
+  "02200208": {
+   "pet14h": 35.47,
+   "pet14h_coverage_pct": 97.0,
+   "t2m04h": 18.74,
+   "t2m04h_coverage_pct": 97.0
+  },
+  "02200209": {
+   "pet14h": 34.28,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 18.36,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "02200210": {
+   "pet14h": 34.22,
+   "pet14h_coverage_pct": 97.5,
+   "t2m04h": 18.43,
+   "t2m04h_coverage_pct": 97.5
+  },
+  "02200211": {
+   "pet14h": 33.99,
+   "pet14h_coverage_pct": 98.3,
+   "t2m04h": 18.14,
+   "t2m04h_coverage_pct": 98.3
+  },
+  "02200212": {
+   "pet14h": 35.46,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.54,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02200213": {
+   "pet14h": 34.32,
+   "pet14h_coverage_pct": 92.3,
+   "t2m04h": 18.68,
+   "t2m04h_coverage_pct": 92.3
+  },
+  "02300314": {
+   "pet14h": 35.03,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.39,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02300315": {
+   "pet14h": 35.55,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.77,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02300316": {
+   "pet14h": 34.93,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02300417": {
+   "pet14h": 35.86,
+   "pet14h_coverage_pct": 96.1,
+   "t2m04h": 18.72,
+   "t2m04h_coverage_pct": 96.1
+  },
+  "02300418": {
+   "pet14h": 33.32,
+   "pet14h_coverage_pct": 92.6,
+   "t2m04h": 17.92,
+   "t2m04h_coverage_pct": 92.6
+  },
+  "02300419": {
+   "pet14h": 34.67,
+   "pet14h_coverage_pct": 94.6,
+   "t2m04h": 18.86,
+   "t2m04h_coverage_pct": 94.6
+  },
+  "02400520": {
+   "pet14h": 31.02,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.31,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "02400521": {
+   "pet14h": 34.22,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.9,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02400522": {
+   "pet14h": 35.67,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.36,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02400623": {
+   "pet14h": 34.78,
+   "pet14h_coverage_pct": 95.7,
+   "t2m04h": 18.31,
+   "t2m04h_coverage_pct": 95.7
+  },
+  "02400624": {
+   "pet14h": 35.09,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.4,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02400625": {
+   "pet14h": 38.4,
+   "pet14h_coverage_pct": 83.0,
+   "t2m04h": 19.1,
+   "t2m04h_coverage_pct": 83.0
+  },
+  "02500726": {
+   "pet14h": 36.22,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.89,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500727": {
+   "pet14h": 35.91,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.49,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500728": {
+   "pet14h": 37.25,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.18,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500729": {
+   "pet14h": 35.65,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.14,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500830": {
+   "pet14h": 35.76,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.52,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500831": {
+   "pet14h": 35.32,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.89,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500832": {
+   "pet14h": 37.43,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.87,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500833": {
+   "pet14h": 35.48,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.0,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500834": {
+   "pet14h": 36.09,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.82,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "02500835": {
+   "pet14h": 37.6,
+   "pet14h_coverage_pct": 82.4,
+   "t2m04h": 18.67,
+   "t2m04h_coverage_pct": 82.4
+  },
+  "02500836": {
+   "pet14h": 34.2,
+   "pet14h_coverage_pct": 42.0,
+   "t2m04h": 18.24,
+   "t2m04h_coverage_pct": 42.0
+  },
+  "03100101": {
+   "pet14h": 33.37,
+   "pet14h_coverage_pct": 97.9,
+   "t2m04h": 15.87,
+   "t2m04h_coverage_pct": 97.9
+  },
+  "03100102": {
+   "pet14h": 32.57,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 16.6,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "03100103": {
+   "pet14h": 33.97,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.87,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03200204": {
+   "pet14h": 34.5,
+   "pet14h_coverage_pct": 96.9,
+   "t2m04h": 15.66,
+   "t2m04h_coverage_pct": 96.9
+  },
+  "03200205": {
+   "pet14h": 37.13,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.66,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03200206": {
+   "pet14h": 35.82,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.45,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03200207": {
+   "pet14h": 37.14,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.28,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "03200308": {
+   "pet14h": 39.13,
+   "pet14h_coverage_pct": 97.0,
+   "t2m04h": 17.21,
+   "t2m04h_coverage_pct": 97.0
+  },
+  "03200309": {
+   "pet14h": 37.81,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 16.54,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "03200310": {
+   "pet14h": 39.1,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 16.45,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "03300411": {
+   "pet14h": 38.36,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.12,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03300412": {
+   "pet14h": 37.51,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.11,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03300413": {
+   "pet14h": 38.32,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 16.02,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "03300514": {
+   "pet14h": 37.79,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.38,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "03300515": {
+   "pet14h": 38.31,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 15.31,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03300516": {
+   "pet14h": 38.13,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.73,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "03300517": {
+   "pet14h": 37.73,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 15.44,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "03400618": {
+   "pet14h": 37.36,
+   "pet14h_coverage_pct": 99.2,
+   "t2m04h": 16.66,
+   "t2m04h_coverage_pct": 99.2
+  },
+  "03400619": {
+   "pet14h": 37.38,
+   "pet14h_coverage_pct": 98.0,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 98.0
+  },
+  "03400620": {
+   "pet14h": 32.17,
+   "pet14h_coverage_pct": 99.5,
+   "t2m04h": 17.05,
+   "t2m04h_coverage_pct": 99.5
+  },
+  "03400721": {
+   "pet14h": 35.44,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.98,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400722": {
+   "pet14h": 33.02,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.62,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400723": {
+   "pet14h": 35.89,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.22,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400724": {
+   "pet14h": 34.61,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.53,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400725": {
+   "pet14h": 34.02,
+   "pet14h_coverage_pct": 92.5,
+   "t2m04h": 17.38,
+   "t2m04h_coverage_pct": 92.5
+  },
+  "03400826": {
+   "pet14h": 35.58,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.06,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400827": {
+   "pet14h": 35.64,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.31,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400828": {
+   "pet14h": 36.51,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.07,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400829": {
+   "pet14h": 36.93,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.12,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400830": {
+   "pet14h": 35.37,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.01,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03400831": {
+   "pet14h": 37.38,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.49,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03500932": {
+   "pet14h": 35.07,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.49,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03500933": {
+   "pet14h": 33.05,
+   "pet14h_coverage_pct": 91.0,
+   "t2m04h": 17.6,
+   "t2m04h_coverage_pct": 91.0
+  },
+  "03500934": {
+   "pet14h": 37.52,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.57,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03500935": {
+   "pet14h": 37.74,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.74,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03500936": {
+   "pet14h": 32.44,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.94,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03501037": {
+   "pet14h": 37.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.83,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03501038": {
+   "pet14h": 32.95,
+   "pet14h_coverage_pct": 97.6,
+   "t2m04h": 17.29,
+   "t2m04h_coverage_pct": 97.6
+  },
+  "03601139": {
+   "pet14h": 36.0,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.13,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601140": {
+   "pet14h": 36.45,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.94,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601141": {
+   "pet14h": 35.25,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601142": {
+   "pet14h": 36.46,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.95,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601243": {
+   "pet14h": 36.01,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.87,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601244": {
+   "pet14h": 35.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.53,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601245": {
+   "pet14h": 36.77,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.28,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601346": {
+   "pet14h": 36.3,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.98,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601347": {
+   "pet14h": 35.83,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601348": {
+   "pet14h": 36.25,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.26,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601449": {
+   "pet14h": 34.38,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.63,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601450": {
+   "pet14h": 34.53,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601451": {
+   "pet14h": 34.98,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.21,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601452": {
+   "pet14h": 37.34,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.7,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03601453": {
+   "pet14h": 40.01,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.39,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701554": {
+   "pet14h": 36.65,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.76,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701555": {
+   "pet14h": 36.03,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.89,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701556": {
+   "pet14h": 35.73,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.67,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701657": {
+   "pet14h": 34.18,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.67,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701658": {
+   "pet14h": 35.96,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.04,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701659": {
+   "pet14h": 33.42,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.29,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "03701660": {
+   "pet14h": 35.98,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.67,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04100101": {
+   "pet14h": 32.86,
+   "pet14h_coverage_pct": 92.4,
+   "t2m04h": 17.44,
+   "t2m04h_coverage_pct": 92.4
+  },
+  "04100102": {
+   "pet14h": 33.86,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.9,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04200203": {
+   "pet14h": 31.29,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.19,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "04200204": {
+   "pet14h": 29.78,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.78,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04200205": {
+   "pet14h": 31.57,
+   "pet14h_coverage_pct": 98.9,
+   "t2m04h": 17.36,
+   "t2m04h_coverage_pct": 98.9
+  },
+  "04200206": {
+   "pet14h": 30.37,
+   "pet14h_coverage_pct": 93.4,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 93.4
+  },
+  "04200207": {
+   "pet14h": 26.97,
+   "pet14h_coverage_pct": 92.6,
+   "t2m04h": 17.52,
+   "t2m04h_coverage_pct": 92.6
+  },
+  "04200308": {
+   "pet14h": 34.41,
+   "pet14h_coverage_pct": 99.4,
+   "t2m04h": 16.88,
+   "t2m04h_coverage_pct": 99.4
+  },
+  "04200309": {
+   "pet14h": 34.51,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.71,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "04200310": {
+   "pet14h": 35.28,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.11,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04200311": {
+   "pet14h": 36.74,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.56,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300412": {
+   "pet14h": 33.0,
+   "pet14h_coverage_pct": 92.7,
+   "t2m04h": 17.25,
+   "t2m04h_coverage_pct": 92.7
+  },
+  "04300413": {
+   "pet14h": 35.73,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.5,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300414": {
+   "pet14h": 36.15,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.94,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300415": {
+   "pet14h": 33.53,
+   "pet14h_coverage_pct": 89.9,
+   "t2m04h": 17.95,
+   "t2m04h_coverage_pct": 89.9
+  },
+  "04300416": {
+   "pet14h": 36.13,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.95,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300517": {
+   "pet14h": 35.27,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300518": {
+   "pet14h": 35.8,
+   "pet14h_coverage_pct": 90.5,
+   "t2m04h": 18.12,
+   "t2m04h_coverage_pct": 90.5
+  },
+  "04300619": {
+   "pet14h": 35.09,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 18.48,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "04300620": {
+   "pet14h": 36.17,
+   "pet14h_coverage_pct": 96.4,
+   "t2m04h": 18.91,
+   "t2m04h_coverage_pct": 96.4
+  },
+  "04300621": {
+   "pet14h": 36.92,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.8,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300622": {
+   "pet14h": 36.09,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.61,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300623": {
+   "pet14h": 36.83,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.8,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04300624": {
+   "pet14h": 36.33,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.83,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400725": {
+   "pet14h": 37.67,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.11,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400726": {
+   "pet14h": 33.29,
+   "pet14h_coverage_pct": 91.8,
+   "t2m04h": 17.73,
+   "t2m04h_coverage_pct": 91.8
+  },
+  "04400727": {
+   "pet14h": 35.1,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.02,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400728": {
+   "pet14h": 33.02,
+   "pet14h_coverage_pct": 97.3,
+   "t2m04h": 17.64,
+   "t2m04h_coverage_pct": 97.3
+  },
+  "04400729": {
+   "pet14h": 27.6,
+   "pet14h_coverage_pct": 93.6,
+   "t2m04h": 17.71,
+   "t2m04h_coverage_pct": 93.6
+  },
+  "04400830": {
+   "pet14h": 35.51,
+   "pet14h_coverage_pct": 99.4,
+   "t2m04h": 17.68,
+   "t2m04h_coverage_pct": 99.4
+  },
+  "04400831": {
+   "pet14h": 32.32,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.56,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400832": {
+   "pet14h": 36.07,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.87,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400833": {
+   "pet14h": 35.21,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.97,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400834": {
+   "pet14h": 35.0,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.65,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04400835": {
+   "pet14h": 35.2,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.31,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04500936": {
+   "pet14h": 35.65,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.95,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04500937": {
+   "pet14h": 35.04,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.25,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04500938": {
+   "pet14h": 36.55,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.71,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04500939": {
+   "pet14h": 37.07,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.67,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501040": {
+   "pet14h": 35.35,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.03,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501041": {
+   "pet14h": 36.3,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.19,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501042": {
+   "pet14h": 37.32,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.34,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501043": {
+   "pet14h": 35.12,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.54,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501044": {
+   "pet14h": 35.38,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.56,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501045": {
+   "pet14h": 34.98,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.77,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501146": {
+   "pet14h": 34.4,
+   "pet14h_coverage_pct": 96.7,
+   "t2m04h": 17.83,
+   "t2m04h_coverage_pct": 96.7
+  },
+  "04501147": {
+   "pet14h": 35.81,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.87,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501148": {
+   "pet14h": 35.18,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.44,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501149": {
+   "pet14h": 35.57,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.69,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501150": {
+   "pet14h": 34.28,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.14,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501151": {
+   "pet14h": 35.25,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.68,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501152": {
+   "pet14h": 35.55,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.79,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "04501153": {
+   "pet14h": 34.77,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.38,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100101": {
+   "pet14h": 28.1,
+   "pet14h_coverage_pct": 96.4,
+   "t2m04h": 17.27,
+   "t2m04h_coverage_pct": 96.4
+  },
+  "05100102": {
+   "pet14h": 34.35,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.66,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100103": {
+   "pet14h": 36.36,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 18.08,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "05100104": {
+   "pet14h": 35.08,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.99,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "05100105": {
+   "pet14h": 33.53,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.3,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100206": {
+   "pet14h": 29.96,
+   "pet14h_coverage_pct": 97.6,
+   "t2m04h": 17.19,
+   "t2m04h_coverage_pct": 97.6
+  },
+  "05100207": {
+   "pet14h": 37.0,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.79,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "05100208": {
+   "pet14h": 34.09,
+   "pet14h_coverage_pct": 92.4,
+   "t2m04h": 17.03,
+   "t2m04h_coverage_pct": 92.4
+  },
+  "05100209": {
+   "pet14h": 35.61,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.61,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100210": {
+   "pet14h": 36.31,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.78,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100211": {
+   "pet14h": 37.92,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.2,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "05100312": {
+   "pet14h": 35.88,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.95,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100313": {
+   "pet14h": 35.23,
+   "pet14h_coverage_pct": 53.1,
+   "t2m04h": 18.27,
+   "t2m04h_coverage_pct": 53.1
+  },
+  "05100314": {
+   "pet14h": 34.87,
+   "pet14h_coverage_pct": 93.7,
+   "t2m04h": 18.27,
+   "t2m04h_coverage_pct": 93.7
+  },
+  "05100315": {
+   "pet14h": 35.82,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.44,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05100316": {
+   "pet14h": 35.47,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 17.9,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "05100317": {
+   "pet14h": 36.71,
+   "pet14h_coverage_pct": 96.0,
+   "t2m04h": 18.32,
+   "t2m04h_coverage_pct": 96.0
+  },
+  "05200418": {
+   "pet14h": 38.64,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.51,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "05200419": {
+   "pet14h": 38.81,
+   "pet14h_coverage_pct": 99.2,
+   "t2m04h": 17.4,
+   "t2m04h_coverage_pct": 99.2
+  },
+  "05200420": {
+   "pet14h": 39.06,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.48,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200421": {
+   "pet14h": 37.93,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.21,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200422": {
+   "pet14h": 36.85,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.06,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200423": {
+   "pet14h": 35.33,
+   "pet14h_coverage_pct": 98.0,
+   "t2m04h": 17.31,
+   "t2m04h_coverage_pct": 98.0
+  },
+  "05200524": {
+   "pet14h": 32.82,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.89,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200525": {
+   "pet14h": 33.8,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.35,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200526": {
+   "pet14h": 32.99,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.25,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200527": {
+   "pet14h": 36.18,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.2,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200528": {
+   "pet14h": 36.91,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.45,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200629": {
+   "pet14h": 37.24,
+   "pet14h_coverage_pct": 99.2,
+   "t2m04h": 18.14,
+   "t2m04h_coverage_pct": 99.2
+  },
+  "05200630": {
+   "pet14h": 36.97,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.13,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05200631": {
+   "pet14h": 34.46,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 18.17,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "05200632": {
+   "pet14h": 31.98,
+   "pet14h_coverage_pct": 87.8,
+   "t2m04h": 17.36,
+   "t2m04h_coverage_pct": 87.8
+  },
+  "05200633": {
+   "pet14h": 34.0,
+   "pet14h_coverage_pct": 94.5,
+   "t2m04h": 17.76,
+   "t2m04h_coverage_pct": 94.5
+  },
+  "05200634": {
+   "pet14h": 31.32,
+   "pet14h_coverage_pct": 63.3,
+   "t2m04h": 17.39,
+   "t2m04h_coverage_pct": 63.3
+  },
+  "05300735": {
+   "pet14h": 33.83,
+   "pet14h_coverage_pct": 78.7,
+   "t2m04h": 17.35,
+   "t2m04h_coverage_pct": 78.7
+  },
+  "05300736": {
+   "pet14h": 34.61,
+   "pet14h_coverage_pct": 81.6,
+   "t2m04h": 18.16,
+   "t2m04h_coverage_pct": 81.6
+  },
+  "05300737": {
+   "pet14h": 36.12,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.9,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05300838": {
+   "pet14h": 33.37,
+   "pet14h_coverage_pct": 77.5,
+   "t2m04h": 18.25,
+   "t2m04h_coverage_pct": 77.5
+  },
+  "05300839": {
+   "pet14h": 31.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.31,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05300840": {
+   "pet14h": 34.47,
+   "pet14h_coverage_pct": 89.9,
+   "t2m04h": 17.9,
+   "t2m04h_coverage_pct": 89.9
+  },
+  "05300841": {
+   "pet14h": 35.39,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.83,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "05400942": {
+   "pet14h": 32.05,
+   "pet14h_coverage_pct": 90.2,
+   "t2m04h": 16.39,
+   "t2m04h_coverage_pct": 90.2
+  },
+  "05400943": {
+   "pet14h": 34.61,
+   "pet14h_coverage_pct": 95.5,
+   "t2m04h": 16.59,
+   "t2m04h_coverage_pct": 95.5
+  },
+  "05400944": {
+   "pet14h": 33.91,
+   "pet14h_coverage_pct": 46.5,
+   "t2m04h": 16.35,
+   "t2m04h_coverage_pct": 46.5
+  },
+  "05400945": {
+   "pet14h": 34.27,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.83,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06100101": {
+   "pet14h": 34.27,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.86,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "06100102": {
+   "pet14h": 36.19,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.63,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06100103": {
+   "pet14h": 35.84,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.58,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06100204": {
+   "pet14h": 31.82,
+   "pet14h_coverage_pct": 99.4,
+   "t2m04h": 17.26,
+   "t2m04h_coverage_pct": 99.4
+  },
+  "06100205": {
+   "pet14h": 34.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.87,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06100206": {
+   "pet14h": 32.28,
+   "pet14h_coverage_pct": 98.5,
+   "t2m04h": 17.77,
+   "t2m04h_coverage_pct": 98.5
+  },
+  "06100207": {
+   "pet14h": 34.58,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.94,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06100208": {
+   "pet14h": 36.12,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.46,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06100209": {
+   "pet14h": 35.68,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 18.48,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "06100210": {
+   "pet14h": 34.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.41,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06200311": {
+   "pet14h": 35.12,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 17.6,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "06200312": {
+   "pet14h": 34.21,
+   "pet14h_coverage_pct": 96.6,
+   "t2m04h": 17.57,
+   "t2m04h_coverage_pct": 96.6
+  },
+  "06200313": {
+   "pet14h": 35.46,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.7,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06200314": {
+   "pet14h": 35.94,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.83,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06200315": {
+   "pet14h": 35.59,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.12,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "06200316": {
+   "pet14h": 35.78,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.82,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06200317": {
+   "pet14h": 37.17,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.21,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06200418": {
+   "pet14h": 32.55,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 15.86,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "06200419": {
+   "pet14h": 33.54,
+   "pet14h_coverage_pct": 98.2,
+   "t2m04h": 17.48,
+   "t2m04h_coverage_pct": 98.2
+  },
+  "06200420": {
+   "pet14h": 34.95,
+   "pet14h_coverage_pct": 96.6,
+   "t2m04h": 17.24,
+   "t2m04h_coverage_pct": 96.6
+  },
+  "06200421": {
+   "pet14h": 34.4,
+   "pet14h_coverage_pct": 93.8,
+   "t2m04h": 17.6,
+   "t2m04h_coverage_pct": 93.8
+  },
+  "06200422": {
+   "pet14h": 36.81,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.64,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06200423": {
+   "pet14h": 36.69,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.04,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "06300524": {
+   "pet14h": 35.52,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.2,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "06300525": {
+   "pet14h": 34.11,
+   "pet14h_coverage_pct": 96.8,
+   "t2m04h": 16.84,
+   "t2m04h_coverage_pct": 96.8
+  },
+  "06300526": {
+   "pet14h": 34.26,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.98,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06300527": {
+   "pet14h": 36.05,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.57,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06300528": {
+   "pet14h": 34.79,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.3,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06300629": {
+   "pet14h": 34.06,
+   "pet14h_coverage_pct": 99.2,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 99.2
+  },
+  "06300630": {
+   "pet14h": 32.47,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.57,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "06300631": {
+   "pet14h": 34.61,
+   "pet14h_coverage_pct": 92.8,
+   "t2m04h": 17.5,
+   "t2m04h_coverage_pct": 92.8
+  },
+  "06300632": {
+   "pet14h": 36.82,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.08,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "06300633": {
+   "pet14h": 35.59,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.81,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06300634": {
+   "pet14h": 35.49,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.54,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06400735": {
+   "pet14h": 27.47,
+   "pet14h_coverage_pct": 74.9,
+   "t2m04h": 17.57,
+   "t2m04h_coverage_pct": 74.9
+  },
+  "06400736": {
+   "pet14h": 29.43,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.42,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "06400737": {
+   "pet14h": 27.78,
+   "pet14h_coverage_pct": 77.5,
+   "t2m04h": 17.67,
+   "t2m04h_coverage_pct": 77.5
+  },
+  "06400838": {
+   "pet14h": 27.82,
+   "pet14h_coverage_pct": 93.7,
+   "t2m04h": 17.74,
+   "t2m04h_coverage_pct": 93.7
+  },
+  "06400839": {
+   "pet14h": 33.65,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.44,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06400840": {
+   "pet14h": 32.84,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "06400841": {
+   "pet14h": 36.54,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.55,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "06400842": {
+   "pet14h": 28.32,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.65,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "06400843": {
+   "pet14h": 35.28,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.32,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "06400844": {
+   "pet14h": 34.28,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.13,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "07100101": {
+   "pet14h": 36.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.85,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07100102": {
+   "pet14h": 36.12,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.76,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07100103": {
+   "pet14h": 36.08,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.43,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07100204": {
+   "pet14h": 34.51,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.39,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07100205": {
+   "pet14h": 35.16,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.45,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07100206": {
+   "pet14h": 33.71,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.13,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200307": {
+   "pet14h": 35.68,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.73,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200308": {
+   "pet14h": 35.26,
+   "pet14h_coverage_pct": 99.5,
+   "t2m04h": 18.63,
+   "t2m04h_coverage_pct": 99.5
+  },
+  "07200409": {
+   "pet14h": 35.32,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.47,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200410": {
+   "pet14h": 37.43,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.76,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200411": {
+   "pet14h": 36.35,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.89,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200412": {
+   "pet14h": 39.61,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.98,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200413": {
+   "pet14h": 36.71,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.31,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07200414": {
+   "pet14h": 36.71,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.29,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07300515": {
+   "pet14h": 34.82,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07300516": {
+   "pet14h": 35.67,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.84,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07300517": {
+   "pet14h": 36.18,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.57,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07300618": {
+   "pet14h": 35.23,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.33,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07300619": {
+   "pet14h": 35.72,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.07,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07400720": {
+   "pet14h": 36.77,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.8,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07400721": {
+   "pet14h": 39.37,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.45,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "07400822": {
+   "pet14h": 34.25,
+   "pet14h_coverage_pct": 99.1,
+   "t2m04h": 17.98,
+   "t2m04h_coverage_pct": 99.1
+  },
+  "07400823": {
+   "pet14h": 36.61,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.09,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07400824": {
+   "pet14h": 35.2,
+   "pet14h_coverage_pct": 98.5,
+   "t2m04h": 18.3,
+   "t2m04h_coverage_pct": 98.5
+  },
+  "07400825": {
+   "pet14h": 35.71,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 18.62,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "07400826": {
+   "pet14h": 34.46,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 17.24,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "07400927": {
+   "pet14h": 36.11,
+   "pet14h_coverage_pct": 96.7,
+   "t2m04h": 18.08,
+   "t2m04h_coverage_pct": 96.7
+  },
+  "07400928": {
+   "pet14h": 35.44,
+   "pet14h_coverage_pct": 96.9,
+   "t2m04h": 18.0,
+   "t2m04h_coverage_pct": 96.9
+  },
+  "07501029": {
+   "pet14h": 36.23,
+   "pet14h_coverage_pct": 99.4,
+   "t2m04h": 17.57,
+   "t2m04h_coverage_pct": 99.4
+  },
+  "07501030": {
+   "pet14h": 35.87,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.05,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07501031": {
+   "pet14h": 34.46,
+   "pet14h_coverage_pct": 98.7,
+   "t2m04h": 17.06,
+   "t2m04h_coverage_pct": 98.7
+  },
+  "07501032": {
+   "pet14h": 36.06,
+   "pet14h_coverage_pct": 99.1,
+   "t2m04h": 16.62,
+   "t2m04h_coverage_pct": 99.1
+  },
+  "07501133": {
+   "pet14h": 37.83,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.86,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "07501134": {
+   "pet14h": 35.63,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 16.94,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "07501135": {
+   "pet14h": 38.37,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.46,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601236": {
+   "pet14h": 37.26,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.65,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "07601237": {
+   "pet14h": 37.16,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.47,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601238": {
+   "pet14h": 38.55,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.69,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601339": {
+   "pet14h": 33.9,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.35,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601340": {
+   "pet14h": 35.04,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.4,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601341": {
+   "pet14h": 36.48,
+   "pet14h_coverage_pct": 99.4,
+   "t2m04h": 16.69,
+   "t2m04h_coverage_pct": 99.4
+  },
+  "07601442": {
+   "pet14h": 38.34,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.15,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601443": {
+   "pet14h": 39.31,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.39,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601544": {
+   "pet14h": 37.46,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.42,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601545": {
+   "pet14h": 35.71,
+   "pet14h_coverage_pct": 99.0,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 99.0
+  },
+  "07601546": {
+   "pet14h": 36.4,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.24,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "07601547": {
+   "pet14h": 34.95,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.96,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "07601548": {
+   "pet14h": 35.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.94,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100101": {
+   "pet14h": 29.39,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 16.99,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "08100102": {
+   "pet14h": 32.91,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.55,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100103": {
+   "pet14h": 36.64,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.17,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100104": {
+   "pet14h": 32.0,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.2,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100105": {
+   "pet14h": 33.24,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.54,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100206": {
+   "pet14h": 36.18,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.85,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100207": {
+   "pet14h": 35.17,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.09,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100208": {
+   "pet14h": 33.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.03,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100209": {
+   "pet14h": 37.88,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.72,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100310": {
+   "pet14h": 34.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.95,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100311": {
+   "pet14h": 35.39,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.93,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100312": {
+   "pet14h": 34.52,
+   "pet14h_coverage_pct": 97.4,
+   "t2m04h": 18.52,
+   "t2m04h_coverage_pct": 97.4
+  },
+  "08100313": {
+   "pet14h": 35.07,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 18.37,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "08100314": {
+   "pet14h": 36.73,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.25,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100415": {
+   "pet14h": 36.5,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.97,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100416": {
+   "pet14h": 36.36,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.49,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100417": {
+   "pet14h": 35.48,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100418": {
+   "pet14h": 34.89,
+   "pet14h_coverage_pct": 92.8,
+   "t2m04h": 18.31,
+   "t2m04h_coverage_pct": 92.8
+  },
+  "08100419": {
+   "pet14h": 36.04,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.91,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100520": {
+   "pet14h": 36.85,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.9,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08100521": {
+   "pet14h": 36.91,
+   "pet14h_coverage_pct": 95.9,
+   "t2m04h": 18.42,
+   "t2m04h_coverage_pct": 95.9
+  },
+  "08200622": {
+   "pet14h": 35.91,
+   "pet14h_coverage_pct": 99.5,
+   "t2m04h": 18.4,
+   "t2m04h_coverage_pct": 99.5
+  },
+  "08200623": {
+   "pet14h": 34.99,
+   "pet14h_coverage_pct": 91.0,
+   "t2m04h": 17.79,
+   "t2m04h_coverage_pct": 91.0
+  },
+  "08200624": {
+   "pet14h": 35.29,
+   "pet14h_coverage_pct": 97.3,
+   "t2m04h": 17.99,
+   "t2m04h_coverage_pct": 97.3
+  },
+  "08200725": {
+   "pet14h": 37.68,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.66,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "08200726": {
+   "pet14h": 34.8,
+   "pet14h_coverage_pct": 98.3,
+   "t2m04h": 17.48,
+   "t2m04h_coverage_pct": 98.3
+  },
+  "08200727": {
+   "pet14h": 33.39,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.68,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08200728": {
+   "pet14h": 35.69,
+   "pet14h_coverage_pct": 95.5,
+   "t2m04h": 16.36,
+   "t2m04h_coverage_pct": 95.5
+  },
+  "08200729": {
+   "pet14h": 33.61,
+   "pet14h_coverage_pct": 96.9,
+   "t2m04h": 16.02,
+   "t2m04h_coverage_pct": 96.9
+  },
+  "08200730": {
+   "pet14h": 35.8,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.79,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08200831": {
+   "pet14h": 38.44,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.1,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "08200832": {
+   "pet14h": 37.48,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.08,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "08200833": {
+   "pet14h": 37.99,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.49,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08300934": {
+   "pet14h": 34.52,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.69,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08300935": {
+   "pet14h": 33.81,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.61,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "08301036": {
+   "pet14h": 32.55,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.51,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08301037": {
+   "pet14h": 34.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.75,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08401138": {
+   "pet14h": 36.72,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.82,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08401139": {
+   "pet14h": 38.15,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.93,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08401140": {
+   "pet14h": 38.45,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.63,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08401241": {
+   "pet14h": 38.81,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 17.71,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "08401242": {
+   "pet14h": 38.47,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.04,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08401243": {
+   "pet14h": 38.68,
+   "pet14h_coverage_pct": 96.2,
+   "t2m04h": 17.99,
+   "t2m04h_coverage_pct": 96.2
+  },
+  "08401244": {
+   "pet14h": 37.68,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 16.7,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "08401245": {
+   "pet14h": 37.97,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.35,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "08401246": {
+   "pet14h": 36.87,
+   "pet14h_coverage_pct": 98.6,
+   "t2m04h": 16.72,
+   "t2m04h_coverage_pct": 98.6
+  },
+  "09100101": {
+   "pet14h": 32.62,
+   "pet14h_coverage_pct": 97.3,
+   "t2m04h": 17.79,
+   "t2m04h_coverage_pct": 97.3
+  },
+  "09100202": {
+   "pet14h": 35.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.99,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09100203": {
+   "pet14h": 30.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.56,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09100304": {
+   "pet14h": 33.9,
+   "pet14h_coverage_pct": 96.8,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 96.8
+  },
+  "09100305": {
+   "pet14h": 33.9,
+   "pet14h_coverage_pct": 95.1,
+   "t2m04h": 17.96,
+   "t2m04h_coverage_pct": 95.1
+  },
+  "09100306": {
+   "pet14h": 37.57,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.33,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "09100407": {
+   "pet14h": 31.43,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.38,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09100408": {
+   "pet14h": 37.0,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.15,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09100409": {
+   "pet14h": 38.91,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.77,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09200510": {
+   "pet14h": 34.48,
+   "pet14h_coverage_pct": 81.3,
+   "t2m04h": 17.48,
+   "t2m04h_coverage_pct": 81.3
+  },
+  "09200511": {
+   "pet14h": 36.25,
+   "pet14h_coverage_pct": 82.7,
+   "t2m04h": 18.54,
+   "t2m04h_coverage_pct": 82.7
+  },
+  "09200512": {
+   "pet14h": 28.95,
+   "pet14h_coverage_pct": 93.4,
+   "t2m04h": 17.44,
+   "t2m04h_coverage_pct": 93.4
+  },
+  "09200613": {
+   "pet14h": 34.88,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 18.23,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "09200614": {
+   "pet14h": 35.94,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.28,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09200715": {
+   "pet14h": 38.0,
+   "pet14h_coverage_pct": 96.7,
+   "t2m04h": 17.93,
+   "t2m04h_coverage_pct": 96.7
+  },
+  "09200716": {
+   "pet14h": 37.06,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.9,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09200717": {
+   "pet14h": 33.03,
+   "pet14h_coverage_pct": 99.1,
+   "t2m04h": 17.51,
+   "t2m04h_coverage_pct": 99.1
+  },
+  "09200818": {
+   "pet14h": 34.27,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 17.77,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "09200819": {
+   "pet14h": 35.74,
+   "pet14h_coverage_pct": 98.0,
+   "t2m04h": 17.49,
+   "t2m04h_coverage_pct": 98.0
+  },
+  "09300920": {
+   "pet14h": 37.71,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 16.94,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "09300921": {
+   "pet14h": 34.67,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.81,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09300922": {
+   "pet14h": 37.0,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09300923": {
+   "pet14h": 39.0,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.02,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09301024": {
+   "pet14h": 36.81,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.06,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09301025": {
+   "pet14h": 38.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.51,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09301126": {
+   "pet14h": 28.21,
+   "pet14h_coverage_pct": 89.1,
+   "t2m04h": 17.7,
+   "t2m04h_coverage_pct": 89.1
+  },
+  "09301227": {
+   "pet14h": 29.77,
+   "pet14h_coverage_pct": 71.1,
+   "t2m04h": 17.43,
+   "t2m04h_coverage_pct": 71.1
+  },
+  "09301228": {
+   "pet14h": 26.74,
+   "pet14h_coverage_pct": 71.8,
+   "t2m04h": 17.69,
+   "t2m04h_coverage_pct": 71.8
+  },
+  "09401329": {
+   "pet14h": 27.76,
+   "pet14h_coverage_pct": 70.0,
+   "t2m04h": 17.69,
+   "t2m04h_coverage_pct": 70.0
+  },
+  "09401330": {
+   "pet14h": 32.45,
+   "pet14h_coverage_pct": 58.3,
+   "t2m04h": 17.32,
+   "t2m04h_coverage_pct": 58.3
+  },
+  "09401431": {
+   "pet14h": 34.57,
+   "pet14h_coverage_pct": 99.3,
+   "t2m04h": 17.56,
+   "t2m04h_coverage_pct": 99.3
+  },
+  "09401432": {
+   "pet14h": 29.75,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.67,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "09401433": {
+   "pet14h": 26.59,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.73,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "09401534": {
+   "pet14h": 35.31,
+   "pet14h_coverage_pct": 77.6,
+   "t2m04h": 18.45,
+   "t2m04h_coverage_pct": 77.6
+  },
+  "09401635": {
+   "pet14h": 28.2,
+   "pet14h_coverage_pct": 91.3,
+   "t2m04h": 17.07,
+   "t2m04h_coverage_pct": 91.3
+  },
+  "09501736": {
+   "pet14h": 31.8,
+   "pet14h_coverage_pct": 88.7,
+   "t2m04h": 16.94,
+   "t2m04h_coverage_pct": 88.7
+  },
+  "09501737": {
+   "pet14h": 28.08,
+   "pet14h_coverage_pct": 85.1,
+   "t2m04h": 17.8,
+   "t2m04h_coverage_pct": 85.1
+  },
+  "09501838": {
+   "pet14h": 27.89,
+   "pet14h_coverage_pct": 87.5,
+   "t2m04h": 17.59,
+   "t2m04h_coverage_pct": 87.5
+  },
+  "09501939": {
+   "pet14h": 34.82,
+   "pet14h_coverage_pct": 75.0,
+   "t2m04h": 17.93,
+   "t2m04h_coverage_pct": 75.0
+  },
+  "09501940": {
+   "pet14h": 34.53,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.77,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09501941": {
+   "pet14h": 33.72,
+   "pet14h_coverage_pct": 76.9,
+   "t2m04h": 17.6,
+   "t2m04h_coverage_pct": 76.9
+  },
+  "09502042": {
+   "pet14h": 28.56,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.49,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "09502043": {
+   "pet14h": 30.69,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 17.42,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "10100101": {
+   "pet14h": 36.66,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.1,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100102": {
+   "pet14h": 37.21,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.72,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100103": {
+   "pet14h": 35.73,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.85,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100104": {
+   "pet14h": 34.39,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.47,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100205": {
+   "pet14h": 36.28,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.88,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100206": {
+   "pet14h": 35.36,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.52,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100207": {
+   "pet14h": 31.21,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.04,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "10100208": {
+   "pet14h": 34.52,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.14,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100209": {
+   "pet14h": 36.64,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.45,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100210": {
+   "pet14h": 35.32,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.68,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100311": {
+   "pet14h": 37.14,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.43,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "10100312": {
+   "pet14h": 34.83,
+   "pet14h_coverage_pct": 98.9,
+   "t2m04h": 17.39,
+   "t2m04h_coverage_pct": 98.9
+  },
+  "10100313": {
+   "pet14h": 38.19,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.27,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100314": {
+   "pet14h": 36.01,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.45,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100315": {
+   "pet14h": 36.27,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.34,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10100316": {
+   "pet14h": 34.04,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 16.55,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "10200417": {
+   "pet14h": 35.62,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.68,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200418": {
+   "pet14h": 36.28,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.26,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200419": {
+   "pet14h": 36.19,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.74,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200420": {
+   "pet14h": 35.71,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.23,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200421": {
+   "pet14h": 38.23,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 19.16,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200422": {
+   "pet14h": 34.46,
+   "pet14h_coverage_pct": 96.1,
+   "t2m04h": 17.94,
+   "t2m04h_coverage_pct": 96.1
+  },
+  "10200423": {
+   "pet14h": 31.88,
+   "pet14h_coverage_pct": 95.5,
+   "t2m04h": 17.17,
+   "t2m04h_coverage_pct": 95.5
+  },
+  "10200524": {
+   "pet14h": 36.46,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.33,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200525": {
+   "pet14h": 34.2,
+   "pet14h_coverage_pct": 98.8,
+   "t2m04h": 17.32,
+   "t2m04h_coverage_pct": 98.8
+  },
+  "10200526": {
+   "pet14h": 35.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.27,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200627": {
+   "pet14h": 34.88,
+   "pet14h_coverage_pct": 98.7,
+   "t2m04h": 16.67,
+   "t2m04h_coverage_pct": 98.7
+  },
+  "10200628": {
+   "pet14h": 35.96,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.46,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10200629": {
+   "pet14h": 34.53,
+   "pet14h_coverage_pct": 98.4,
+   "t2m04h": 17.3,
+   "t2m04h_coverage_pct": 98.4
+  },
+  "10200630": {
+   "pet14h": 36.5,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.62,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "10300731": {
+   "pet14h": 38.0,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.04,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "10300732": {
+   "pet14h": 35.06,
+   "pet14h_coverage_pct": 99.1,
+   "t2m04h": 16.63,
+   "t2m04h_coverage_pct": 99.1
+  },
+  "10300733": {
+   "pet14h": 34.59,
+   "pet14h_coverage_pct": 96.8,
+   "t2m04h": 17.16,
+   "t2m04h_coverage_pct": 96.8
+  },
+  "10300734": {
+   "pet14h": 36.04,
+   "pet14h_coverage_pct": 98.6,
+   "t2m04h": 16.72,
+   "t2m04h_coverage_pct": 98.6
+  },
+  "10400835": {
+   "pet14h": 38.59,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 16.81,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "10400836": {
+   "pet14h": 37.67,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.14,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "10400837": {
+   "pet14h": 35.48,
+   "pet14h_coverage_pct": 95.4,
+   "t2m04h": 16.83,
+   "t2m04h_coverage_pct": 95.4
+  },
+  "10400938": {
+   "pet14h": 39.49,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 16.43,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "10400939": {
+   "pet14h": 38.63,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.15,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "10400940": {
+   "pet14h": 37.2,
+   "pet14h_coverage_pct": 95.1,
+   "t2m04h": 16.65,
+   "t2m04h_coverage_pct": 95.1
+  },
+  "10400941": {
+   "pet14h": 37.79,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.99,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11100101": {
+   "pet14h": 36.5,
+   "pet14h_coverage_pct": 99.2,
+   "t2m04h": 15.55,
+   "t2m04h_coverage_pct": 99.2
+  },
+  "11100102": {
+   "pet14h": 38.59,
+   "pet14h_coverage_pct": 99.5,
+   "t2m04h": 15.63,
+   "t2m04h_coverage_pct": 99.5
+  },
+  "11100203": {
+   "pet14h": 33.67,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.15,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11100204": {
+   "pet14h": 34.68,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.12,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11100205": {
+   "pet14h": 35.38,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.49,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "11100206": {
+   "pet14h": 35.3,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.09,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "11100307": {
+   "pet14h": 33.25,
+   "pet14h_coverage_pct": 99.1,
+   "t2m04h": 17.45,
+   "t2m04h_coverage_pct": 99.1
+  },
+  "11100308": {
+   "pet14h": 34.41,
+   "pet14h_coverage_pct": 99.1,
+   "t2m04h": 17.15,
+   "t2m04h_coverage_pct": 99.1
+  },
+  "11100309": {
+   "pet14h": 34.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.48,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11200410": {
+   "pet14h": 38.74,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.05,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11200411": {
+   "pet14h": 37.61,
+   "pet14h_coverage_pct": 98.5,
+   "t2m04h": 17.99,
+   "t2m04h_coverage_pct": 98.5
+  },
+  "11200512": {
+   "pet14h": 34.51,
+   "pet14h_coverage_pct": 95.8,
+   "t2m04h": 17.39,
+   "t2m04h_coverage_pct": 95.8
+  },
+  "11200513": {
+   "pet14h": 37.86,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.16,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11200514": {
+   "pet14h": 35.51,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.74,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11200515": {
+   "pet14h": 38.99,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.5,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300616": {
+   "pet14h": 34.69,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.3,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300617": {
+   "pet14h": 32.88,
+   "pet14h_coverage_pct": 94.7,
+   "t2m04h": 17.44,
+   "t2m04h_coverage_pct": 94.7
+  },
+  "11300618": {
+   "pet14h": 35.91,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.94,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300619": {
+   "pet14h": 34.56,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.62,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300620": {
+   "pet14h": 34.78,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.83,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300721": {
+   "pet14h": 35.27,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.43,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "11300722": {
+   "pet14h": 34.83,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.84,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300723": {
+   "pet14h": 38.15,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.01,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300724": {
+   "pet14h": 37.02,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.29,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300725": {
+   "pet14h": 35.87,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.99,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11300826": {
+   "pet14h": 36.9,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.3,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11400927": {
+   "pet14h": 36.43,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.59,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11400928": {
+   "pet14h": 35.92,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.58,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11400929": {
+   "pet14h": 36.14,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.37,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11400930": {
+   "pet14h": 35.29,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.81,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11400931": {
+   "pet14h": 36.51,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.28,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11401032": {
+   "pet14h": 35.62,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.16,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11401033": {
+   "pet14h": 34.25,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.55,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11401034": {
+   "pet14h": 30.89,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.82,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11401135": {
+   "pet14h": 33.24,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.52,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11401136": {
+   "pet14h": 34.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.35,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11401137": {
+   "pet14h": 34.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.88,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11501238": {
+   "pet14h": 37.31,
+   "pet14h_coverage_pct": 82.9,
+   "t2m04h": 18.06,
+   "t2m04h_coverage_pct": 82.9
+  },
+  "11501339": {
+   "pet14h": 36.78,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.71,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11501340": {
+   "pet14h": 35.9,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.8,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "11501341": {
+   "pet14h": 35.77,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.09,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12100101": {
+   "pet14h": 36.29,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.23,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12100102": {
+   "pet14h": 35.49,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.09,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12100103": {
+   "pet14h": 34.13,
+   "pet14h_coverage_pct": 99.2,
+   "t2m04h": 17.92,
+   "t2m04h_coverage_pct": 99.2
+  },
+  "12100204": {
+   "pet14h": 33.23,
+   "pet14h_coverage_pct": 95.9,
+   "t2m04h": 17.51,
+   "t2m04h_coverage_pct": 95.9
+  },
+  "12100205": {
+   "pet14h": 35.53,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.64,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12100206": {
+   "pet14h": 34.34,
+   "pet14h_coverage_pct": 99.5,
+   "t2m04h": 17.18,
+   "t2m04h_coverage_pct": 99.5
+  },
+  "12200307": {
+   "pet14h": 38.29,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.57,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12200308": {
+   "pet14h": 36.15,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.59,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12200309": {
+   "pet14h": 37.2,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.3,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12200310": {
+   "pet14h": 35.96,
+   "pet14h_coverage_pct": 99.8,
+   "t2m04h": 17.49,
+   "t2m04h_coverage_pct": 99.8
+  },
+  "12200411": {
+   "pet14h": 38.17,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.69,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12200412": {
+   "pet14h": 29.65,
+   "pet14h_coverage_pct": 94.8,
+   "t2m04h": 17.89,
+   "t2m04h_coverage_pct": 94.8
+  },
+  "12200413": {
+   "pet14h": 33.06,
+   "pet14h_coverage_pct": 98.6,
+   "t2m04h": 17.62,
+   "t2m04h_coverage_pct": 98.6
+  },
+  "12200414": {
+   "pet14h": 37.15,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 16.64,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12200515": {
+   "pet14h": 33.51,
+   "pet14h_coverage_pct": 95.7,
+   "t2m04h": 17.94,
+   "t2m04h_coverage_pct": 95.7
+  },
+  "12400616": {
+   "pet14h": 33.01,
+   "pet14h_coverage_pct": 78.4,
+   "t2m04h": 17.43,
+   "t2m04h_coverage_pct": 78.4
+  },
+  "12400617": {
+   "pet14h": 33.95,
+   "pet14h_coverage_pct": 76.7,
+   "t2m04h": 16.75,
+   "t2m04h_coverage_pct": 76.7
+  },
+  "12400618": {
+   "pet14h": 29.75,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.59,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12400619": {
+   "pet14h": 27.09,
+   "pet14h_coverage_pct": 77.5,
+   "t2m04h": 17.83,
+   "t2m04h_coverage_pct": 77.5
+  },
+  "12400720": {
+   "pet14h": 33.51,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.17,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "12400721": {
+   "pet14h": 29.95,
+   "pet14h_coverage_pct": 99.5,
+   "t2m04h": 17.41,
+   "t2m04h_coverage_pct": 99.5
+  },
+  "12400722": {
+   "pet14h": 33.16,
+   "pet14h_coverage_pct": 99.9,
+   "t2m04h": 17.31,
+   "t2m04h_coverage_pct": 99.9
+  },
+  "12400723": {
+   "pet14h": 34.74,
+   "pet14h_coverage_pct": 96.5,
+   "t2m04h": 16.94,
+   "t2m04h_coverage_pct": 96.5
+  },
+  "12500824": {
+   "pet14h": 34.6,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.13,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12500825": {
+   "pet14h": 38.41,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 18.48,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12500926": {
+   "pet14h": 36.36,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.8,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12500927": {
+   "pet14h": 34.85,
+   "pet14h_coverage_pct": 99.6,
+   "t2m04h": 17.16,
+   "t2m04h_coverage_pct": 99.6
+  },
+  "12500928": {
+   "pet14h": 32.18,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 17.46,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "12500929": {
+   "pet14h": 36.27,
+   "pet14h_coverage_pct": 98.5,
+   "t2m04h": 15.84,
+   "t2m04h_coverage_pct": 98.5
+  },
+  "12500930": {
+   "pet14h": 34.67,
+   "pet14h_coverage_pct": 99.7,
+   "t2m04h": 17.65,
+   "t2m04h_coverage_pct": 99.7
+  },
+  "12601031": {
+   "pet14h": 37.53,
+   "pet14h_coverage_pct": 99.4,
+   "t2m04h": 17.47,
+   "t2m04h_coverage_pct": 99.4
+  },
+  "12601032": {
+   "pet14h": 35.85,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.66,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12601133": {
+   "pet14h": 34.13,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.28,
+   "t2m04h_coverage_pct": 100.0
+  },
+  "12601134": {
+   "pet14h": 33.33,
+   "pet14h_coverage_pct": 98.4,
+   "t2m04h": 17.54,
+   "t2m04h_coverage_pct": 98.4
+  },
+  "12601235": {
+   "pet14h": 33.72,
+   "pet14h_coverage_pct": 94.4,
+   "t2m04h": 17.65,
+   "t2m04h_coverage_pct": 94.4
+  },
+  "12601236": {
+   "pet14h": 39.34,
+   "pet14h_coverage_pct": 100.0,
+   "t2m04h": 17.7,
+   "t2m04h_coverage_pct": 100.0
+  }
+ }
+}

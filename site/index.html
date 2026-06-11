@@ -20,8 +20,13 @@
   </header>
 
   <main>
-    <div id="map" aria-label="Karte der Berliner Planungsräume, eingefärbt nach Sozialstatus"></div>
-    <div class="legend" id="legend">
+    <div class="layer-toggle" role="group" aria-label="Kartenebene wählen">
+      <button data-layer="status" class="active">Sozialstatus</button>
+      <button data-layer="pet">Hitze am Tag (PET 14 Uhr)</button>
+      <button data-layer="night">Wärmeinsel nachts (4 Uhr)</button>
+    </div>
+    <div id="map" aria-label="Karte der Berliner Planungsräume"></div>
+    <div class="legend" id="legend-status">
       <strong>Sozialstatus (MSS&nbsp;2025)</strong>
       <span><i style="background:#f2f0f7"></i> hoch</span>
       <span><i style="background:#cbc9e2"></i> mittel</span>
@@ -29,6 +34,25 @@
       <span><i style="background:#6a51a3"></i> sehr niedrig</span>
       <span><i style="background:#d9d9d9"></i> ohne Zuordnung</span>
     </div>
+    <div class="legend hidden" id="legend-pet">
+      <strong>PET 14 Uhr</strong>
+      <span><i style="background:#ffffb2"></i> 27 °C</span>
+      <span><i style="background:#fd8d3c"></i> 34 °C</span>
+      <span><i style="background:#b10026"></i> 40 °C</span>
+    </div>
+    <div class="legend hidden" id="legend-night">
+      <strong>Lufttemperatur 4 Uhr</strong>
+      <span><i style="background:#ffffcc"></i> 15,5 °C</span>
+      <span><i style="background:#fe9929"></i> 17,5 °C</span>
+      <span><i style="background:#993404"></i> 19,5 °C</span>
+    </div>
+
+    <section class="chapter" id="heat-chapter">
+      <h2>Wie heiß wird es — und für wen?</h2>
+      <p id="heat-text">Lade Daten …</p>
+      <div id="heat-chart" class="bars" aria-label="Nächtliche Lufttemperatur nach Sozialstatus"></div>
+      <p class="method-note" id="heat-note"></p>
+    </section>
   </main>
 
   <footer>

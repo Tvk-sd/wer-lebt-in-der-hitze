@@ -28,12 +28,14 @@ MSS_WFS = (
 )
 
 OUT_DIR = Path(__file__).resolve().parent.parent / "site" / "data"
+HEAT_INTERIM = Path(__file__).resolve().parent.parent / "data" / "interim" / "heat_by_lor.json"
 
 MSS_UNASSIGNED = -9999  # official marker: Planungsraum ohne Zuordnung
 
 CSV_COLUMNS = [
     "plr_id", "plr_name", "bzr_name", "pgr_name", "bez_id", "bez_name",
     "ew", "mss_status_index", "mss_status_class", "mss_valid",
+    "pet14h", "t2m04h",
 ]
 
 
@@ -52,12 +54,21 @@ def round_coords(obj, ndigits=5):
     return obj
 
 
-def join_features(lor_fc, mss_fc):
-    """Join LOR boundary features with MSS rows on plr_id.
+def load_heat():
+    """Per-LOR heat metrics from pipeline/heat_layer.py, if it has been run."""
+    if not HEAT_INTERIM.exists():
+        return {}
+    return json.loads(HEAT_INTERIM.read_text(encoding="utf-8"))["by_lor"]
+
+
+def join_features(lor_fc, mss_fc, heat_by_lor=None):
+    """Join LOR boundary features with MSS rows on plr_id, plus heat metrics
+    (issue 03) when available.
 
     Raises ValueError if any LOR has no MSS row (the join must be total —
     a partial join means the data vintages no longer match).
     """
+    heat_by_lor = heat_by_lor or {}
     mss_by_id = {f["properties"]["plr_id"]: f["properties"] for f in mss_fc["features"]}
     features = []
     missing = []
@@ -70,6 +81,7 @@ def join_features(lor_fc, mss_fc):
         bez_id, _, bez_name = lor["bez"].partition(" - ")
         si_n = mss.get("si_n")
         unassigned = si_n is None or int(si_n) == MSS_UNASSIGNED
+        heat = heat_by_lor.get(lor["plr_id"], {})
         features.append({
             "type": "Feature",
             "geometry": round_coords(f["geometry"]),
@@ -84,6 +96,8 @@ def join_features(lor_fc, mss_fc):
                 "mss_status_index": None if unassigned else int(si_n),
                 "mss_status_class": mss.get("si_v"),
                 "mss_valid": mss.get("kom") == "gültig",
+                "pet14h": heat.get("pet14h"),
+                "t2m04h": heat.get("t2m04h"),
             },
         })
     if missing:
@@ -96,6 +110,7 @@ def join_features(lor_fc, mss_fc):
             "sources": {
                 "lor": "Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) 01.01.2021, WFS lor_2021",
                 "mss": "SenStadt / Monitoring Soziale Stadtentwicklung 2025, WFS mss_2025 (Datenstand 2024-12)",
+                "heat": "SenStadt / Klimamodell Berlin: Klimaanalysekarten 2022, WFS ua_klimaanalyse_2022 (PET 14 Uhr, Lufttemperatur 4 Uhr; flächengewichtetes Mittel je LOR)",
             },
             "license": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
             "generated": date.today().isoformat(),
@@ -125,7 +140,9 @@ def main():
     print("Fetching MSS 2025 indices …")
     mss_fc = fetch_geojson(MSS_WFS)
     print(f"  {len(mss_fc['features'])} MSS rows")
-    dataset = join_features(lor_fc, mss_fc)
+    heat = load_heat()
+    print(f"Heat metrics: {'loaded for ' + str(len(heat)) + ' LORs' if heat else 'not available (run heat_layer.py)'}")
+    dataset = join_features(lor_fc, mss_fc, heat)
     geojson_path, csv_path = write_outputs(dataset)
     size_mb = geojson_path.stat().st_size / 1e6
     print(f"Wrote {geojson_path} ({size_mb:.1f} MB) and {csv_path}")
