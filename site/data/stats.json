@@ -46,7 +46,7 @@
     "berlin_t2m04h_mean": 17.85,
     "t2m04h_gap_lowest_vs_highest_status": 0.31,
     "pet14h_gap_lowest_vs_highest_status": 0.67,
-    "note": "Mittelwerte bevölkerungsgewichtet. PET 14 Uhr = Hitzebelastung am Tag (strahlungsdominiert), Lufttemperatur 4 Uhr = nächtliche Wärmeinsel. Quelle: Klimamodell Berlin 2022."
+    "note": "Die Werte beziehen sich nicht auf einen realen Messtag, sondern auf einen modellierten durchschnittlichen autochthonen Sommertag: wolkenlos, windschwach, Hochdruckwetterlage — die Bedingungen, unter denen sich der städtische Wärmeinseleffekt am stärksten ausprägt. Simulation: FITNAH 3D (10×10 m) auf Basis der Stadtstruktur 2022, im Auftrag von SenStadt. PET 14 Uhr = Hitzebelastung am Tag (strahlungsdominiert), Lufttemperatur 4 Uhr = nächtliche Wärmeinsel. Mittelwerte bevölkerungsgewichtet."
   },
   "headline": {
     "disadvantaged_population": 723172,

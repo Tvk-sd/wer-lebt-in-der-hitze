@@ -61,9 +61,13 @@ def compute_stats(rows):
                 lowest["pet14h_mean"] - highest["pet14h_mean"], 2
             ),
             "note": (
-                "Mittelwerte bevölkerungsgewichtet. PET 14 Uhr = Hitzebelastung "
-                "am Tag (strahlungsdominiert), Lufttemperatur 4 Uhr = nächtliche "
-                "Wärmeinsel. Quelle: Klimamodell Berlin 2022."
+                "Die Werte beziehen sich nicht auf einen realen Messtag, sondern auf "
+                "einen modellierten durchschnittlichen autochthonen Sommertag: wolkenlos, "
+                "windschwach, Hochdruckwetterlage — die Bedingungen, unter denen sich der "
+                "städtische Wärmeinseleffekt am stärksten ausprägt. Simulation: FITNAH 3D "
+                "(10×10 m) auf Basis der Stadtstruktur 2022, im Auftrag von SenStadt. "
+                "PET 14 Uhr = Hitzebelastung am Tag (strahlungsdominiert), Lufttemperatur "
+                "4 Uhr = nächtliche Wärmeinsel. Mittelwerte bevölkerungsgewichtet."
             ),
         }
     return {
