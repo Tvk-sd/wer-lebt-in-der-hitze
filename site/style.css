@@ -41,18 +41,65 @@ body::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* ——— Hero ——— */
+/* ——— Hero: color field after Rothko — the heat itself ——— */
 
 .hero {
-  min-height: 92svh;
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  background: #d63209;
+  color: #fdf3e0;
+}
+
+.hero-canvas { position: absolute; inset: 0; }
+
+.field {
+  position: absolute;
+  filter: blur(26px);
+  border-radius: 22px;
+}
+
+.field-glow {
+  left: -10%;
+  right: -10%;
+  top: -25%;
+  height: 75%;
+  background: radial-gradient(60% 60% at 55% 45%, rgba(255, 196, 87, 0.55), transparent 70%);
+  filter: blur(60px);
+}
+
+.field-top {
+  left: 4.5%;
+  right: 4.5%;
+  top: 5%;
+  height: 56%;
+  background: linear-gradient(
+    168deg,
+    #f6b03b 0%,
+    #f29a1d 38%,
+    #ec7212 62%,
+    rgba(231, 78, 10, 0.55) 88%,
+    rgba(224, 60, 8, 0) 100%
+  );
+}
+
+.field-bottom {
+  left: 4.5%;
+  right: 4.5%;
+  top: 67%;
+  height: 27%;
+  background: linear-gradient(180deg, #ee4509 0%, #e23106 70%, rgba(224, 49, 6, 0.4) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem clamp(1.25rem, 6vw, 6rem) 2rem;
+  padding: 3rem clamp(1.5rem, 7vw, 7rem) 2rem;
   max-width: 1100px;
-  background:
-    radial-gradient(120% 70% at 80% 0%, rgba(216, 69, 31, 0.12), transparent 60%),
-    radial-gradient(80% 50% at 10% 100%, rgba(47, 107, 79, 0.10), transparent 60%);
 }
 
 .kicker {
@@ -61,7 +108,7 @@ body::before {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 0.72rem;
-  color: var(--muted);
+  color: rgba(253, 243, 224, 0.8);
   margin: 0 0 1rem;
 }
 
@@ -74,15 +121,15 @@ body::before {
   letter-spacing: -0.015em;
   margin: 0 0 1.6rem;
   max-width: 12ch;
+  text-shadow: 0 2px 40px rgba(122, 22, 4, 0.35);
 }
 
 .word-heat {
-  color: var(--heat);
-  background: linear-gradient(100deg, var(--heat) 30%, var(--heat-deep) 90%);
+  font-style: italic;
+  background: linear-gradient(100deg, #ffe9a8 10%, #ffd35c 55%, #ffb01f 95%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-style: italic;
 }
 
 .hero-lead {
@@ -92,12 +139,13 @@ body::before {
   line-height: 1.35;
   max-width: 28ch;
   margin: 0 0 0.5rem;
-  border-left: 5px solid var(--heat);
+  border-left: 5px solid rgba(253, 243, 224, 0.9);
   padding-left: 1rem;
+  text-shadow: 0 1px 24px rgba(122, 22, 4, 0.3);
 }
 
 .hero-sub {
-  color: var(--muted);
+  color: rgba(253, 243, 224, 0.78);
   max-width: 52ch;
   padding-left: calc(1rem + 5px);
   margin: 0;
@@ -107,7 +155,7 @@ body::before {
 .scroll-hint {
   margin-top: auto;
   padding-top: 3rem;
-  color: var(--muted);
+  color: rgba(253, 243, 224, 0.7);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
