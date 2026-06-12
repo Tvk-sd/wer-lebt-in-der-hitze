@@ -48,7 +48,7 @@ const LEGENDS = {
 
 /* ——— narrative steps, built from stats ——— */
 
-function buildSteps(stats) {
+function buildSteps(stats, byId) {
   const ex = stats.extremes;
   const c = stats.canopy;
   const h = stats.heat;
@@ -95,9 +95,12 @@ function buildSteps(stats) {
       layer: "canopy", target: ex.canopy_max.plr_id, kicker: "Kapitel 2 · Bäume kühlen", tone: "green",
       title: `${ex.canopy_max.plr_name}: Leben unterm Kronendach`,
       html: `<p class="step-big green">${fmt(ex.canopy_max.value)} %</p>
-        <p>Baumkronen überspannen ${place(ex.canopy_max)} — zugleich der kühlste Ort der
-        Tageskarte. Am anderen Ende: ${ex.canopy_min.plr_name} (${ex.canopy_min.bez_name})
-        mit ${fmt(ex.canopy_min.value)} %.</p>`,
+        <p>von ${place(ex.canopy_max)} liegen unter Baumkronen — und genau hier zeigt die
+        Tageskarte ihren kühlsten Wert. Grünster und kühlster Planungsraum: derselbe Ort.</p>
+        <p>Das Schlusslicht beim Grün ist ${place(ex.canopy_min)} mit
+        ${fmt(ex.canopy_min.value)} % — mit ${fmt(byId[ex.canopy_min.plr_id].pet14h)} °C
+        sehr heiß, aber nicht der Rekord. Den hält ${ex.pet_max.plr_name} (Kapitel 1) —
+        mit ${fmt(byId[ex.pet_max.plr_id].canopy_pct)} % Kronen ebenfalls fast baumlos.</p>`,
       sources: stats.findings.find((f) => f.id === "canopy-range")?.sources,
     },
     {
@@ -172,9 +175,9 @@ function buildBars(container, stats, { metric, unit, green }) {
   }
 }
 
-function renderSteps(stats) {
+function renderSteps(stats, propsById) {
   const wrap = document.getElementById("steps");
-  const steps = buildSteps(stats);
+  const steps = buildSteps(stats, propsById);
   steps.forEach((spec, i) => {
     const step = document.createElement("div");
     step.className = "step";
@@ -275,13 +278,14 @@ async function init() {
   }
 
   renderList(stats);
-  const steps = renderSteps(stats);
 
   const bboxes = {};
+  const propsById = {};
   let cityBounds = null;
   for (const f of dataset.features) {
     const b = bboxOfGeometry(f.geometry);
     bboxes[f.properties.plr_id] = b;
+    propsById[f.properties.plr_id] = f.properties;
     if (!cityBounds) cityBounds = [[...b[0]], [...b[1]]];
     else {
       cityBounds[0][0] = Math.min(cityBounds[0][0], b[0][0]);
@@ -290,6 +294,8 @@ async function init() {
       cityBounds[1][1] = Math.max(cityBounds[1][1], b[1][1]);
     }
   }
+
+  const steps = renderSteps(stats, propsById);
 
   // Berlin is the fixed frame: pan fenced to the city, zoom-out capped at the
   // full-city fit. Plain scrolling must always scroll the PAGE — zooming is a
