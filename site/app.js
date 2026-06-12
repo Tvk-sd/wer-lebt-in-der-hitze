@@ -291,6 +291,13 @@ async function init() {
     }
   }
 
+  // Berlin is the fixed frame: pan fenced to the city, zoom-out capped at the
+  // full-city fit. Plain scrolling must always scroll the PAGE — zooming is a
+  // deliberate act (Ctrl/⌘+Scroll, two fingers, or the +/− buttons).
+  const fence = [
+    [cityBounds[0][0] - 0.08, cityBounds[0][1] - 0.05],
+    [cityBounds[1][0] + 0.08, cityBounds[1][1] + 0.05],
+  ];
   const map = new maplibregl.Map({
     container: "map",
     style: {
@@ -300,9 +307,17 @@ async function init() {
     },
     bounds: cityBounds,
     fitBoundsOptions: { padding: 30 },
+    maxBounds: fence,
+    cooperativeGestures: true,
+    locale: {
+      "CooperativeGesturesHandler.WindowsHelpText": "Strg + Scrollen zum Zoomen der Karte",
+      "CooperativeGesturesHandler.MacHelpText": "⌘ + Scrollen zum Zoomen der Karte",
+      "CooperativeGesturesHandler.MobileHelpText": "Karte mit zwei Fingern bewegen",
+    },
     attributionControl: { customAttribution: "Daten: Geoportal Berlin · MSS 2025 · Klimamodell 2022 · Vegetationshöhen 2020" },
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  map.once("load", () => map.setMinZoom(Math.max(map.getZoom() - 0.2, 7)));
 
   map.on("load", () => {
     map.addSource("lor", { type: "geojson", data: dataset, promoteId: "plr_id" });
@@ -327,29 +342,37 @@ async function init() {
     setLegend("pet");
     syncToggle("pet");
 
-    /* hover popups */
-    const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
+    /* LOR details: hover preview on desktop, persistent popup on click/tap */
+    const lorHTML = (p) =>
+      `<strong>${p.plr_name}</strong> (${p.bez_name})<br>` +
+      `Sozialstatus: ${p.mss_status_class}<br>` +
+      `Einwohner:innen: ${fmt(p.ew ?? 0)}<br>` +
+      `PET 14 Uhr: ${fmt(p.pet14h)} °C · Nachts: ${fmt(p.t2m04h)} °C<br>` +
+      `Baumkronen: ${fmt(p.canopy_pct)} %`;
+
+    const hoverPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
+    const clickPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true });
     let hoveredId = null;
+
     map.on("mousemove", "lor-fill", (e) => {
       const f = e.features[0];
       if (hoveredId !== null) map.setFeatureState({ source: "lor", id: hoveredId }, { hover: false });
       hoveredId = f.id;
       map.setFeatureState({ source: "lor", id: hoveredId }, { hover: true });
       map.getCanvas().style.cursor = "pointer";
-      const p = f.properties;
-      popup.setLngLat(e.lngLat).setHTML(
-        `<strong>${p.plr_name}</strong> (${p.bez_name})<br>` +
-        `Sozialstatus: ${p.mss_status_class}<br>` +
-        `Einwohner:innen: ${fmt(p.ew ?? 0)}<br>` +
-        `PET 14 Uhr: ${fmt(p.pet14h)} °C · Nachts: ${fmt(p.t2m04h)} °C<br>` +
-        `Baumkronen: ${fmt(p.canopy_pct)} %`
-      ).addTo(map);
+      if (!clickPopup.isOpen()) {
+        hoverPopup.setLngLat(e.lngLat).setHTML(lorHTML(f.properties)).addTo(map);
+      }
     });
     map.on("mouseleave", "lor-fill", () => {
       if (hoveredId !== null) map.setFeatureState({ source: "lor", id: hoveredId }, { hover: false });
       hoveredId = null;
       map.getCanvas().style.cursor = "";
-      popup.remove();
+      hoverPopup.remove();
+    });
+    map.on("click", "lor-fill", (e) => {
+      hoverPopup.remove();
+      clickPopup.setLngLat(e.lngLat).setHTML(lorHTML(e.features[0].properties)).addTo(map);
     });
 
     /* scroll driver */
