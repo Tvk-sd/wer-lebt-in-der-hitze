@@ -3,3 +3,4 @@ data/raw/
 .pytest_cache/
 .venv/
 .DS_Store
+.vercel

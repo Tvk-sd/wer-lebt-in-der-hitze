@@ -1,0 +1,7 @@
+/data/
+/pipeline/
+/docs/
+/.scratch/
+*.md
+.pytest_cache/
+__pycache__/
