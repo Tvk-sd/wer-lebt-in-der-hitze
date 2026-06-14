@@ -123,7 +123,7 @@ def test_golden_numbers_mss_2025():
     # generated findings: concrete facts incl. named extremes
     fids = [f["id"] for f in stats["findings"]]
     assert fids == ["rule-30", "canopy-status-gap", "canopy-range", "heat-range",
-                    "canopy-cooling", "heat-inversion"]
+                    "canopy-cooling"]
     by_id = {f["id"]: f["text_de"] for f in stats["findings"]}
     assert "Helle Mitte" in by_id["canopy-range"]
     assert "Allende II" in by_id["canopy-range"]

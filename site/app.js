@@ -116,10 +116,13 @@ function buildSteps(stats, byId) {
     {
       layer: "canopy", target: "city", kicker: "Kapitel 3 · Wer hat die Kronen?", tone: "slate",
       title: "Der Schatten folgt dem Status",
-      html: `<p>Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt
-        <strong>${fmt(cls[1].canopy_pct_mean)} %</strong> Baumkronen über sich — bei sehr
-        niedrigem Status sind es <strong>${fmt(cls[4].canopy_pct_mean)} %</strong>.
-        Ein sauberes Gefälle ist es nicht: am wenigsten hat die Mitte der Gesellschaft.</p>
+      html: `<p>Bei der Hitze trennen die Statusgruppen kaum etwas — am Tag im Schnitt nur
+        ${fmt(h.pet14h_gap_lowest_vs_highest_status)} °C. Beim Schatten dagegen klafft eine
+        Lücke: Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt
+        <strong>${fmt(cls[1].canopy_pct_mean)} %</strong> Baumkronen über sich, bei sehr
+        niedrigem Status <strong>${fmt(cls[4].canopy_pct_mean)} %</strong>. Kein sauberes
+        Gefälle von arm zu reich, aber die Richtung ist klar.</p>
+        <p><strong>Die Hitze ist geteilt — der Schutz davor nicht.</strong></p>
         <div class="bars bars-green" role="img" aria-label="Baumkronenanteil nach Sozialstatus"></div>`,
       chart: { metric: "canopy_pct_mean", unit: " %", green: true },
       sources: stats.findings.find((f) => f.id === "canopy-status-gap")?.sources,
@@ -132,17 +135,6 @@ function buildSteps(stats, byId) {
         Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes
         Stadtgrün erreicht. Der Rest der Karte: verfehlt.</p>`,
       sources: stats.lead?.sources,
-    },
-    {
-      layer: "night", target: "city", kicker: "Kapitel 4 · Die Überraschung", tone: "",
-      title: "„Arm wohnt heiß“? Nicht in Berlin.",
-      html: `<p>${stats.findings.find((f) => f.id === "heat-inversion")?.text_de ?? ""}</p>
-        <p>Zwischen den Statusgruppen liegen nachts im Schnitt nur
-        ${fmt(h.t2m04h_gap_lowest_vs_highest_status)} °C. Die Hitze ist geteilt —
-        der Schutz davor nicht.</p>
-        <div class="bars" role="img" aria-label="Nächtliche Lufttemperatur nach Sozialstatus"></div>`,
-      chart: { metric: "t2m04h_mean", unit: " °C", green: false },
-      sources: stats.findings.find((f) => f.id === "heat-inversion")?.sources,
     },
   ];
 }

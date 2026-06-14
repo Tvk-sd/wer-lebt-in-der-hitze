@@ -152,14 +152,6 @@
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
         "LOR Planungsräume 01.01.2021 (Geoportal Berlin)"
       ]
-    },
-    {
-      "id": "heat-inversion",
-      "text_de": "Wer erwartet, dass die ärmsten Viertel die heißesten sind, irrt: Von den Menschen mit hohem Sozialstatus lebt jede:r Achte (12,3 %) in einem der heißesten Planungsräume (PET ≥ 38,0 °C), aus der Gruppe mit sehr niedrigem Status praktisch niemand (0,0 %). Hohe Hitze und niedriger Status schließen sich auf Planungsraum-Ebene fast aus.",
-      "sources": [
-        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",
-        "Monitoring Soziale Stadtentwicklung 2025 (SenStadt, Datenstand 12/2024)"
-      ]
     }
   ],
   "insights": [
@@ -242,7 +234,7 @@
     },
     {
       "title": "Grenzen",
-      "text_de": "Die Datenstände unterscheiden sich (Baumkronen 2020, Klimamodell 2022, Sozialdaten 12/2024). Planungsraum-Mittelwerte glätten Extremwerte einzelner Blöcke — Unterschiede innerhalb der Räume sind unsichtbar. Korrelation ist keine Kausalität; der starke Zusammenhang von Baumkronen und Tageshitze ist physikalisch plausibel, hier aber rein statistisch gezeigt.",
+      "text_de": "Die Datenstände unterscheiden sich (Baumkronen 2020, Klimamodell 2022, Sozialdaten 12/2024). Planungsraum-Mittelwerte glätten Extremwerte einzelner Blöcke — Unterschiede innerhalb der Räume sind unsichtbar. Korrelation ist keine Kausalität; der starke Zusammenhang von Baumkronen und Tageshitze ist physikalisch plausibel, hier aber rein statistisch gezeigt. Ein einfaches „arm wohnt heiß“ trägt die Datenlage nicht: Die heißesten Planungsräume (PET ≥ 38,0 °C) sind eher dichte, begehrte Innenstadtlagen — von den Menschen mit hohem Sozialstatus lebt jede:r Achte (12,3 %) in einem davon, aus der Gruppe mit sehr niedrigem Status praktisch niemand (0,0 %).",
       "sources": [
         "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)",

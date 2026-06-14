@@ -69,6 +69,12 @@ def build_methodology(rows):
     """Methodology chapter content — generated, so its numbers stay true."""
     n = len(rows)
     unassigned = sum(1 for r in rows if r["mss_status_index"] is None)
+    hoch_hot = pop_share_above(
+        [r for r in rows if r["mss_status_index"] == 1], "pet14h", PET_HOT
+    )
+    low_hot = pop_share_above(
+        [r for r in rows if r["mss_status_index"] == 4], "pet14h", PET_HOT
+    )
     return [
         {
             "title": "Räumliche Einheit",
@@ -124,7 +130,11 @@ def build_methodology(rows):
                 "Sozialdaten 12/2024). Planungsraum-Mittelwerte glätten Extremwerte einzelner "
                 "Blöcke — Unterschiede innerhalb der Räume sind unsichtbar. Korrelation ist "
                 "keine Kausalität; der starke Zusammenhang von Baumkronen und Tageshitze ist "
-                "physikalisch plausibel, hier aber rein statistisch gezeigt."
+                "physikalisch plausibel, hier aber rein statistisch gezeigt. Ein einfaches "
+                "„arm wohnt heiß“ trägt die Datenlage nicht: Die heißesten Planungsräume "
+                f"(PET ≥ {de(PET_HOT)} °C) sind eher dichte, begehrte Innenstadtlagen — von den "
+                f"Menschen mit hohem Sozialstatus lebt jede:r Achte ({de(hoch_hot)} %) in einem "
+                f"davon, aus der Gruppe mit sehr niedrigem Status praktisch niemand ({de(low_hot)} %)."
             ),
             "sources": [SRC["veg"], SRC["klima"], SRC["mss"]],
         },
@@ -298,23 +308,6 @@ def compute_stats(rows):
                 f"der Bebauung, nicht dem Grün."
             ),
             "sources": [SRC["veg"], SRC["klima"], SRC["lor"]],
-        })
-        hot_share = {
-            idx: pop_share_above(
-                [r for r in rows if r["mss_status_index"] == idx], "pet14h", PET_HOT
-            )
-            for idx in STATUS_CLASSES
-        }
-        findings.append({
-            "id": "heat-inversion",
-            "text_de": (
-                f"Wer erwartet, dass die ärmsten Viertel die heißesten sind, irrt: Von den "
-                f"Menschen mit hohem Sozialstatus lebt jede:r Achte ({de(hot_share[1])} %) in "
-                f"einem der heißesten Planungsräume (PET ≥ {de(PET_HOT)} °C), aus der Gruppe mit "
-                f"sehr niedrigem Status praktisch niemand ({de(hot_share[4])} %). Hohe Hitze und "
-                f"niedriger Status schließen sich auf Planungsraum-Ebene fast aus."
-            ),
-            "sources": [SRC["klima"], SRC["mss"]],
         })
         # Lead headline — chosen by the author (issue 04, 2026-06-11):
         # the 3-30-300 failure leads; "1 von N" derived from the computed share.
