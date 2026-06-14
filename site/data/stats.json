@@ -213,7 +213,7 @@
     },
     {
       "title": "Hitze",
-      "text_de": "Die Hitzewerte sind keine Messwerte, sondern eine FITNAH-3D-Simulation (10×10 m) eines durchschnittlichen wolkenlosen, windschwachen Sommertags auf Basis der Stadtstruktur 2022. PET 14 Uhr beschreibt die gefühlte Hitzebelastung am Tag, die Lufttemperatur um 4 Uhr die nächtliche Wärmeinsel. Blockwerte wurden flächengewichtet auf Planungsräume gemittelt.",
+      "text_de": "Die Hitzewerte sind keine Messwerte und kein Mehrjahresmittel, sondern eine physikalische Simulation mit dem Modell FITNAH-3D (GEO-NET, 10×10 m). Für die ganze Stadt wird dieselbe austauscharme, wolkenlose Hochsommer-Wetterlage angesetzt; das Modell berechnet dann je Oberfläche — abhängig von Material, Rückstrahlung, Verschattung und Sonnenstand — die resultierende Temperatur auf Basis der Stadtstruktur 2022. Weil das Wetter konstant gehalten wird, spiegeln die Unterschiede allein die Bebauung wider. PET 14 Uhr beschreibt die gefühlte Hitzebelastung am Tag, die Lufttemperatur um 4 Uhr die nächtliche Wärmeinsel. Blockwerte wurden flächengewichtet auf Planungsräume gemittelt.",
       "sources": [
         "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)"
       ]

@@ -83,9 +83,13 @@ function buildBlocks(stats, byId) {
       kind: "beat", layer: "pet", target: "city",
       kicker: "Ein Sommertag im Modell", tone: "",
       title: "So heiß ist Berlin gebaut",
-      html: `<p>Diese Karte zeigt keinen Messtag, sondern Berlins Struktur: eine Simulation
-        der gefühlten Temperatur an einem wolkenlosen, windschwachen Sommertag, 14 Uhr.
-        Dunkel heißt heiß — an <strong>jedem</strong> solchen Tag.</p>`,
+      html: `<p>Kein gemessener Tag, kein Durchschnitt vergangener Sommer: Ein Klimamodell
+        legt für die ganze Stadt <strong>dieselbe</strong> Wetterlage an — einen wolkenlosen,
+        windschwachen Hochsommertag, 14 Uhr — und berechnet dann für jeden Ort die gefühlte
+        Temperatur aus den Oberflächen dort. Asphalt heizt auf, Baumkronen verschatten, Wasser
+        puffert.</p>
+        <p>Weil das Wetter überall gleich ist, kommt jeder Unterschied auf der Karte allein von
+        der Stadtstruktur. Dunkel heißt heiß — an <strong>jedem</strong> solchen Tag.</p>`,
       sources: stats.methodology?.[2]?.sources,
     },
     {
