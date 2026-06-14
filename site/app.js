@@ -46,95 +46,153 @@ const LEGENDS = {
   rule30: { title: "Die 30-%-Marke (3-30-300)", items: [["#2f6b4f", "erreicht"], ["#e8b49a", "verfehlt"]] },
 };
 
-/* ——— narrative steps, built from stats ——— */
+/* ——— narrative blocks (prose panels + map beats), built from stats ——— */
 
-function buildSteps(stats, byId) {
+function buildBlocks(stats, byId) {
   const ex = stats.extremes;
   const c = stats.canopy;
   const h = stats.heat;
   const cls = Object.fromEntries(stats.by_status.map((g) => [g.index, g]));
   const place = (e) => `${e.plr_name} (${e.bez_name})`;
+  const srcFind = (id) => stats.findings.find((f) => f.id === id)?.sources;
 
   return [
+    // ——— Lede (prose) ———
     {
-      layer: "pet", target: "city", kicker: "Kapitel 1 · Ein Sommertag im Modell", tone: "",
+      kind: "prose",
+      html: `<p class="dropcap">An einem heißen Nachmittag liegen zwischen zwei Berliner
+        Adressen mehr als dreizehn Grad.</p>
+        <p>Am <strong>Alten Schlachthof</strong> in Pankow, einem dicht bebauten Quartier,
+        errechnet das Klimamodell des Senats für 14 Uhr eine gefühlte Temperatur von
+        <strong>${fmt(ex.pet_max.value)} Grad</strong> — der höchste Wert der Stadt. Gut zwölf
+        Kilometer südöstlich, in der Großsiedlung <strong>Allende II</strong> in Köpenick, sind
+        es zur selben Stunde <strong>${fmt(ex.pet_min.value)} Grad</strong>. Beide Werte stammen
+        von demselben modellierten Sommertag, in derselben Stadt.</p>
+        <p>Der Unterschied trägt einen Namen, und er steht am Straßenrand: Bäume. Allende II
+        liegt zu ${fmt(ex.canopy_max.value)} Prozent unter Baumkronen — der grünste
+        Planungsraum Berlins und zugleich sein kühlster. Rund um den Alten Schlachthof sind es
+        ${fmt(byId[ex.pet_max.plr_id].canopy_pct)} Prozent.</p>
+        <p>Diese Geschichte handelt davon, dass das kein Einzelfall ist, sondern ein Muster
+        über die ganze Stadt — und davon, dass der Schutz, den Bäume am Tag bieten, in Berlin
+        ungleich verteilt ist. Sie stützt sich auf drei offene Datensätze des Senats,
+        zusammengeführt für Berlins ${fmt(stats.total_lors)} Planungsräume.</p>`,
+    },
+
+    // ——— Kartenszene I: Ein Sommertag ———
+    {
+      kind: "beat", layer: "pet", target: "city",
+      kicker: "Ein Sommertag im Modell", tone: "",
       title: "So heiß ist Berlin gebaut",
       html: `<p>Diese Karte zeigt keinen Messtag, sondern Berlins Struktur: eine Simulation
-        der gefühlten Temperatur an einem durchschnittlichen wolkenlosen, windschwachen
-        Sommertag, 14 Uhr. Dunkel heißt heiß — an <strong>jedem</strong> solchen Tag.</p>`,
+        der gefühlten Temperatur an einem wolkenlosen, windschwachen Sommertag, 14 Uhr.
+        Dunkel heißt heiß — an <strong>jedem</strong> solchen Tag.</p>`,
       sources: stats.methodology?.[2]?.sources,
     },
     {
-      layer: "pet", target: ex.pet_max.plr_id, kicker: "Kapitel 1 · Ein Sommertag im Modell", tone: "",
+      kind: "beat", layer: "pet", target: ex.pet_max.plr_id,
+      kicker: "Ein Sommertag im Modell", tone: "",
       title: `Am heißesten: ${ex.pet_max.plr_name}`,
       html: `<p class="step-big">${fmt(ex.pet_max.value)} °C</p>
         <p>gefühlte Temperatur erreicht ${place(ex.pet_max)} um 14 Uhr —
         der heißeste Planungsraum der Stadt.</p>`,
-      sources: stats.findings.find((f) => f.id === "heat-range")?.sources,
+      sources: srcFind("heat-range"),
     },
     {
-      layer: "pet", target: ex.pet_min.plr_id, kicker: "Kapitel 1 · Ein Sommertag im Modell", tone: "",
+      kind: "beat", layer: "pet", target: ex.pet_min.plr_id,
+      kicker: "Ein Sommertag im Modell", tone: "",
       title: `Am kühlsten: ${ex.pet_min.plr_name}`,
       html: `<p class="step-big green">${fmt(ex.pet_min.value)} °C</p>
         <p>misst das Modell in ${place(ex.pet_min)} — gut
-        ${fmt(Math.round(ex.pet_max.value - ex.pet_min.value))} Grad weniger, am selben Tag,
-        in derselben Stadt. Was macht den Unterschied?</p>`,
-      sources: stats.findings.find((f) => f.id === "heat-range")?.sources,
+        ${fmt(Math.round(ex.pet_max.value - ex.pet_min.value))} Grad weniger, am selben Tag.
+        Was macht den Unterschied?</p>`,
+      sources: srcFind("heat-range"),
     },
+
+    // ——— Der zentrale Befund (prose) ———
     {
-      layer: "canopy", target: "city", kicker: "Kapitel 2 · Bäume kühlen", tone: "green",
+      kind: "prose",
+      html: `<p class="lead-in">Der zentrale Befund</p>
+        <p>Nur <strong>${fmt(c.pop_share_canopy_30plus_pct)} Prozent</strong> der Berlinerinnen
+        und Berliner — rund ${fmt(c.pop_in_lor_canopy_30plus)} Menschen — leben in einem
+        Planungsraum, der die Marke von 30 Prozent Baumkronen erreicht. Vier von fünf liegen
+        darunter.</p>
+        <p>Die 30-Prozent-Marke ist nicht willkürlich. Sie stammt aus der
+        <strong>3-30-300-Regel</strong> des Forstwissenschaftlers Cecil Konijnendijk (2022):
+        drei sichtbare Bäume von jeder Wohnung, 30 Prozent Kronendach im Quartier, 300 Meter
+        bis zur nächsten Grünfläche — ein internationaler Richtwert für gesundes Stadtgrün.</p>
+        <p>Im Schnitt leben die Menschen in Berlin unter ${fmt(c.berlin_canopy_pct_mean)}
+        Prozent Baumkronen. Dass die grünen Orte zugleich die kühlen sind, ist dabei kein
+        Zufall.</p>`,
+      sources: stats.lead?.sources,
+    },
+
+    // ——— Kartenszene II: Bäume kühlen ———
+    {
+      kind: "beat", layer: "canopy", target: "city",
+      kicker: "Bäume kühlen", tone: "green",
       title: "Die Antwort steht am Straßenrand",
-      html: `<p>Gleiche Karte, neue Ebene: der Baumkronenanteil. Wo es grün ist, war es eben
-        hell — über alle ${fmt(stats.total_lors)} Planungsräume korreliert das Kronendach
-        stark negativ mit der Tageshitze (r&nbsp;=&nbsp;${fmt(stats.correlations.canopy_pet14h)}).
-        Nachts ist der Zusammenhang schwach (r&nbsp;=&nbsp;${fmt(stats.correlations.canopy_t2m04h)}):
-        Die nächtliche Wärmeinsel folgt der Bebauung, nicht dem Grün.</p>`,
-      sources: stats.findings.find((f) => f.id === "canopy-cooling")?.sources,
+      html: `<p>Gleiche Karte, neue Ebene: der Baumkronenanteil. Über alle
+        ${fmt(stats.total_lors)} Planungsräume korreliert das Kronendach stark negativ mit der
+        Tageshitze (r&nbsp;=&nbsp;${fmt(stats.correlations.canopy_pet14h)}). Nachts ist der
+        Zusammenhang schwach (r&nbsp;=&nbsp;${fmt(stats.correlations.canopy_t2m04h)}): Die
+        nächtliche Wärmeinsel folgt der Bebauung, nicht dem Grün.</p>`,
+      sources: srcFind("canopy-cooling"),
     },
     {
-      layer: "canopy", target: ex.canopy_max.plr_id, kicker: "Kapitel 2 · Bäume kühlen", tone: "green",
-      title: `${ex.canopy_max.plr_name}: Leben unterm Kronendach`,
+      kind: "beat", layer: "canopy", target: ex.canopy_max.plr_id,
+      kicker: "Bäume kühlen", tone: "green",
+      title: `${ex.canopy_max.plr_name}: unterm Kronendach`,
       html: `<p class="step-big green">${fmt(ex.canopy_max.value)} %</p>
-        <p>von ${place(ex.canopy_max)} liegen unter Baumkronen — und genau hier zeigt die
-        Tageskarte ihren kühlsten Wert. Grünster und kühlster Planungsraum: derselbe Ort.</p>
-        <p>Das Schlusslicht beim Grün ist ${place(ex.canopy_min)} mit
-        ${fmt(ex.canopy_min.value)} % — mit ${fmt(byId[ex.canopy_min.plr_id].pet14h)} °C
-        sehr heiß, aber nicht der Rekord. Den hält ${ex.pet_max.plr_name} (Kapitel 1) —
-        mit ${fmt(byId[ex.pet_max.plr_id].canopy_pct)} % Kronen ebenfalls fast baumlos.</p>`,
-      sources: stats.findings.find((f) => f.id === "canopy-range")?.sources,
+        <p>von ${place(ex.canopy_max)} liegen unter Baumkronen — derselbe Ort, an dem die
+        Tageskarte ihren kühlsten Wert zeigt. Das Schlusslicht beim Grün ist
+        ${place(ex.canopy_min)} mit ${fmt(ex.canopy_min.value)} %.</p>`,
+      sources: srcFind("canopy-range"),
     },
+
+    // ——— Ungleich verteilt (prose + bars) ———
     {
-      layer: "status", target: "city", kicker: "Kapitel 3 · Wer hat die Kronen?", tone: "slate",
-      title: "Die soziale Landkarte",
-      html: `<p>Das Monitoring Soziale Stadtentwicklung teilt die Planungsräume in vier
-        Statusklassen — von hoch bis sehr niedrig, zusammengesetzt aus Arbeitslosigkeit,
-        Transferbezug und Kinderarmut. ${fmt(stats.headline.disadvantaged_population)}
-        Berliner:innen (${fmt(stats.headline.disadvantaged_pop_share_pct)} %) leben in Räumen
-        mit niedrigem oder sehr niedrigem Status.</p>`,
-      sources: stats.methodology?.[1]?.sources,
-    },
-    {
-      layer: "canopy", target: "city", kicker: "Kapitel 3 · Wer hat die Kronen?", tone: "slate",
-      title: "Der Schatten folgt dem Status",
-      html: `<p>Bei der Hitze trennen die Statusgruppen kaum etwas — am Tag im Schnitt nur
-        ${fmt(h.pet14h_gap_lowest_vs_highest_status)} °C. Beim Schatten dagegen klafft eine
-        Lücke: Wer in einem Planungsraum mit hohem Sozialstatus lebt, hat im Schnitt
-        <strong>${fmt(cls[1].canopy_pct_mean)} %</strong> Baumkronen über sich, bei sehr
-        niedrigem Status <strong>${fmt(cls[4].canopy_pct_mean)} %</strong>. Kein sauberes
-        Gefälle von arm zu reich, aber die Richtung ist klar.</p>
-        <p><strong>Die Hitze ist geteilt — der Schutz davor nicht.</strong></p>
-        <div class="bars bars-green" role="img" aria-label="Baumkronenanteil nach Sozialstatus"></div>`,
+      kind: "prose",
+      html: `<p class="lead-in">Ungleich verteilt</p>
+        <p>Die Hitze selbst trifft die Stadt ziemlich gleichmäßig. Teilt man Berlin nach dem
+        Monitoring Soziale Stadtentwicklung des Senats in vier Sozialstatus-Klassen, liegen
+        zwischen ihnen am Tag im Schnitt nur ${fmt(h.pet14h_gap_lowest_vs_highest_status)} Grad,
+        nachts ${fmt(h.t2m04h_gap_lowest_vs_highest_status)} Grad. Alle Berlinerinnen und
+        Berliner erleben ähnlich heiße Sommertage.</p>
+        <p>Der Schutz davor ist es nicht. In Planungsräumen mit hohem Sozialstatus spannt sich
+        im Schnitt <strong>${fmt(cls[1].canopy_pct_mean)} Prozent</strong> Kronendach, bei sehr
+        niedrigem Status <strong>${fmt(cls[4].canopy_pct_mean)} Prozent</strong>. Kein sauberes
+        Gefälle von arm zu reich — aber die Richtung ist eindeutig: Wo mehr Geld ist, ist mehr
+        Schatten.</p>
+        <div class="bars bars-green" role="img" aria-label="Baumkronenanteil nach Sozialstatus"></div>
+        <p class="pull">Die Hitze ist geteilt — der Schutz davor nicht. Und anders als die
+        Temperatur lässt sich der Schatten verändern.</p>`,
       chart: { metric: "canopy_pct_mean", unit: " %", green: true },
-      sources: stats.findings.find((f) => f.id === "canopy-status-gap")?.sources,
+      sources: srcFind("canopy-status-gap"),
     },
+
+    // ——— Kartenszene III: Die 30-Prozent-Marke ———
     {
-      layer: "rule30", target: "city", kicker: "Kapitel 3 · Wer hat die Kronen?", tone: "green",
+      kind: "beat", layer: "rule30", target: "city",
+      kicker: "Die Bilanz", tone: "green",
       title: "Die 30-Prozent-Marke",
       html: `<p class="step-big">${fmt(c.pop_share_canopy_30plus_pct)} %</p>
-        <p>der Berliner:innen — ${fmt(c.pop_in_lor_canopy_30plus)} Menschen — leben in einem
-        Planungsraum, der die 30-%-Baumkronen-Marke der 3-30-300-Regel für gesundes
-        Stadtgrün erreicht. Der Rest der Karte: verfehlt.</p>`,
+        <p>der Berliner:innen leben in einem Planungsraum, der die 30-%-Marke erreicht (grün).
+        Der ganze Rest der Karte: verfehlt.</p>`,
       sources: stats.lead?.sources,
+    },
+
+    // ——— Ausblick (prose) ———
+    {
+      kind: "prose", final: true,
+      html: `<p class="lead-in">Wohin mit 1.000 kühlen Inseln?</p>
+        <p>Berlin hat sich mit dem BaumEntscheid verpflichtet, hunderttausende Bäume zu pflanzen
+        und 1.000 „kühle Inseln" zu schaffen. Diese Analyse zeigt, <em>dass</em> Baumkronen am
+        Tag kühlen und <em>wem</em> sie heute fehlen. Sie zeigt nicht, <em>wohin</em> die
+        nächsten Bäume gehören — denn die entscheidenden Unterschiede liegen unterhalb der
+        Planungsraum-Mittelwerte, Block für Block.</p>
+        <p class="teaser">Genau diese Frage soll Kapitel 2 dieser Serie beantworten: der
+        <strong>Cooling Island Finder</strong> — eine blockgenaue Priorisierung von Pflanzorten
+        nach Hitze, Kronenlücke und sozialer Lage. <span class="wip">In Arbeit.</span></p>`,
     },
   ];
 }
@@ -167,53 +225,32 @@ function buildBars(container, stats, { metric, unit, green }) {
   }
 }
 
-function renderSteps(stats, propsById) {
-  const wrap = document.getElementById("steps");
-  const steps = buildSteps(stats, propsById);
-  steps.forEach((spec, i) => {
-    const step = document.createElement("div");
-    step.className = "step";
-    step.dataset.index = i;
-    const card = document.createElement("article");
-    card.className = "step-card";
+function renderBlocks(stats, propsById) {
+  const wrap = document.getElementById("blocks");
+  const blocks = buildBlocks(stats, propsById);
+  blocks.forEach((spec, i) => {
+    const block = document.createElement("div");
+    block.className = "block " + (spec.kind === "prose" ? "block-prose" : "block-beat");
+    if (spec.final) block.classList.add("block-final");
+    block.dataset.index = i;
+
+    const card = document.createElement(spec.kind === "prose" ? "div" : "article");
+    card.className = spec.kind === "prose" ? "prose-panel" : "step-card";
     card.innerHTML =
-      `<p class="step-kicker ${spec.tone}">${spec.kicker}</p>` +
-      `<h2>${spec.title}</h2>` + spec.html;
+      (spec.kicker ? `<p class="step-kicker ${spec.tone || ""}">${spec.kicker}</p>` : "") +
+      (spec.title ? `<h2>${spec.title}</h2>` : "") + spec.html;
     if (spec.chart) {
       buildBars(card.querySelector(".bars"), stats, spec.chart);
     }
     const src = sourcesLine(spec);
     if (src) card.appendChild(src);
-    step.appendChild(card);
-    wrap.appendChild(step);
+    block.appendChild(card);
+    wrap.appendChild(block);
   });
-  return steps;
+  return blocks;
 }
 
-function renderList(stats) {
-  const list = document.getElementById("findings");
-  for (const f of stats.findings ?? []) {
-    const li = document.createElement("li");
-    const p = document.createElement("p");
-    p.textContent = f.text_de;
-    li.appendChild(p);
-    const src = sourcesLine(f);
-    if (src) li.appendChild(src);
-    list.appendChild(li);
-  }
-  const grid = document.getElementById("insights");
-  for (const ins of stats.insights ?? []) {
-    const card = document.createElement("article");
-    card.className = "insight-card";
-    const h3 = document.createElement("h3");
-    h3.textContent = ins.title;
-    const p = document.createElement("p");
-    p.textContent = ins.text_de;
-    card.append(h3, p);
-    const src = sourcesLine(ins);
-    if (src) card.appendChild(src);
-    grid.appendChild(card);
-  }
+function renderMethodology(stats) {
   if (stats.methodology) {
     document.getElementById("methodology-chapter").hidden = false;
     const wrap = document.getElementById("methodology");
@@ -269,7 +306,7 @@ async function init() {
     document.getElementById("headline").textContent = stats.headline.text_de;
   }
 
-  renderList(stats);
+  renderMethodology(stats);
 
   const bboxes = {};
   const propsById = {};
@@ -287,7 +324,7 @@ async function init() {
     }
   }
 
-  const steps = renderSteps(stats, propsById);
+  const blocks = renderBlocks(stats, propsById);
 
   // Berlin is the fixed frame: pan fenced to the city, zoom-out capped at the
   // full-city fit. Plain scrolling must always scroll the PAGE — zooming is a
@@ -373,20 +410,21 @@ async function init() {
       clickPopup.setLngLat(e.lngLat).setHTML(lorHTML(e.features[0].properties)).addTo(map);
     });
 
-    /* scroll driver */
-    const stepEls = document.querySelectorAll(".step");
+    /* scroll driver — a thin trigger band at viewport center activates the
+       block crossing it; prose panels keep the previous map state. */
+    const blockEls = document.querySelectorAll(".block");
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
           if (!entry.isIntersecting) continue;
-          const spec = steps[Number(entry.target.dataset.index)];
-          stepEls.forEach((el) => el.classList.toggle("is-active", el === entry.target));
-          applyState(spec);
+          const spec = blocks[Number(entry.target.dataset.index)];
+          blockEls.forEach((el) => el.classList.toggle("is-active", el === entry.target));
+          if (spec.kind === "beat") applyState(spec);
         }
       },
-      { threshold: 0.55 }
+      { rootMargin: "-45% 0px -45% 0px", threshold: 0 }
     );
-    stepEls.forEach((el) => observer.observe(el));
+    blockEls.forEach((el) => observer.observe(el));
   });
 
   function applyState(spec) {

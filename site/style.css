@@ -243,37 +243,105 @@ body::before {
   border: 1px solid rgba(35, 26, 16, 0.2);
 }
 
-/* steps scroll over the sticky map */
-.steps {
+/* blocks scroll over the sticky map: prose panels (opaque, hide the map for
+   reading) alternate with beat cards (float, map visible behind) */
+.blocks {
   position: relative;
   z-index: 2;
   margin-top: -100svh;
-  padding: 0 clamp(1rem, 4vw, 4rem);
   pointer-events: none;
 }
 
-.step {
-  min-height: 92svh;
-  display: flex;
-  align-items: center;
-}
+.block { display: flex; }
 
-.step:last-child { padding-bottom: 14svh; }
+/* ——— Beat: floating card over the live map ——— */
+.block-beat {
+  min-height: 100svh;
+  align-items: center;
+  padding: 0 clamp(1rem, 4vw, 4rem);
+}
 
 .step-card {
   pointer-events: auto;
-  width: min(30rem, 92vw);
+  width: min(29rem, 92vw);
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 10px;
-  box-shadow: 0 10px 32px rgba(35, 26, 16, 0.16);
+  box-shadow: 0 10px 32px rgba(35, 26, 16, 0.18);
   padding: 1.3rem 1.5rem 1.1rem;
-  opacity: 0.55;
-  transform: translateY(8px);
+  opacity: 0.5;
+  transform: translateY(10px);
   transition: opacity 0.45s ease, transform 0.45s ease;
 }
 
-.step.is-active .step-card { opacity: 1; transform: translateY(0); }
+.block-beat.is-active .step-card { opacity: 1; transform: translateY(0); }
+
+/* ——— Prose: opaque full-bleed reading panel that covers the map ——— */
+.block-prose {
+  min-height: 100svh;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  pointer-events: auto; /* opaque panel captures clicks, never leaks to map */
+}
+
+.block-prose.block-final { min-height: auto; padding-bottom: 4rem; }
+
+.prose-panel {
+  pointer-events: auto;
+  width: min(38rem, 90vw);
+  padding: clamp(3rem, 9vh, 6rem) 0;
+}
+
+.prose-panel p {
+  font-family: var(--body-serif);
+  font-size: 1.18rem;
+  line-height: 1.72;
+  margin: 0 0 1.1rem;
+}
+
+.prose-panel .dropcap::first-letter {
+  font-family: var(--serif);
+  font-weight: 700;
+  float: left;
+  font-size: 3.6em;
+  line-height: 0.78;
+  padding: 0.05em 0.1em 0 0;
+  color: var(--heat);
+}
+
+.prose-panel .lead-in {
+  font-family: var(--sans);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  color: var(--heat);
+  margin-bottom: 0.6rem;
+}
+
+.prose-panel .pull {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  line-height: 1.25;
+  border-left: 5px solid var(--heat);
+  padding-left: 1rem;
+  margin-top: 1.6rem;
+}
+
+.prose-panel .teaser {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--green);
+  border-radius: 8px;
+  padding: 1.1rem 1.3rem;
+  font-size: 1.02rem;
+}
+
+.prose-panel .bars { margin: 1.4rem 0; }
 
 .step-kicker {
   font-size: 0.68rem;
@@ -485,12 +553,36 @@ footer p {
   line-height: 1.5;
 }
 
+/* ——— Methodik accordion ——— */
+
+#methodology-chapter { padding-top: 2rem; }
+
+#methodology-chapter summary {
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+}
+
+#methodology-chapter summary::-webkit-details-marker { display: none; }
+
+#methodology-chapter summary::after {
+  content: " ↓";
+  font-family: var(--sans);
+  color: var(--muted);
+}
+
+#methodology-chapter details[open] summary::after { content: " ↑"; }
+
+#methodology-chapter > details > #methodology { margin-top: 1.5rem; }
+
 /* ——— Mobile ——— */
 
 @media (max-width: 640px) {
-  .steps { padding: 0 0.8rem; }
-  .step { align-items: flex-end; }
-  .step-card { margin-bottom: 1.2rem; padding: 1rem 1.1rem 0.9rem; }
+  .block-beat { padding: 0 0.8rem; align-items: flex-end; }
+  .step-card { margin-bottom: 1.4rem; padding: 1rem 1.1rem 0.9rem; }
+  .prose-panel p { font-size: 1.08rem; }
   .map-ui { bottom: auto; top: 0.7rem; left: 0.7rem; }
   .legend { display: none; }
 }
