@@ -184,6 +184,15 @@
       ]
     },
     {
+      "id": "canopy-day-only",
+      "title": "Schatten wirkt am Tag, nicht in der Nacht",
+      "text_de": "Wo Kronen sind, ist es tagsüber deutlich kühler — der Zusammenhang ist stark (Befund 5). Nachts verschwindet er fast: Die Wärmeinsel folgt dann der Bebauung, nicht dem Grün. Bäume sind ein Schutz gegen die Tageshitze, kein Allheilmittel. Dass Schatten Strahlung bremst, ist physikalisch plausibel; die Daten zeigen den Zusammenhang, beweisen aber keine Ursache.",
+      "sources": [
+        "Vegetationshöhen 2020, Umweltatlas (SenStadt, DL-DE-Zero-2.0)",
+        "Klimamodell Berlin 2022, Klimaanalysekarten (SenStadt/GEO-NET, FITNAH 3D)"
+      ]
+    },
+    {
       "id": "below-average",
       "title": "Die Ungleichheit liegt unter dem Durchschnitt",
       "text_de": "Weder Hitze noch Grün bilden ein sauberes Gefälle über die Statusgruppen (Befunde 2 und 4). Die eigentlichen Unterschiede liegen unterhalb der Planungsraum-Mittelwerte, auf Block-Ebene. Genau dort setzt Kapitel 2 an: der Cooling Island Finder.",

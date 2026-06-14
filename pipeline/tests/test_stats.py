@@ -113,7 +113,8 @@ def test_golden_numbers_mss_2025():
     # generated insights: interpretation only — they reference findings and
     # must not duplicate their statistics (Befund vs. Einordnung, CONTEXT.md)
     ids = [i["id"] for i in stats["insights"]]
-    assert ids == ["heat-shared-canopy-not", "canopy-lever", "below-average"]
+    assert ids == ["heat-shared-canopy-not", "canopy-lever",
+                   "canopy-day-only", "below-average"]
     for ins in stats["insights"]:
         assert "Befund" in ins["text_de"], f"{ins['id']} doesn't reference a finding"
         assert "%" not in ins["text_de"] and "°C" not in ins["text_de"], (

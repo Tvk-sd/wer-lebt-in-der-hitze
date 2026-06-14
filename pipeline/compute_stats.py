@@ -354,6 +354,18 @@ def compute_stats(rows):
                 "sources": [SRC["veg"], SRC["mss"], SRC["rule"]],
             },
             {
+                "id": "canopy-day-only",
+                "title": "Schatten wirkt am Tag, nicht in der Nacht",
+                "text_de": (
+                    "Wo Kronen sind, ist es tagsüber deutlich kühler — der Zusammenhang ist "
+                    "stark (Befund 5). Nachts verschwindet er fast: Die Wärmeinsel folgt dann "
+                    "der Bebauung, nicht dem Grün. Bäume sind ein Schutz gegen die Tageshitze, "
+                    "kein Allheilmittel. Dass Schatten Strahlung bremst, ist physikalisch "
+                    "plausibel; die Daten zeigen den Zusammenhang, beweisen aber keine Ursache."
+                ),
+                "sources": [SRC["veg"], SRC["klima"]],
+            },
+            {
                 "id": "below-average",
                 "title": "Die Ungleichheit liegt unter dem Durchschnitt",
                 "text_de": (
