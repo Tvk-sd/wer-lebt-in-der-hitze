@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wer lebt in der Hitze? — Eine Berliner Datengeschichte</title>
   <meta name="description" content="Hitze, Baumkronen und Sozialstatus in Berlins 542 Planungsräumen — eine Datenanalyse auf Basis offener Daten." />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="Cooling Island Finder" />
+  <meta property="og:title" content="Wer lebt in der Hitze?" />
+  <meta property="og:description" content="In Berlin ist die Sommerhitze fast gerecht verteilt — der Schatten, der vor ihr schützt, nicht. Eine Datengeschichte über 542 Planungsräume." />
+  <meta property="og:url" content="https://wer-lebt-in-der-hitze.vercel.app/" />
+  <meta property="og:image" content="https://wer-lebt-in-der-hitze.vercel.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Wer lebt in der Hitze?" />
+  <meta name="twitter:description" content="Hitze, Baumkronen und Sozialstatus in Berlins 542 Planungsräumen." />
+  <meta name="twitter:image" content="https://wer-lebt-in-der-hitze.vercel.app/og-image.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
@@ -53,10 +68,19 @@
   </section>
 
   <footer>
+    <p class="downloads">
+      <strong>Datensatz herunterladen:</strong>
+      <a href="data/lor_dataset.csv" download>CSV</a> ·
+      <a href="data/lor_dataset.geojson" download>GeoJSON</a>
+      <span class="lic">— ein Datensatz pro Planungsraum, abgeleitet aus den offenen
+      Quellen unten (Datenlizenz Deutschland 2.0).</span>
+    </p>
     <p>
       Eine unabhängige Analyse auf Basis offener Daten des Landes Berlin
       (Datenlizenz Deutschland 2.0 / DL-DE-Zero). Alle Zahlen auf dieser Seite
       stammen aus dem veröffentlichten, getesteten Datensatz — keine ist von Hand eingetragen.
+      Quellcode und Datenpipeline:
+      <a href="https://github.com/Tvk-sd/wer-lebt-in-der-hitze">github.com/Tvk-sd/wer-lebt-in-der-hitze</a>.
     </p>
   </footer>
 

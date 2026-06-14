@@ -11,7 +11,15 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
+from shapely.geometry import mapping, shape
+
 USER_AGENT = "wer-lebt-in-der-hitze/0.1 (open data study)"
+
+# Web map only needs city-scale fidelity. Simplify polygons (Douglas-Peucker)
+# and round coordinates to shrink the GeoJSON for fast mobile loads. ~0.00015°
+# ≈ 10 m at Berlin's latitude — borders stay recognizable, vertex count drops.
+SIMPLIFY_TOLERANCE_DEG = 0.00015
+COORD_DECIMALS = 5
 
 LOR_WFS = (
     "https://gdi.berlin.de/services/wfs/lor_2021"
@@ -46,13 +54,23 @@ def fetch_geojson(url):
         return json.load(resp)
 
 
-def round_coords(obj, ndigits=5):
-    """Round nested coordinate arrays to ~1m precision to keep the file small."""
+def round_coords(obj, ndigits=COORD_DECIMALS):
+    """Round nested coordinate arrays to keep the file small."""
     if isinstance(obj, float):
         return round(obj, ndigits)
     if isinstance(obj, list):
         return [round_coords(item, ndigits) for item in obj]
     return obj
+
+
+def simplify_geometry(geom):
+    """Douglas-Peucker simplify (topology-preserving per feature) + rounding.
+    Falls back to the original geometry if simplification empties it."""
+    g = shape(geom)
+    s = g.simplify(SIMPLIFY_TOLERANCE_DEG, preserve_topology=True)
+    if s.is_empty or not s.is_valid:
+        s = g
+    return round_coords(mapping(s))
 
 
 def load_interim(path):
@@ -87,7 +105,7 @@ def join_features(lor_fc, mss_fc, heat_by_lor=None, canopy_by_lor=None):
         canopy = canopy_by_lor.get(lor["plr_id"], {})
         features.append({
             "type": "Feature",
-            "geometry": round_coords(f["geometry"]),
+            "geometry": simplify_geometry(f["geometry"]),
             "properties": {
                 "plr_id": lor["plr_id"],
                 "plr_name": lor["plr_name"],

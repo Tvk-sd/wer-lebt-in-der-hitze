@@ -542,6 +542,10 @@ footer p {
   line-height: 1.6;
 }
 
+footer .downloads { font-size: 0.95rem; color: var(--ink); }
+footer .downloads .lic { color: var(--muted); font-size: 0.85rem; }
+footer a { color: var(--heat); }
+
 /* map popup */
 .maplibregl-popup-content {
   font-family: var(--sans);
