@@ -308,10 +308,11 @@ def compute_stats(rows):
         findings.append({
             "id": "heat-inversion",
             "text_de": (
-                f"In den heißesten Planungsräumen (PET ≥ {de(PET_HOT)} °C) wohnen vor allem "
-                f"Menschen mit hohem Sozialstatus ({de(hot_share[1])} % dieser Gruppe) — und "
-                f"praktisch niemand mit sehr niedrigem Status ({de(hot_share[4])} %). "
-                f"Ein „Arm wohnt heiß“ gibt es auf Planungsraum-Ebene nicht."
+                f"Wer erwartet, dass die ärmsten Viertel die heißesten sind, irrt: Von den "
+                f"Menschen mit hohem Sozialstatus lebt jede:r Achte ({de(hot_share[1])} %) in "
+                f"einem der heißesten Planungsräume (PET ≥ {de(PET_HOT)} °C), aus der Gruppe mit "
+                f"sehr niedrigem Status praktisch niemand ({de(hot_share[4])} %). Hohe Hitze und "
+                f"niedriger Status schließen sich auf Planungsraum-Ebene fast aus."
             ),
             "sources": [SRC["klima"], SRC["mss"]],
         })
