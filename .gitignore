@@ -1,5 +1,14 @@
 __pycache__/
 data/raw/
+
+# internal PM / process docs — kept local, not published
+PROJECT-TRACKER.md
+.scratch/
+docs/research/
+docs/concepts/
+docs/insights.md
+docs/artikel-entwurf.md
+docs/sources.md
 .pytest_cache/
 .venv/
 .DS_Store

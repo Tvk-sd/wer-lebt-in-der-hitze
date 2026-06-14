@@ -71,10 +71,9 @@ residents, 1 statistical outlier). They remain in the dataset, flagged
   Stadtentwicklung, Bauen und Wohnen.
 - **3-30-300 rule**: Konijnendijk, C.C. (2022), *Journal of Forestry Research*.
 
-## Project docs
+## Repository docs
 
-- Full article draft: `docs/artikel-entwurf.md`
-- PRD: `.scratch/wer-lebt-in-der-hitze/PRD.md`
-- Research & sources: `docs/research/`, `docs/sources.md`
-- Findings & insights: `docs/insights.md`
-- Parked side-project concepts: `docs/concepts/side-projects.md`
+- Domain glossary: `CONTEXT.md`
+- Architecture decisions: `docs/adr/`
+
+Product/process documents (PRD, research, findings, tracker) are kept private.
